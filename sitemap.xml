@@ -465,4 +465,30 @@
     <loc>https://wanderamsterdam.com/</blog/whale-watching-from-lahaina.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
+
+    <!-- Blog (AMS-specific, added 2026-05-02) -->
+    <url>
+        <loc>https://wanderamsterdam.com/blog/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/best-time-to-visit-amsterdam.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/amsterdam-neighborhoods-decoded.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/top-day-trips-from-amsterdam-by-train.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
