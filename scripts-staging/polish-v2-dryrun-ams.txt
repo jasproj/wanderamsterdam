@@ -1,0 +1,118 @@
+=== description-polish-v2 dry-run report ===
+generated: 2026-05-03T15:42:09.672Z
+mode: DRY-RUN (no writes)
+
+--- STATS ---
+{
+  "total": 500,
+  "pattern_a_cleaned": 147,
+  "pattern_a_no_match": 353,
+  "pattern_b_cleaned": 25,
+  "pattern_b_no_match": 474,
+  "pattern_b_aborted_too_short": 1,
+  "unchanged": 329,
+  "changed_total": 171
+}
+
+--- PATTERN A SAMPLES (5) ---
+[
+  {
+    "id": "183962",
+    "name": "Luxury Canal Cruise Boat with Drinks and Cheese - starts from Anne Frank House",
+    "matched_header": "Additional information",
+    "before_len": 968,
+    "after_len": 931,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "ected)\\nHighlights\\nSoak up panoramic views of the city's sights from the comfort of the boat\\nEnjoy an interactive tour with local guides and skippers\\nKiss your loved ones under the famous Skinny Br…"
+  },
+  {
+    "id": "326244",
+    "name": "Private Leemstar V Amsterdam Discovery Cruise",
+    "matched_header": "Additional information",
+    "before_len": 817,
+    "after_len": 780,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "meat platter for €39.\\n\\nHighlights\\nA full 360 perspective of Amsterdam scenery.\\nClassic Amsterdam Launch boat with silent electric drive.\\nThe cruise is intimate and has no more than 12 guests on b…"
+  },
+  {
+    "id": "541473",
+    "name": "Amsterdam Food Tour - De Jordaan - Private",
+    "matched_header": "Additional information",
+    "before_len": 430,
+    "after_len": 392,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "e, great bites, zero tourist fluf\\n\\nWhat's included\\n\\nExpert local guide who knows where to go and what to order\\n\\n6 generous tastings across\\n\\n1 drink of choice\\n\\nWhat's not included\\n\\nGratitud…"
+  },
+  {
+    "id": "509826",
+    "name": "Luxurious Local Open Boat Cruise",
+    "matched_header": "Additional information",
+    "before_len": 1098,
+    "after_len": 1060,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "r is how Haarlem got rich, see all the landmarks down this river.\\nYou will end at the same place at Windmill Adriaan.\\nHighlights\\n\\nNieuwe Gracht\\nTheatre of Haarlem\\nTeylers Museum\\nThe Waag\\nTeyle…"
+  },
+  {
+    "id": "511968",
+    "name": "Private Walking Tour of Amsterdam",
+    "matched_header": "Additional information",
+    "before_len": 1086,
+    "after_len": 1049,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "story\\n-Visit Dam Square and the East India Company House\\n-See the smallest house in Amsterdam\\n-Walk along the famous Canal District\\n-See where the world’s first stock exchange was established\\n\\nP…"
+  }
+]
+
+--- PATTERN B SAMPLES (5) ---
+[
+  {
+    "id": "244801",
+    "name": "Private Semi-Open Boat",
+    "before_len": 1241,
+    "after_len": 1029,
+    "stripped_head_first_300": "1.5 - 3 Hours • All drinks included • Max. 30 persons • All Ages\\n\\n\t4255 Reviewers\\n#31 of 292 Boat Tours & Water Sports in Amsterdam\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Join us for a private cruise with family, friends or colleagues! You can choose a cruise along the canals for 1.5 hours or up to 3 hours. Drinks are included and charged per person!\\n\\nThis semi-open …"
+  },
+  {
+    "id": "244818",
+    "name": "Big Saloon Boat",
+    "before_len": 1500,
+    "after_len": 1299,
+    "stripped_head_first_300": "1.5 - 3 hours • All drinks included • Max. 85 persons\\n\\n\t4255 Reviewers\\n#31 of 292 Boat Tours & Water Sports in Amsterdam\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Join us for a private cruise with family, friends or colleagues! You can choose a cruise along the canals for 1.5 hours or up to 3 hours. Drinks are included and charged per person!\\n\\nThis boat offer…"
+  },
+  {
+    "id": "471998",
+    "name": "Amsterdam Self-Guided Food Tour - De Jordaan district - offered in English",
+    "before_len": 1500,
+    "after_len": 1308,
+    "stripped_head_first_300": "De Jordaan, Amsterdam\\n\\nEat, Walk, Repeat! All at your own pace!\\n\\n\t906 Reviewers\\n#25 of 1,340 Tours in Amsterdam\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "€12.07\\n\tPerson\\nAll ages\\n\\n\\n€18.37\\n\tGroup of 2 people\\nPrice is for 2 people\\n\\n\\n€22.50\\n\tGroup of 3 and more\\nPrice is for 3 people\\n\\nPrices for Thursday, 30 April 2026 @ 11:30am. Prices includ…"
+  },
+  {
+    "id": "471999",
+    "name": "Self-Guided Food Tour - De Jordaan district (iAmsterdam) - offered in English",
+    "before_len": 1500,
+    "after_len": 1302,
+    "stripped_head_first_300": "De Jordaan, Amsterdam\\n\\nEat, Walk, Repeat! All at your own pace!\\n\\n\t906 Reviewers\\n#25 of 1,340 Tours in Amsterdam\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026\\nFree",
+    "after_first_200": "I Amsterdam City Card Holders\\n+18\\n\\nPrices for Thursday, 30 April 2026 @ 11:30am. Prices include fees.\\n\\nExplore the most famous and picturesque neighbourhood of Amsterdam through this fantastic cu…"
+  },
+  {
+    "id": "559817",
+    "name": "Cheese & Wine Serenity: A Luxurious Canal Cruise through Amsterdam",
+    "before_len": 1500,
+    "after_len": 1228,
+    "stripped_head_first_300": "H'Art Museum - Amstel 51F - Amsterdam\\n\\nIndulge in exquisite cheeses and fine wines while cruising Amsterdam’s scenic canals.\\n\\n\t4255 Reviewers\\n#31 of 292 Boat Tours & Water Sports in Amsterdam\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "€39.41\\n\tAdults\\nAges 16+\\n\\n\\n€20.96\\n\tChildren\\nAges 4-15\\n\\n\\n€0\\n\tYoung Children\\nAges 0-3\\n\\nPrices for Thursday, 30 April 2026 @ 18:30. Prices include fees.\\n\\nExperience Amsterdam's Charm with …"
+  }
+]
+
+--- PATTERN B ABORTED (would have left <100 chars) ---
+[
+  {
+    "id": "143495",
+    "name": "History of Amsterdam - City Center Guided Walking Tour - Private (SPANISH)",
+    "would_be_len": 13,
+    "before_len": 184
+  }
+]
