@@ -55,7 +55,6 @@
         "areaServed": {"@type": "Place", "name": "Amsterdam, United States"}
     }
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +70,8 @@
 }
 </script>
 <script src="/tracking.js" defer></script>
+    <link rel="stylesheet" href="/sponsor-slot.css">
+    <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
     <!-- LEAD MAGNET BANNER -->
@@ -198,10 +199,10 @@
         </div>
     </section>
 
-    <!-- AD SLOT: Below Hero Section (728x90 Leaderboard) -->
-    <div class="ad-slot" id="ad-hero-below">
-        Advertisement
-    </div>
+    <!-- Sponsor slot: hero leaderboard (728x90, desktop) -->
+    <div class="sponsor-slot"
+         data-slot-id="hero-leaderboard"
+         data-slot-type="leaderboard"></div>
 
     <!-- ISLANDS -->
     <section class="islands-nav" id="islands">
@@ -319,6 +320,11 @@
                 <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
             </div>
             
+            <!-- Sponsor slot: home MREC (300x250, in-content) -->
+            <div class="sponsor-slot"
+                 data-slot-id="home-mrec-1"
+                 data-slot-type="mrec"></div>
+
             <div class="tours-grid" id="tours-grid">
                 <div class="loading-state">
                     <div class="loading-spinner"></div>
@@ -515,6 +521,12 @@
             </div>
         </div>
     </section>
+
+    <!-- Sponsor slot: mobile sticky banner (320x50, mobile only) -->
+    <div class="sponsor-slot"
+         data-slot-id="mobile-sticky"
+         data-slot-type="mobile-banner"
+         data-sticky-bottom="true"></div>
 
     <!-- FOOTER -->
     <footer class="footer">
