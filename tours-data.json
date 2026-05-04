@@ -1838,7 +1838,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/NJZ4tjS9S8qQBSeeZGqb",
     "bookingLink": "https://fareharbor.com/embeds/book/kinboat/items/442206/?asn=fhdn-eur&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 20,
     "description": "Vaar door de historische waterwegen van de stad en passeer iconische bezienswaardigheden zoals het Scheepvaartmuseum, Theater Carré en de Wallen. Geniet van een één uur durende reis door de rijke geschiedenis en het pittoreske landschap van Amsterdam.\n\nWat is erbij inbegrepen\n100% elektrische en stille boten\nLive gidsing door onze ervaren schippers\nGeschikt voor alle leeftijden\nRoutebeschrijving\n\nWallen, Centraal Station, Theater Carré, Stopera, Hortus Botanicus, Westerpark, Scheepvaartmuseum\n\nHighlights\n\nBegin je Amsterdamse avontuur in stijl met de grachtentocht van KINboat, die vertrekt vanaf het bruisende Centraal Station. Onze rondvaart van één uur biedt een perfecte mix van geschiedenis, cultuur en panoramische uitzichten die je vanaf het eerste moment zullen betoveren.\n\nVanaf het Centraal Station word je ondergedompeld in de levendige sfeer van Amsterdam. Bekijk hoe fietsers langs razen en voetgangers hun weg vinden terwijl wij door het ingewikkelde netwerk van grachten varen. Bewonder de indrukwe",
     "duration": null,
     "durationText": "",
@@ -1848,13 +1848,14 @@
     "reviewCount": null,
     "ratingSource": "",
     "qualityScore": 92,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "100% elektrische en stille boten",
       "Live gidsing door onze ervaren schippers",
       "Geschikt voor alle leeftijden"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "521785",
