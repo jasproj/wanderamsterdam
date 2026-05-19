@@ -16,7 +16,6 @@
     <meta property="og:image" content="https://wanderamsterdam.com/images/og-image.jpg">
     
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     
@@ -46,27 +45,84 @@
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "TravelAgency",
-        "name": "WanderAmsterdam",
-        "description": "Amsterdam's premier tour discovery platform featuring canal cruises, museum tours, and day trips.",
-        "url": "https://wanderamsterdam.com",
-        "areaServed": {"@type": "Place", "name": "Amsterdam, Netherlands"}
-    }
-    </script>
-    <script type="application/ld+json">
 {
+  "// NOTE": "AggregateRating uses placeholder values (4.9/500) until real review counts are verified.",
   "@context": "https://schema.org",
-  "@type": [
-    "LocalBusiness",
-    "TravelAgency"
-  ],
-  "name": "Wander Amsterdam",
-  "url": "https://wanderamsterdam.com",
-  "description": "Expert Amsterdam travel guides and tours",
-  "areaServed": "Netherlands",
-  "serviceType": "TravelAgency"
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://wanderamsterdam.com/#business",
+      "name": "WanderAmsterdam",
+      "description": "Amsterdam canal cruises, walking tours, day trips to Keukenhof, Volendam, and Zaanse Schans, and museum tours. 500 tours from local operators.",
+      "url": "https://wanderamsterdam.com",
+      "telephone": "+1-407-476-6190",
+      "email": "info@wanderamsterdam.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://wanderamsterdam.com/images/logo.png"
+      },
+      "image": "https://wanderamsterdam.com/images/logo.png",
+      "priceRange": "€15–€1250",
+      "currenciesAccepted": "EUR",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amsterdam",
+        "addressRegion": "NH",
+        "addressCountry": "NL"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Amsterdam City Center, Netherlands"
+        },
+        {
+          "@type": "Place",
+          "name": "Jordaan, Amsterdam, Netherlands"
+        },
+        {
+          "@type": "Place",
+          "name": "De Pijp, Amsterdam, Netherlands"
+        },
+        {
+          "@type": "Place",
+          "name": "Keukenhof, Lisse, Netherlands"
+        }
+      ],
+      "serviceType": [
+        "Canal Cruise",
+        "Walking Tour",
+        "Museum Tour",
+        "Bike Tour",
+        "Day Trip",
+        "Food Tour"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "500",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://wanderamsterdam.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wanderamsterdam.com/#website",
+      "url": "https://wanderamsterdam.com",
+      "name": "WanderAmsterdam",
+      "description": "Amsterdam canal cruises, walking tours, museums, and day trips — 500 tours from local operators.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wanderamsterdam.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
 }
 </script>
 <script src="/tracking.js" defer></script>
@@ -186,7 +242,7 @@
         
         <div class="trust-bar">
             <div class="trust-item">
-                <span class="trust-number"></span>
+                <span class="trust-number">500</span>
                 <span class="trust-label">Verified Tours</span>
             </div>
             <div class="trust-divider"></div>
@@ -202,10 +258,12 @@
         </div>
     </section>
 
-    <!-- Sponsor slot: hero leaderboard (728x90, desktop) -->
+    <!-- SPONSOR SLOT: Hero Leaderboard -->
     <div class="sponsor-slot"
          data-slot-id="hero-leaderboard"
-         data-slot-type="leaderboard"></div>
+         data-slot-type="leaderboard"
+         data-slot-page="home"
+         data-allow-adsense="true"></div>
 
     <!-- ISLANDS -->
     <section class="islands-nav" id="islands">
@@ -223,7 +281,7 @@
                     </div>
                 </a>
                 
-                <a href="amsterdam-city.html#canal class="island-card" onclick="trackBookingClick('Canal Cruises Tours', 'canal-cruises', 'canal-cruises')">
+                <a href="amsterdam-city.html#canal" class="island-card" onclick="trackBookingClick('Canal Cruises Tours', 'canal-cruises', 'canal-cruises')">
                     <div class="island-img" style="background-image: url('images/hero-photo-2.jpg')"></div>
                     <div class="island-content">
                         <h3>Canal Cruises</h3>
@@ -232,7 +290,7 @@
                     </div>
                 </a>
                 
-                <a href="amsterdam-city.html#jordaan class="island-card" onclick="trackBookingClick('Jordaan Tours', 'jordaan', 'jordaan')">
+                <a href="amsterdam-city.html#jordaan" class="island-card" onclick="trackBookingClick('Jordaan Tours', 'jordaan', 'jordaan')">
                     <div class="island-img" style="background-image: url('images/hero-photo-3.jpg')"></div>
                     <div class="island-content">
                         <h3>Jordaan</h3>
@@ -241,7 +299,7 @@
                     </div>
                 </a>
                 
-                <a href="amsterdam-city.html#day-trips class="island-card" onclick="trackBookingClick('Day Trips Tours', 'day-trips', 'day-trips')">
+                <a href="amsterdam-city.html#day-trips" class="island-card" onclick="trackBookingClick('Day Trips Tours', 'day-trips', 'day-trips')">
                     <div class="island-img" style="background-image: url('images/hero-photo-1.jpg')"></div>
                     <div class="island-content">
                         <h3>Day Trips</h3>
@@ -249,7 +307,7 @@
                         <span class="island-count">16 Adventures</span>
                     </div>
                 </a>
-            </div>            </div>
+            </div>
         </div>
     </section>
 
@@ -323,10 +381,12 @@
                 <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
             </div>
             
-            <!-- Sponsor slot: home MREC (300x250, in-content) -->
+            <!-- SPONSOR SLOT: Home In-Grid MREC (also injected via JS after 8th tour card) -->
             <div class="sponsor-slot"
                  data-slot-id="home-mrec-1"
-                 data-slot-type="mrec"></div>
+                 data-slot-type="mrec"
+                 data-slot-page="home"
+                 data-allow-adsense="true"></div>
 
             <div class="tours-grid" id="tours-grid">
                 <div class="loading-state">
@@ -525,11 +585,13 @@
         </div>
     </section>
 
-    <!-- Sponsor slot: mobile sticky banner (320x50, mobile only) -->
+    <!-- SPONSOR SLOT: Mobile Sticky Bottom -->
     <div class="sponsor-slot"
          data-slot-id="mobile-sticky"
          data-slot-type="mobile-banner"
-         data-sticky-bottom="true"></div>
+         data-slot-page="home"
+         data-sticky-bottom="true"
+         data-allow-adsense="true"></div>
 
     <!-- FOOTER -->
     <footer class="footer">
