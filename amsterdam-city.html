@@ -28,6 +28,7 @@
 
 <script src="/tracking.js" defer></script>
 
+<link rel="stylesheet" href="/styles.css">
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
@@ -37,9 +38,9 @@
   header .logo { font-weight: 700; font-size: 1.2rem; }
   header nav a { margin-left: 18px; opacity: 0.9; }
   header nav a:hover { opacity: 1; text-decoration: underline; }
-  .hero { background: linear-gradient(135deg, #cc0000 0%, #1a3a8c 100%); color: white; padding: 80px 20px; text-align: center; }
-  .hero h1 { font-size: 2.5rem; margin: 0 0 12px 0; }
-  .hero p { font-size: 1.1rem; max-width: 720px; margin: 0 auto; opacity: 0.95; }
+  .page-banner { background: linear-gradient(135deg, #cc0000 0%, #1a3a8c 100%); color: white; padding: 80px 20px; text-align: center; }
+  .page-banner h1 { font-size: 2.5rem; margin: 0 0 12px 0; }
+  .page-banner p { font-size: 1.1rem; max-width: 720px; margin: 0 auto; opacity: 0.95; }
   .intro { padding: 50px 0; }
   .intro h2 { font-size: 1.8rem; margin-bottom: 20px; }
   .intro p { font-size: 1.05rem; margin-bottom: 16px; }
@@ -64,8 +65,8 @@
   .related a:hover { text-decoration: underline; }
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
   @media (max-width: 600px) {
-    .hero h1 { font-size: 1.8rem; }
-    .hero { padding: 50px 20px; }
+    .page-banner h1 { font-size: 1.8rem; }
+    .page-banner { padding: 50px 20px; }
     header nav a { display: none; }
     header nav a:first-child { display: inline; }
   }
@@ -85,7 +86,7 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="page-banner">
   <div class="container">
     <h1>Amsterdam Tours</h1>
     <p>Canal cruises, walking tours of the Jordaan and Red Light District, and museum entry combos for the Rijksmuseum and Van Gogh.</p>
@@ -621,7 +622,7 @@
                 <div class="footer-brand">
                     <a href="/" class="logo">
                         <picture>
-                        <source type="image/webp" srcset="/images/footer-badge-240.webp 240w, /images/footer-badge-480.webp 480w, /images/footer-badge-720.webp 720w" sizes="240px">
+                        <source type="image/webp" srcset="/images/footer-badge-240.webp 240w, /images/footer-badge-480.webp 480w, /images/footer-badge-720.webp 720w" sizes="(max-width: 768px) 90px, 120px">
                         <img src="/images/footer-badge.png" alt="WanderAmsterdam" class="footer-logo-img" loading="lazy" decoding="async">
                     </picture>
                     </a>
