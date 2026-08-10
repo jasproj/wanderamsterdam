@@ -4,15 +4,19 @@
    Single source of truth for the booking_click GA4 conversion event.
    Loaded site-wide via <script src="/tracking.js" defer> in <head>.
 
-   Wires every Check Availability anchor (FareHarbor links and CTA-class
-   anchors) via document-level click delegation — no per-anchor onclick
-   required. Survives runtime-rendered anchors.
+   Wires every Check Availability anchor via document-level click
+   delegation — no per-anchor onclick required. Survives runtime-rendered
+   anchors.
+
+   A booking_click only ever fires for an anchor whose href points at
+   fareharbor.com. CTA/button classes (book-btn, cta-btn, mobile-cta-btn,
+   etc.) are cosmetic and are never used to detect a booking — several of
+   them are also applied to internal navigation and scroll-to-anchor links
+   that must not count as conversions.
 
    Coexistence notes:
    - Anchors with an existing onclick="trackBookingClick(...)" are skipped
      so they do not double-fire.
-   - app.js defines its own enriched trackTourBooking(tour); our window
-     definition is only set if not already present.
 
    utm_source tagging:
    - On every FareHarbor link click, we append utm_source=wanderamsterdam
@@ -31,22 +35,6 @@
         var sep = url.indexOf('?') === -1 ? '?' : '&';
         return url + sep + 'utm_source=' + encodeURIComponent(slug);
     }
-
-    var CTA_CLASSES = [
-        'book-btn',
-        'book-btn-inline',
-        'btn-primary',
-        'tour-book-btn',
-        'cta-btn',
-        'final-cta-btn',
-        'browse-cta-btn',
-        'mobile-cta-btn',
-        'primary-cta',
-        'island-cta',
-        'footer-cta',
-        'sidebar-cta',
-        'blog-cta'
-    ];
 
     var REGION_KEYWORDS = ['city-center', 'canal-cruises', 'jordaan', 'day-trips', 'museum-quarter', 'red-light'];
 
@@ -80,14 +68,6 @@
         };
     }
 
-    function hasCtaClass(link) {
-        if (!link.classList) return false;
-        for (var i = 0; i < CTA_CLASSES.length; i++) {
-            if (link.classList.contains(CTA_CLASSES[i])) return true;
-        }
-        return false;
-    }
-
     document.addEventListener('click', function (e) {
         var link = e.target.closest && e.target.closest('a');
         if (!link) return;
@@ -95,10 +75,8 @@
         if (onclickAttr.indexOf('trackBookingClick') !== -1) return;
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
-        if (!isFareHarbor && !hasCtaClass(link)) return;
-        if (isFareHarbor) {
-            link.href = appendUtmSource(link.href, 'wanderamsterdam');
-        }
+        if (!isFareHarbor) return;
+        link.href = appendUtmSource(link.href, 'wanderamsterdam');
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
         gtag('event', 'booking_click', {

@@ -51,20 +51,6 @@ function preCacheBookingUrls(tours) {
 }
 
 // 2. GA4 Tracking Functions
-// NOTE: Renamed from trackBookingClick to avoid shadowing the canonical
-// 3-string global (defined in index.html <head> and /tracking.js). This
-// enriched form fires on tour-grid clicks where company/price are known.
-function trackTourBooking(tour) {
-    gtag('event', 'booking_click', {
-        tour_id: tour.id,
-        tour_name: tour.name,
-        island: tour.island,
-        price: tour.price || 'unknown',
-        company: tour.company,
-        event_category: 'conversion'
-    });
-}
-
 function trackFilterChange(filterType, value) {
     gtag('event', 'filter_used', {
         filter_type: filterType,
@@ -86,34 +72,6 @@ function trackLoadMoreClick() {
     });
 }
 
-// 3. Loading indicator with optimization
-function openBookingWithLoader(url, tour) {
-    event && event.preventDefault && event.preventDefault();
-    
-    // Track the booking click
-    if (tour) {
-        trackTourBooking(tour);
-    }
-    
-    const loader = document.createElement('div');
-    loader.id = 'booking-loader';
-    loader.className = 'booking-loader';
-    loader.innerHTML = `
-        <div class="booking-loader-content">
-            <div class="spinner"></div>
-            <p>Opening booking...</p>
-        </div>
-    `;
-    document.body.appendChild(loader);
-    
-    setTimeout(() => loader.style.opacity = '1', 10);
-    window.open(url, '_blank', 'noopener,noreferrer');
-    
-    setTimeout(() => {
-        loader.style.opacity = '0';
-        setTimeout(() => loader.remove(), 300);
-    }, 2500);
-}
 let filteredTours = [];
 let displayedCount = 0;
 const TOURS_PER_PAGE = 24;
@@ -297,12 +255,9 @@ function renderTours(append = false) {
         grid.innerHTML = html;
     }
 
-    // The click delegation that used to call openBookingWithLoader was a
-    // workaround for the previous <button> markup, which couldn't navigate
-    // natively. Now that tour cards render as <a href target="_blank">,
-    // navigation happens via the anchor's native click and tracking.js's
-    // delegated handler still fires booking_click. No JS handler needed
-    // here.
+    // Tour cards render as <a href target="_blank">: navigation happens via
+    // the anchor's native click, and tracking.js's delegated handler fires
+    // booking_click. No JS click handler needed here.
 
     displayedCount = append
         ? displayedCount + toursToShow.length
