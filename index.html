@@ -30,15 +30,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-KKDJT03MDV');
-        
-        function trackBookingClick(tourName, tourId, island) {
-            gtag('event', 'booking_click', {
-                'event_category': 'conversion',
-                'event_label': tourName,
-                'tour_id': tourId,
-                'island': island || 'home'
-            });
-        }
     </script>
     
     <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
@@ -264,7 +255,7 @@
             <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
             
             <div class="islands-grid">
-                <a href="amsterdam-city.html" class="island-card" onclick="trackBookingClick('City Center Tours', 'city-center', 'city-center')">
+                <a href="amsterdam-city.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-1.jpg')"></div>
                     <div class="island-content">
                         <h3>City Center</h3>
@@ -273,7 +264,7 @@
                     </div>
                 </a>
                 
-                <a href="amsterdam-city.html#canal" class="island-card" onclick="trackBookingClick('Canal Cruises Tours', 'canal-cruises', 'canal-cruises')">
+                <a href="amsterdam-city.html#canal" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-2.jpg')"></div>
                     <div class="island-content">
                         <h3>Canal Cruises</h3>
@@ -282,7 +273,7 @@
                     </div>
                 </a>
                 
-                <a href="amsterdam-city.html#jordaan" class="island-card" onclick="trackBookingClick('Jordaan Tours', 'jordaan', 'jordaan')">
+                <a href="amsterdam-city.html#jordaan" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-3.jpg')"></div>
                     <div class="island-content">
                         <h3>Jordaan</h3>
@@ -291,7 +282,7 @@
                     </div>
                 </a>
                 
-                <a href="amsterdam-city.html#day-trips" class="island-card" onclick="trackBookingClick('Day Trips Tours', 'day-trips', 'day-trips')">
+                <a href="amsterdam-city.html#day-trips" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-1.jpg')"></div>
                     <div class="island-content">
                         <h3>Day Trips</h3>
@@ -370,7 +361,7 @@
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
-                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
             </div>
             
             <!-- SPONSOR SLOT: Home In-Grid MREC (also injected via JS after 8th tour card) -->
@@ -388,7 +379,7 @@
             </div>
             
             <div class="load-more-wrap">
-                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
                     Load More Adventures <span>→</span>
                 </button>
             </div>
@@ -641,7 +632,7 @@
 
     <!-- MOBILE CTA -->
     <div class="mobile-cta" id="mobile-cta">
-        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
+        <a href="#tours-section" class="mobile-cta-btn">
             <span>🌺</span> Find Your Adventure
         </a>
     </div>
