@@ -602,12 +602,12 @@
             <p>Not sure where to start? Take our 60-second quiz or browse by category below.</p>
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <span class="hero-stat-number">595</span>
+                    <span class="hero-stat-number">1630</span>
                     <span class="hero-stat-label">Tours</span>
                 </div>
                 <div class="hero-stat">
-                    <span class="hero-stat-number">4</span>
-                    <span class="hero-stat-label">Islands</span>
+                    <span class="hero-stat-number">70</span>
+                    <span class="hero-stat-label">Local Operators</span>
                 </div>
                 <div class="hero-stat">
                     <span class="hero-stat-number">20+</span>
@@ -844,7 +844,7 @@
                             <div class="quiz-option" data-value="culture">
                                 <div class="quiz-option-icon">🌺</div>
                                 <span class="quiz-option-label">Culture & History</span>
-                                <span class="quiz-option-desc">Luaus, tours, local experiences</span>
+                                <span class="quiz-option-desc">Museums, history tours, local experiences</span>
                             </div>
                             <div class="quiz-option" data-value="nature">
                                 <div class="quiz-option-icon">🌿</div>
@@ -983,45 +983,55 @@
             <p class="section-subtitle">Explore our guides or jump straight to tours</p>
             
             <div class="categories-grid">
-                <a href="kayak.html" class="category-card">
-                    <div class="category-icon">🚣</div>
-                    <div class="category-name">Kayaking</div>
-                    <div class="category-count">23 tours</div>
+                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Boat Tour')">
+                    <div class="category-icon">🚤</div>
+                    <div class="category-name">Boat Tours</div>
+                    <div class="category-count">103 tours</div>
                 </a>
-                <a href="zipline.html" class="category-card">
-                    <div class="category-icon">🎢</div>
-                    <div class="category-name">Ziplines</div>
-                    <div class="category-count">15 tours</div>
+                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Walking Tour')">
+                    <div class="category-icon">🚶</div>
+                    <div class="category-name">Walking Tours</div>
+                    <div class="category-count">83 tours</div>
+                </a>
+                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'History Tour')">
+                    <div class="category-icon">🏛️</div>
+                    <div class="category-name">History Tours</div>
+                    <div class="category-count">82 tours</div>
+                </a>
+                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Museum')">
+                    <div class="category-icon">🖼️</div>
+                    <div class="category-name">Museums</div>
+                    <div class="category-count">49 tours</div>
+                </a>
+                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Food Tour')">
+                    <div class="category-icon">🍽️</div>
+                    <div class="category-name">Food Tours</div>
+                    <div class="category-count">42 tours</div>
+                </a>
+                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Bike Tour')">
+                    <div class="category-icon">🚲</div>
+                    <div class="category-name">Bike Tours</div>
+                    <div class="category-count">36 tours</div>
                 </a>
                 <a href="fishing.html" class="category-card">
                     <div class="category-icon">🎣</div>
                     <div class="category-name">Fishing</div>
-                    <div class="category-count">8 charters</div>
+                    <div class="category-count">15 charters</div>
+                </a>
+                <a href="kayak.html" class="category-card">
+                    <div class="category-icon">🚣</div>
+                    <div class="category-name">Kayaking</div>
+                    <div class="category-count">Paddling guide</div>
                 </a>
                 <a href="jet-ski.html" class="category-card">
-                    <div class="category-icon">🚤</div>
+                    <div class="category-icon">🌊</div>
                     <div class="category-name">Jet Skis</div>
-                    <div class="category-count">3 islands</div>
+                    <div class="category-count">Rental guide</div>
                 </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Dolphin')">
-                    <div class="category-icon">🐬</div>
-                    <div class="category-name">Dolphins</div>
-                    <div class="category-count">46 tours</div>
-                </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Scuba')">
-                    <div class="category-icon">🫧</div>
-                    <div class="category-name">Scuba Diving</div>
-                    <div class="category-count">34 tours</div>
-                </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Surf')">
-                    <div class="category-icon">🏄</div>
-                    <div class="category-name">Surfing</div>
-                    <div class="category-count">26 tours</div>
-                </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Air')">
-                    <div class="category-icon">🚁</div>
-                    <div class="category-name">Helicopters</div>
-                    <div class="category-count">10 tours</div>
+                <a href="zipline.html" class="category-card">
+                    <div class="category-icon">🎢</div>
+                    <div class="category-name">Ziplines</div>
+                    <div class="category-count">Day-trip guide</div>
                 </a>
             </div>
         </div>
@@ -1037,7 +1047,7 @@
                     <div class="deals-perks">
                         <div class="perk-item">
                             <span class="perk-icon">✓</span>
-                            <span>Seasonal tour discounts (whale season, summer specials)</span>
+                            <span>Seasonal tour discounts (tulip season, summer specials)</span>
                         </div>
                         <div class="perk-item">
                             <span class="perk-icon">✓</span>
@@ -1045,7 +1055,7 @@
                         </div>
                         <div class="perk-item">
                             <span class="perk-icon">✓</span>
-                            <span>New tour alerts from your favorite islands</span>
+                            <span>New tour alerts from your favorite areas</span>
                         </div>
                         <div class="perk-item">
                             <span class="perk-icon">✓</span>
@@ -1069,8 +1079,8 @@
     <!-- BROWSE CTA -->
     <section class="browse-cta">
         <div class="container">
-            <h2>Ready to Explore All 595 Tours?</h2>
-            <p>Filter by island, activity, and more on our main tours page.</p>
+            <h2>Ready to Explore All 1630 Tours?</h2>
+            <p>Filter by area, activity, and more on our main tours page.</p>
             <a href="index.html#tours-section" class="browse-cta-btn">
                 Browse All Tours →
             </a>
@@ -1217,17 +1227,17 @@
         
         // Style-based recommendations
         if (style === 'adventure') {
-            recs.push({ icon: '🤿', title: 'Snorkeling Tours', desc: 'Explore vibrant reefs and marine life' });
-            recs.push({ icon: '🎢', title: 'Zipline Adventures', desc: 'Soar over tropical landscapes' });
+            recs.push({ icon: '🚲', title: 'Bike Tours', desc: 'Ride the city and the countryside beyond it' });
+            recs.push({ icon: '🚣', title: 'Kayak & Boat Rental', desc: 'Take the canals at your own pace' });
         } else if (style === 'relaxation') {
-            recs.push({ icon: '⛵', title: 'Sunset Sailing', desc: 'Peaceful cruises with ocean views' });
-            recs.push({ icon: '🌅', title: 'Catamaran Cruises', desc: 'Relax on the water' });
+            recs.push({ icon: '🛶', title: 'Canal Cruises', desc: 'Unhurried trips through the ring canals' });
+            recs.push({ icon: '⛵', title: 'Evening Sailing', desc: 'Quiet time out on the water' });
         } else if (style === 'culture') {
-            recs.push({ icon: '🌺', title: 'Local Cultural Tours', desc: 'Region-specific cultural experiences' });
+            recs.push({ icon: '🖼️', title: 'Museum Tours', desc: 'Rijksmuseum, Van Gogh, and Anne Frank House' });
             recs.push({ icon: '🏛️', title: 'Historical Tours', desc: 'Learn about Amsterdam heritage' });
         } else if (style === 'nature') {
-            recs.push({ icon: '🐋', title: 'Whale Watching', desc: 'See humpbacks up close (seasonal)' });
-            recs.push({ icon: '🚁', title: 'Helicopter Tours', desc: 'Aerial views of natural wonders' });
+            recs.push({ icon: '🌾', title: 'Windmills & Countryside', desc: 'Zaanse Schans and the surrounding polders' });
+            recs.push({ icon: '🌷', title: 'Tulip & Garden Trips', desc: 'Seasonal trips out to Keukenhof' });
         }
         
         // Island-specific
@@ -1239,7 +1249,6 @@
         }
         else if (island === 'tours') {
             recs.push({ icon: '📍', title: 'Browse activities Highlights', desc: 'All tours by category' });
-        });
         }
         
         // Group-based
