@@ -174,7 +174,7 @@
             <div class="hero-search">
                 <div class="search-input-wrap">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="hero-search" placeholder="Search snorkeling, whale watching, helicopters..." autocomplete="off">
+                    <input type="text" id="hero-search" placeholder="Search canal cruises, museums, bike tours..." autocomplete="off">
                 </div>
                 <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
             </div>
@@ -182,43 +182,43 @@
             <!-- Scrolling Category Tags -->
             <div class="quick-tags-wrapper">
                 <div class="quick-tags">
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
+                    <button onclick="quickFilter('canal')">🛶 Canal Cruises</button>
+                    <button onclick="quickFilter('walking')">🚶 Walking Tours</button>
+                    <button onclick="quickFilter('museum')">🖼️ Museums</button>
                     <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
+                    <button onclick="quickFilter('bike')">🚲 Bike Tours</button>
+                    <button onclick="quickFilter('history')">🏛️ History Tours</button>
                     <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
+                    <button onclick="quickFilter('cheese')">🧀 Cheese Tasting</button>
+                    <button onclick="quickFilter('beer')">🍺 Beer & Brewery</button>
+                    <button onclick="quickFilter('windmill')">🌾 Windmills</button>
+                    <button onclick="quickFilter('jordaan')">🏘️ Jordaan</button>
+                    <button onclick="quickFilter('anne frank')">📔 Anne Frank</button>
+                    <button onclick="quickFilter('rijksmuseum')">🎨 Rijksmuseum</button>
+                    <button onclick="quickFilter('van gogh')">🌻 Van Gogh</button>
+                    <button onclick="quickFilter('tulip')">🌷 Tulips</button>
                     <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
                     <button onclick="quickFilter('fishing')">🎣 Fishing</button>
-                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
+                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
                     <!-- Duplicate for seamless loop -->
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
+                    <button onclick="quickFilter('canal')">🛶 Canal Cruises</button>
+                    <button onclick="quickFilter('walking')">🚶 Walking Tours</button>
+                    <button onclick="quickFilter('museum')">🖼️ Museums</button>
                     <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
+                    <button onclick="quickFilter('bike')">🚲 Bike Tours</button>
+                    <button onclick="quickFilter('history')">🏛️ History Tours</button>
                     <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
+                    <button onclick="quickFilter('cheese')">🧀 Cheese Tasting</button>
+                    <button onclick="quickFilter('beer')">🍺 Beer & Brewery</button>
+                    <button onclick="quickFilter('windmill')">🌾 Windmills</button>
+                    <button onclick="quickFilter('jordaan')">🏘️ Jordaan</button>
+                    <button onclick="quickFilter('anne frank')">📔 Anne Frank</button>
+                    <button onclick="quickFilter('rijksmuseum')">🎨 Rijksmuseum</button>
+                    <button onclick="quickFilter('van gogh')">🌻 Van Gogh</button>
+                    <button onclick="quickFilter('tulip')">🌷 Tulips</button>
                     <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
                     <button onclick="quickFilter('fishing')">🎣 Fishing</button>
-                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
+                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
                 </div>
             </div>
         </div>
@@ -322,25 +322,21 @@
                     <label for="activity-filter">Activity</label>
                     <select id="activity-filter">
                         <option value="">All Activities</option>
-                        <option value="Snorkel">🤿 Snorkeling (114)</option>
-                        <option value="Boat Tour">🚤 Boat Tours (127)</option>
-                        <option value="Whale Watch">🐋 Whale Watching (43)</option>
-                        <option value="Dolphin">🐬 Dolphins (46)</option>
-                        <option value="Scuba">🤿 Scuba Diving (34)</option>
-                        <option value="Kayak">🚣 Kayaking (23)</option>
-                        <option value="Surf">🏄 Surfing (26)</option>
-                        <option value="SUP">🏄 Stand Up Paddle (18)</option>
-                        <option value="Sailing">⛵ Sailing (22)</option>
-                        <option value="Catamaran">⛵ Catamaran (23)</option>
-                        <option value="Fishing">🎣 Fishing (8)</option>
-                        <option value="Hiking">🥾 Hiking (18)</option>
-                        <option value="Zipline">🎢 Zipline (15)</option>
-                        <option value="ATV">🏎️ ATV/UTV (8)</option>
-                        <option value="Air">🚁 Air Tours (10)</option>
-                        <option value="Food Tour">🍽️ Food Tours (16)</option>
-                        <option value="Farm">🌴 Farm Tours (20)</option>
-                        <option value="Private">👑 Private Tours (33)</option>
-                        <option value="Guided Tour">🎯 Guided Tours (63)</option>
+                        <option value="Private">👑 Private Tours (106)</option>
+                        <option value="Boat Tour">🚤 Boat Tours (103)</option>
+                        <option value="Walking Tour">🚶 Walking Tours (83)</option>
+                        <option value="City Tour">🏙️ City Tours (83)</option>
+                        <option value="History Tour">🏛️ History Tours (82)</option>
+                        <option value="Guided Tour">🎯 Guided Tours (67)</option>
+                        <option value="Museum">🖼️ Museums (49)</option>
+                        <option value="Sightseeing Tour">📸 Sightseeing (48)</option>
+                        <option value="Food Tour">🍽️ Food Tours (42)</option>
+                        <option value="Bike Tour">🚲 Bike Tours (36)</option>
+                        <option value="Bus Tour">🚌 Bus Tours (18)</option>
+                        <option value="Fishing">🎣 Fishing (15)</option>
+                        <option value="Boat Rental">⛵ Boat Rental (15)</option>
+                        <option value="Eco Tour">🌿 Eco Tours (12)</option>
+                        <option value="Pub Crawl">🍺 Pub Crawls (10)</option>
                     </select>
                 </div>
                 
@@ -474,8 +470,8 @@
             a: "We connect you directly with local tour operators through their booking systems, so you get their direct prices—often the same or better than large booking platforms. Plus, more of your money stays in Amsterdam's local economy rather than going to mainland corporations."
         },
         {
-            q: "Do I need to know how to swim for snorkeling?",
-            a: "Basic swimming ability is recommended for most snorkeling tours. However, many operators provide flotation devices, and some tours offer shallow reef areas perfect for beginners. Always let your tour operator know your comfort level in advance."
+            q: "Do I need to book canal cruises in advance?",
+            a: "For popular canal cruises and museum combinations, booking ahead is worthwhile, especially between April and September and on weekends. Smaller operators and open-boat trips often have same-day space. Each tour's booking page shows live availability."
         },
         {
             q: "What's the cancellation policy?",
