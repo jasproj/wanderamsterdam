@@ -1,0 +1,96 @@
+Input: /private/tmp/claude-501/-Users-jasondudney-repos-wanderamsterdam/55fc3dfc-819a-4005-83db-585c1f03046a/scratchpad/scratch.json
+Total tours: 267
+Candidates (price==null + FH bookingUrl): 267
+Already processed (from checkpoint): 0
+To process this run: 267
+Operators (shortnames): 56 | batches: 58 | batch size: 20
+
+  batch 1/58 mikesbiketoursamsterdam (20 pks) -> hi:11 none:3 err:0
+  batch 2/58 mikesbiketoursamsterdam (1 pks) -> hi:11 none:4 err:0
+  batch 3/58 amsterdamboattrips (4 pks) -> hi:15 none:4 err:0
+  batch 4/58 captaindaveamsterdam (4 pks) -> hi:19 none:4 err:0
+  batch 5/58 flagshipamsterdam (15 pks) -> hi:31 none:7 err:0
+  batch 6/58 whoisamsterdamtours (7 pks) -> hi:38 none:7 err:0
+  batch 7/58 amsterdamcircleline (4 pks) -> hi:39 none:10 err:0
+  batch 8/58 eatingeurope-amsterdam (3 pks) -> hi:42 none:10 err:0
+  batch 9/58 leemstar (3 pks) -> hi:44 none:11 err:0
+  batch 10/58 thoseamsterdames (3 pks) -> hi:47 none:11 err:0
+  batch 11/58 luxesloepenhaarlem (2 pks) -> hi:49 none:11 err:0
+  batch 12/58 starboardboats (6 pks) -> hi:54 none:12 err:0
+  batch 13/58 amsterdamexperiences (16 pks) -> hi:56 none:14 err:0
+  batch 14/58 discover-delft (1 pks) -> hi:57 none:14 err:0
+  batch 15/58 mokumboot (7 pks) -> hi:64 none:14 err:0
+  batch 16/58 captainjackamsterdam (4 pks) -> hi:66 none:16 err:0
+  batch 17/58 webikeamsterdam (2 pks) -> hi:68 none:16 err:0
+  batch 18/58 amsterdamboatexperience (5 pks) -> hi:72 none:17 err:0
+  batch 19/58 rockthatboat (1 pks) -> hi:73 none:17 err:0
+  batch 20/58 boatamsterdam (11 pks) -> hi:81 none:20 err:0
+  batch 21/58 kinboat (13 pks) -> hi:89 none:25 err:0
+  batch 22/58 funamsterdam (10 pks) -> hi:99 none:25 err:0
+  batch 23/58 adamandevetours (9 pks) -> hi:105 none:25 err:0
+  batch 24/58 theholyboat (1 pks) -> hi:106 none:25 err:0
+  batch 25/58 friendshipamsterdam (5 pks) -> hi:110 none:26 err:0
+  batch 26/58 evabluelab (1 pks) -> hi:111 none:26 err:0
+  batch 27/58 desteek (7 pks) -> hi:115 none:26 err:0
+  batch 28/58 yellowbike (10 pks) -> hi:124 none:27 err:0
+  batch 29/58 amsterdamfoodtours (1 pks) -> hi:125 none:27 err:0
+  batch 30/58 vrvoyage (1 pks) -> hi:126 none:27 err:0
+  batch 31/58 ask-a-badass (9 pks) -> hi:126 none:36 err:0
+  batch 32/58 hitbricks (2 pks) -> hi:128 none:36 err:0
+  batch 33/58 thebulldog (1 pks) -> hi:129 none:36 err:0
+  batch 34/58 bmphotowalks (3 pks) -> hi:129 none:36 err:0
+  batch 35/58 pureboats (11 pks) -> hi:129 none:36 err:11
+  batch 36/58 amsterdaminamillion (6 pks) -> hi:134 none:37 err:11
+  batch 37/58 oldamsterdamcheesestore (1 pks) -> hi:135 none:37 err:11
+  batch 38/58 rederijlampedusa (1 pks) -> hi:136 none:37 err:11
+  batch 39/58 aemstelland (2 pks) -> hi:138 none:37 err:11
+  batch 40/58 amsterdamprivateboattour (2 pks) -> hi:140 none:37 err:11
+  batch 41/58 historicalamsterdamtours (1 pks) -> hi:140 none:37 err:11
+  batch 42/58 haarlemcanaltours (1 pks) -> hi:141 none:37 err:11
+  batch 43/58 abiketours (3 pks) -> hi:144 none:37 err:11
+  batch 44/58 rederijdewester (1 pks) -> hi:145 none:37 err:11
+  batch 45/58 royalcosterdiamondbv (1 pks) -> hi:146 none:37 err:11
+  batch 46/58 plasticwhale (1 pks) -> hi:147 none:37 err:11
+  batch 47/58 privatedaytoursamsterdam (8 pks) -> hi:154 none:38 err:11
+  batch 48/58 rederijlutine (1 pks) -> hi:155 none:38 err:11
+  batch 49/58 hollandbikestoursandrentalsparis (1 pks) -> hi:156 none:38 err:11
+  batch 50/58 babyloncitytours-amsterdam (20 pks) -> hi:156 none:38 err:11
+  batch 51/58 babyloncitytours-amsterdam (5 pks) -> hi:156 none:39 err:11
+  batch 52/58 historywalks (2 pks) -> hi:156 none:41 err:11
+  batch 53/58 theaxeeffect (2 pks) -> hi:158 none:41 err:11
+  batch 54/58 amsterdamcountrysidetour (1 pks) -> hi:159 none:41 err:11
+  batch 55/58 xalamtours (1 pks) -> hi:160 none:41 err:11
+  batch 56/58 amsterdambyboat (1 pks) -> hi:160 none:42 err:11
+  batch 57/58 comedywalks (1 pks) -> hi:160 none:43 err:11
+  batch 58/58 amsterdamts (1 pks) -> hi:161 none:43 err:11
+
+✓ Price enrichment (v7-api) complete
+  processed:  267
+  high:       161  (price written)
+  zero_price: 52  (charter/vehicle model, preview $0 — price left null, correct)
+  none:       43  (dead / no current availability — price left null, correct)
+  error:      11
+  requests:   59  (batched ≤20 pks each)
+  elapsed:    203.4s
+
+Sample of written prices (spot-check candidates):
+  pk=689900  EUR26.24  [Adult]  Amsterdam City Highlights Bike Tour – 1.5 Hours
+  pk=70147  EUR36.74  [Adult]  Amsterdam City Bike Tour
+  pk=70139  EUR61.93  [Adult with E-Bike]  Countryside North E-Bike Tour, Long route
+  pk=577792  EUR28.86  [Adult]  School Group City Bike Tour Amsterdam
+  pk=577238  EUR36.74  [Adult]  School Group Countryside South Bike Tour
+  pk=531698  EUR46.18  [Adult]  Amsterdam North Bike Tour: Scenic Villages & Windmill
+  pk=70151  EUR48.28  [Adult with E-Bike]  E-Bike Tour Amsterdam
+  pk=578001  EUR33.06  [Adult]  School Group Sustainability Bike Tour Amsterdam
+  pk=577793  EUR38.83  [Adult]  School Group Amsterdam's Urban Adventure Bike Tour
+  pk=168962  EUR46.18  [Adult]  Amsterdam's Urban Adventure: Bike Tour of the Hidden Gems of the City
+  pk=586523  EUR82.92  [Adult with E-Bike]  Zaanse Schans E-Bike Tour
+  pk=518416  EUR39.04  [VIP Ticket 18+]  Cozy & Fun Canal Tour from Central Station (incl morning Tour)
+  pk=198502  EUR41.72  [Light Festival Guest - Open Bar Included]  Amsterdam Light Festival Ticket • Air BnB best verkochte winter boot tour
+  pk=198517  EUR39.04  [VIP Ticket 18+]  Cozy and Fun Boat Experience
+  pk=382318  EUR44.08  [VIP Ticket 18+]  Rondvaart met Hollandse kaas en drankjes
+  pk=177104  EUR44.16  [Adult]  Cruise Like a Local —Explore the canals
+  pk=177100  EUR41  [Adult]  Morning Cruise— Before the hustle and the bustle!
+  pk=178676  EUR41  [Adult]  Early Morning Cruise —Canals all to ourselves
+  pk=193864  EUR47.33  [Adult]  Amsterdam Festival of Lights—#15
+  pk=183956  EUR26.17  [Adult]  Evening Cruise - starts from Anne Frank House

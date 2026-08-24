@@ -1,0 +1,32 @@
+Input: /private/tmp/claude-501/-Users-jasondudney-repos-wanderamsterdam/55fc3dfc-819a-4005-83db-585c1f03046a/scratchpad/retry.json
+Total tours: 11
+Candidates (price==null + FH bookingUrl): 11
+Already processed (from checkpoint): 0
+To process this run: 11
+Operators (shortnames): 1 | batches: 3 | batch size: 4
+
+  batch 1/3 pureboats (4 pks) -> hi:4 none:0 err:0
+  batch 2/3 pureboats (4 pks) -> hi:8 none:0 err:0
+  batch 3/3 pureboats (3 pks) -> hi:11 none:0 err:0
+
+✓ Price enrichment (v7-api) complete
+  processed:  11
+  high:       11  (price written)
+  zero_price: 0  (charter/vehicle model, preview $0 — price left null, correct)
+  none:       0  (dead / no current availability — price left null, correct)
+  error:      0
+  requests:   3  (batched ≤4 pks each)
+  elapsed:    19.0s
+
+Sample of written prices (spot-check candidates):
+  pk=314367  EUR72.66  [Adult]  The Ultimate Canal Cruise (14+) - Departure Keizersgracht 106
+  pk=314378  EUR348.16  [Boat "Geertje" - 90 min]  Private Evening Cruise
+  pk=314383  EUR348.16  [Boat "Geertje" - 90 min]  Geertje
+  pk=314385  EUR379.82  [Boat "Schollevaar" - 90 min]  Schollevaar
+  pk=415027  EUR395.64  [Boat "Lucy" 90 Minutes]  Lucy
+  pk=576273  EUR664.68  [Boat "Stan Huygens" - 90 Minutes]  Stan Huygens
+  pk=580248  EUR72.66  [Adult]  The Ultimate Canal Cruise (14+) - Departure Herengracht 128 on the Stan Huygens
+  pk=314386  EUR443.12  [Boat "Pure Spirit" - 90 min]  Pure Spirit
+  pk=314364  EUR41.07  [Adult]  Morning Canal Cruise Amsterdam- Departure Keizersgracht 106
+  pk=314373  EUR395.64  [Boat "Lucy" 90 Minutes]  Private Afternoon Cruise
+  pk=599660  EUR58.97  [Adult]  Highlights of Amsterdam Cruise  - Departure Herengracht 128 on boat Stan Huygens
