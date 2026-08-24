@@ -1,0 +1,2205 @@
+{
+ "attempted": [
+  107307,
+  117571,
+  148032,
+  177428,
+  190046,
+  190099,
+  190121,
+  190128,
+  190132,
+  234991,
+  244818,
+  314373,
+  314378,
+  314383,
+  314385,
+  314386,
+  326244,
+  353963,
+  354014,
+  384741,
+  396248,
+  396252,
+  415027,
+  453211,
+  508139,
+  524008,
+  540184,
+  576273,
+  592154,
+  619538,
+  623293,
+  635956,
+  672906,
+  690937
+ ],
+ "responses": {
+  "leemstar:326244:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "discover-delft:672906:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": false,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "rockthatboat:107307:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": false,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "starboardboats:592154:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  },
+  "whoisamsterdamtours:690937,623293:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 2,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "boatamsterdam:244818:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "amsterdamfoodtours:524008:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  },
+  "pureboats:314378,314383,314385:a2": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 3,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "pureboats:415027,576273,314386,314373:a2": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 4,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "amsterdaminamillion:396248,396252:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 2,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "rederijlampedusa:540184:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "abiketours:384741:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "amsterdamprivateboattour:148032:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  },
+  "privatedaytoursamsterdam:190046,190099,190128,117571,177428,190121,190132:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 7,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "yellowbike:508139,453211,619538:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 3,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  },
+  "rederijlutine:635956:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  },
+  "funamsterdam:353963,354014:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 2,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  },
+  "amsterdamts:234991:a1": {
+   "status": 200,
+   "currency": "EUR",
+   "n_items": 1,
+   "details": {
+    "currency": "EUR",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ "items": {
+  "326244": {
+   "shortname": "leemstar",
+   "currency": "EUR",
+   "item": {
+    "id": 326244,
+    "availability": {
+     "id": 1796613555,
+     "start_at": "2026-08-25T09:00:00",
+     "end_at": "2026-08-25T09:00:00"
+    },
+    "price": {
+     "low": 36927,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1174297,
+        "singular": "Private Cruise - 1 Hour",
+        "plural": "Private Cruise - 1 Hour",
+        "note": "",
+        "price": 36927,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049929,
+        "singular": "Private Cruise - 1.5 Hours",
+        "plural": "Private Cruise - 1.5 Hours",
+        "note": "",
+        "price": 50115,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049918,
+        "singular": "Private Cruise - 2 Hours",
+        "plural": "Private Cruise - 2 Hours",
+        "note": "",
+        "price": 63303,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049930,
+        "singular": "Private Cruise - 2.5 Hours",
+        "plural": "Private Cruise - 2.5 Hours",
+        "note": "",
+        "price": 76491,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049919,
+        "singular": "Private Cruise - 3 Hours",
+        "plural": "Private Cruise - 3 Hours",
+        "note": "",
+        "price": 89679,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049931,
+        "singular": "Private Cruise - 3.5 Hours",
+        "plural": "Private Cruise - 3.5 Hours",
+        "note": "",
+        "price": 102867,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049933,
+        "singular": "Private Cruise - 5.5 Hours",
+        "plural": "Private Cruise - 5.5 Hours",
+        "note": "",
+        "price": 171445,
+        "min_party_size": 1
+       },
+       {
+        "id": 1049935,
+        "singular": "Private Cruise - 7.5 Hours",
+        "plural": "Private Cruise - 7.5 Hours",
+        "note": "",
+        "price": 234748,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "672906": {
+   "shortname": "discover-delft",
+   "currency": "EUR",
+   "item": {
+    "id": 672906,
+    "availability": {
+     "id": 1870813949,
+     "start_at": "2026-08-26T09:00:00",
+     "end_at": "2026-08-26T11:00:00"
+    },
+    "price": {
+     "low": 19900,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1137679,
+        "singular": "Private group of 1 to 15 people",
+        "plural": "Private groups of 1 to 15 people",
+        "note": "",
+        "price": 19900,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "107307": {
+   "shortname": "rockthatboat",
+   "currency": "EUR",
+   "item": {
+    "id": 107307,
+    "availability": {
+     "id": 1660823308,
+     "start_at": "2026-08-25T10:00:00",
+     "end_at": "2026-08-25T12:00:00"
+    },
+    "price": {
+     "low": 35000,
+     "high": 45000,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 228851,
+        "singular": "2 hours boat cruise",
+        "plural": "2 hours boat cruise",
+        "note": "",
+        "price": 45000,
+        "min_party_size": 1
+       },
+       {
+        "id": 226078,
+        "singular": "1,5 hours boat cruise",
+        "plural": "1,5 hours boat cruise",
+        "note": "",
+        "price": 35000,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "592154": {
+   "shortname": "starboardboats",
+   "currency": "EUR",
+   "item": {
+    "id": 592154,
+    "availability": {
+     "id": 2031323735,
+     "start_at": "2026-08-25T10:30:00",
+     "end_at": "2026-08-25T11:30:00"
+    },
+    "price": {
+     "low": 1884,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1287142,
+        "singular": "Child | No Drinks",
+        "plural": "Children | No Drinks",
+        "note": "Up to 18 years old",
+        "price": 1884,
+        "min_party_size": 1
+       },
+       {
+        "id": 1287143,
+        "singular": "Child | Including Drinks",
+        "plural": "Children | Including Drinks",
+        "note": "Up to 18 years old • Soft drinks included",
+        "price": 2517,
+        "min_party_size": 1
+       },
+       {
+        "id": 615567,
+        "singular": "Infant",
+        "plural": "Infants",
+        "note": "",
+        "price": 0,
+        "min_party_size": 1
+       },
+       {
+        "id": 582577,
+        "singular": "Private Group - 1 Hour Cruise",
+        "plural": "Private Groups - 1 Hour Cruise",
+        "note": "",
+        "price": 41674,
+        "min_party_size": 1
+       },
+       {
+        "id": 1240805,
+        "singular": "Private Group - 2 Hours Cruise",
+        "plural": "Private Groups - 2 Hours Cruise",
+        "note": "",
+        "price": 60665,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "690937": {
+   "shortname": "whoisamsterdamtours",
+   "currency": "EUR",
+   "item": {
+    "id": 690937,
+    "availability": {
+     "id": 1944204372,
+     "start_at": "2026-08-27T09:00:00",
+     "end_at": "2026-08-27T11:00:00"
+    },
+    "price": {
+     "low": 27289,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1096228,
+        "singular": "Private tour 1-4 persons",
+        "plural": "Private tours 1-4 persons",
+        "note": "",
+        "price": 27289,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096229,
+        "singular": "Private tour 5 persons",
+        "plural": "Private tours 5 persons",
+        "note": "",
+        "price": 28339,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096230,
+        "singular": "Private tour 6 persons",
+        "plural": "Private tours 6 persons",
+        "note": "",
+        "price": 29388,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096231,
+        "singular": "Private tour 7 persons",
+        "plural": "Private tours 7 persons",
+        "note": "",
+        "price": 30438,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096232,
+        "singular": "Private tour 8 persons",
+        "plural": "Private tours 8 persons",
+        "note": "",
+        "price": 31488,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096233,
+        "singular": "Private tour 9 persons",
+        "plural": "Private tours 9 persons",
+        "note": "",
+        "price": 32537,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096234,
+        "singular": "Private tour 10 persons",
+        "plural": "Private tours 10 persons",
+        "note": "",
+        "price": 33587,
+        "min_party_size": 1
+       },
+       {
+        "id": 1205621,
+        "singular": "Private tour 11 persons",
+        "plural": "Private tour 11 persons",
+        "note": "",
+        "price": 34636,
+        "min_party_size": 1
+       },
+       {
+        "id": 1205622,
+        "singular": "Private tour 12 persons",
+        "plural": "Private tour 12 persons",
+        "note": "",
+        "price": 35686,
+        "min_party_size": 1
+       },
+       {
+        "id": 1205623,
+        "singular": "Private tour 13 persons",
+        "plural": "Private tour 13 persons",
+        "note": "",
+        "price": 36736,
+        "min_party_size": 1
+       },
+       {
+        "id": 1205624,
+        "singular": "Private tour 14 persons",
+        "plural": "Private tour 14 persons",
+        "note": "",
+        "price": 37785,
+        "min_party_size": 1
+       },
+       {
+        "id": 1205625,
+        "singular": "Private tour 15 persons",
+        "plural": "Private tour 15 persons",
+        "note": "",
+        "price": 38835,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "623293": {
+   "shortname": "whoisamsterdamtours",
+   "currency": "EUR",
+   "item": {
+    "id": 623293,
+    "availability": {
+     "id": 1934611240,
+     "start_at": "2026-09-08T11:30:00",
+     "end_at": "2026-09-08T13:30:00"
+    },
+    "price": {
+     "low": 36631,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1096225,
+        "singular": "Private tour 1 person",
+        "plural": "Private tours 1 Person",
+        "note": "",
+        "price": 36631,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096226,
+        "singular": "Private tour 2 persons",
+        "plural": "Private tours 2 persons",
+        "note": "",
+        "price": 41878,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096227,
+        "singular": "Private tour 3 persons",
+        "plural": "Private tours 3 persons",
+        "note": "",
+        "price": 47126,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096228,
+        "singular": "Private tour 1-4 persons",
+        "plural": "Private tours 1-4 persons",
+        "note": "",
+        "price": 52374,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096229,
+        "singular": "Private tour 5 persons",
+        "plural": "Private tours 5 persons",
+        "note": "",
+        "price": 57622,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096230,
+        "singular": "Private tour 6 persons",
+        "plural": "Private tours 6 persons",
+        "note": "",
+        "price": 62870,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096231,
+        "singular": "Private tour 7 persons",
+        "plural": "Private tours 7 persons",
+        "note": "",
+        "price": 68118,
+        "min_party_size": 1
+       },
+       {
+        "id": 1096232,
+        "singular": "Private tour 8 persons",
+        "plural": "Private tours 8 persons",
+        "note": "",
+        "price": 73366,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "244818": {
+   "shortname": "boatamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 244818,
+    "availability": {
+     "id": 1692458118,
+     "start_at": "2026-08-30T11:00:00",
+     "end_at": "2026-08-30T11:00:00"
+    },
+    "price": {
+     "low": 46686,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 458788,
+        "singular": "One hour and half  boat rent incl. skipper",
+        "plural": "One hour and half  boat rent incl. skipper",
+        "note": "",
+        "price": 46686,
+        "min_party_size": 1
+       },
+       {
+        "id": 458789,
+        "singular": "Two hours boat rent incl. skipper",
+        "plural": "Two hours boat rent incl. skipper",
+        "note": "",
+        "price": 62248,
+        "min_party_size": 1
+       },
+       {
+        "id": 458790,
+        "singular": "Two hours and half  boat rent incl. skipper",
+        "plural": "Two hours and half boat rent incl. skipper",
+        "note": "",
+        "price": 77810,
+        "min_party_size": 1
+       },
+       {
+        "id": 458799,
+        "singular": "Three hours boat rent incl. skipper",
+        "plural": "Three hours boat rent incl. skipper",
+        "note": "",
+        "price": 93372,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "524008": {
+   "shortname": "amsterdamfoodtours",
+   "currency": "EUR",
+   "item": {
+    "id": 524008,
+    "availability": {
+     "id": 1927591736,
+     "start_at": "2026-08-28T11:00:00",
+     "end_at": "2026-08-28T14:00:00"
+    },
+    "price": {
+     "low": 32917,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 873074,
+        "singular": "1 person ( age 5+ / price pp)",
+        "plural": "1 person ( age 5+ / price pp)",
+        "note": "",
+        "price": 32917,
+        "min_party_size": 1
+       },
+       {
+        "id": 873075,
+        "singular": "Group of 2 ( age 5+ / price pp)",
+        "plural": "Group of 2 ( age 5+ / price pp)",
+        "note": "",
+        "price": 19729,
+        "min_party_size": 1
+       },
+       {
+        "id": 873076,
+        "singular": "Group of 3 ( age 5+ / price pp)",
+        "plural": "Group of 3 ( age 5+ / price pp)",
+        "note": "",
+        "price": 14243,
+        "min_party_size": 1
+       },
+       {
+        "id": 873077,
+        "singular": "Group of 4 ( age 5+ / price pp)",
+        "plural": "Group of 4 ( age 5+ / price pp)",
+        "note": "",
+        "price": 11606,
+        "min_party_size": 1
+       },
+       {
+        "id": 873078,
+        "singular": "Group of 5 ( age 5+ / price pp)",
+        "plural": "Group of 5 ( age 5+ / price pp)",
+        "note": "",
+        "price": 10023,
+        "min_party_size": 1
+       },
+       {
+        "id": 873079,
+        "singular": "Group of 6 ( age 5+ / price pp)",
+        "plural": "Group of 6 ( age 5+ / price pp)",
+        "note": "",
+        "price": 8862,
+        "min_party_size": 1
+       },
+       {
+        "id": 873080,
+        "singular": "Group of 7 ( age 5+ / price pp)",
+        "plural": "Group of 7 ( age 5+ / price pp)",
+        "note": "",
+        "price": 8229,
+        "min_party_size": 1
+       },
+       {
+        "id": 873081,
+        "singular": "Group of 8 ( age 5+ / price pp)",
+        "plural": "Group of 8 ( age 5+ / price pp)",
+        "note": "",
+        "price": 7913,
+        "min_party_size": 1
+       },
+       {
+        "id": 873082,
+        "singular": "Group of 9 ( age 5+ / price pp)",
+        "plural": "Group of 9 ( age 5+ / price pp)",
+        "note": "",
+        "price": 7491,
+        "min_party_size": 1
+       },
+       {
+        "id": 873084,
+        "singular": "Group of 10 ( age 5+ / price pp)",
+        "plural": "Group of 10 ( age 5+ / price pp)",
+        "note": "",
+        "price": 6647,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "314378": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 314378,
+    "availability": {
+     "id": 1864965910,
+     "start_at": "2026-08-27T19:45:00",
+     "end_at": "2026-08-27T19:45:00"
+    },
+    "price": {
+     "low": 34816,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 577514,
+        "singular": "Boat \"Geertje\" - 90 min",
+        "plural": "Boat \"Geertje\" - 90 min",
+        "note": "Small open boat • max 10 people",
+        "price": 34816,
+        "min_party_size": 1
+       },
+       {
+        "id": 577515,
+        "singular": "Boat \"Geertje\" - 2 hours",
+        "plural": "Boat \"Geertje\" - 2 hours",
+        "note": "Small open boat • max 10 people",
+        "price": 45367,
+        "min_party_size": 1
+       },
+       {
+        "id": 577516,
+        "singular": "Boat \"Geertje\" - 3 hours",
+        "plural": "Boat \"Geertje\" - 3 hours",
+        "note": "Small open boat • max 10 people",
+        "price": 66468,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "314383": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 314383,
+    "availability": {
+     "id": 1863801541,
+     "start_at": "2026-08-26T09:45:00",
+     "end_at": "2026-08-26T09:45:00"
+    },
+    "price": {
+     "low": 34816,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 577514,
+        "singular": "Boat \"Geertje\" - 90 min",
+        "plural": "Boat \"Geertje\" - 90 min",
+        "note": "Small open boat • max 10 people",
+        "price": 34816,
+        "min_party_size": 1
+       },
+       {
+        "id": 577515,
+        "singular": "Boat \"Geertje\" - 2 hours",
+        "plural": "Boat \"Geertje\" - 2 hours",
+        "note": "Small open boat • max 10 people",
+        "price": 45367,
+        "min_party_size": 1
+       },
+       {
+        "id": 577516,
+        "singular": "Boat \"Geertje\" - 3 hours",
+        "plural": "Boat \"Geertje\" - 3 hours",
+        "note": "Small open boat • max 10 people",
+        "price": 66468,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "314385": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 314385,
+    "availability": {
+     "id": 1863805890,
+     "start_at": "2026-08-26T10:45:00",
+     "end_at": "2026-08-26T10:45:00"
+    },
+    "price": {
+     "low": 37982,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 577517,
+        "singular": "Boat \"Schollevaar\" - 90 min",
+        "plural": "Boat \"Schollevaar\" - 90 min",
+        "note": "Classic Boat • max 10 people",
+        "price": 37982,
+        "min_party_size": 1
+       },
+       {
+        "id": 577518,
+        "singular": "Boat \"Schollevaar\" - 2 hours",
+        "plural": "Boat \"Schollevaar\" - 2 hours",
+        "note": "Classic Boat • max 10 people",
+        "price": 49587,
+        "min_party_size": 1
+       },
+       {
+        "id": 577519,
+        "singular": "Boat \"Schollevaar\" - 3 hours",
+        "plural": "Boat \"Schollevaar\" - 3 hours",
+        "note": "Classic Boat • max 10 people",
+        "price": 71216,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "314373": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 314373,
+    "availability": {
+     "id": 1864962961,
+     "start_at": "2026-08-26T12:00:00",
+     "end_at": "2026-08-26T12:00:00"
+    },
+    "price": {
+     "low": 39564,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 748428,
+        "singular": "Boat \"Lucy\" 90 Minutes",
+        "plural": "Boat \"Lucy\" 90 Minutes",
+        "note": "Classic Boat • max 6 people",
+        "price": 39564,
+        "min_party_size": 1
+       },
+       {
+        "id": 748429,
+        "singular": "Boat \"Lucy\" 2 Hours",
+        "plural": "Boat \"Lucy\" 2 Hours",
+        "note": "Classic Boat • max 6 people",
+        "price": 52225,
+        "min_party_size": 1
+       },
+       {
+        "id": 748430,
+        "singular": "Boat \"Lucy\" 3 Hours",
+        "plural": "Boat \"Lucy\" 3 Hours",
+        "note": "Classic Boat • max 6 people",
+        "price": 72798,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "415027": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 415027,
+    "availability": {
+     "id": 1862604475,
+     "start_at": "2026-08-26T12:00:00",
+     "end_at": "2026-08-26T12:00:00"
+    },
+    "price": {
+     "low": 39564,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 748428,
+        "singular": "Boat \"Lucy\" 90 Minutes",
+        "plural": "Boat \"Lucy\" 90 Minutes",
+        "note": "Classic Boat • max 6 people",
+        "price": 39564,
+        "min_party_size": 1
+       },
+       {
+        "id": 748429,
+        "singular": "Boat \"Lucy\" 2 Hours",
+        "plural": "Boat \"Lucy\" 2 Hours",
+        "note": "Classic Boat • max 6 people",
+        "price": 52225,
+        "min_party_size": 1
+       },
+       {
+        "id": 748430,
+        "singular": "Boat \"Lucy\" 3 Hours",
+        "plural": "Boat \"Lucy\" 3 Hours",
+        "note": "Classic Boat • max 6 people",
+        "price": 72798,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "314386": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 314386,
+    "availability": {
+     "id": 1887191572,
+     "start_at": "2026-08-27T12:45:00",
+     "end_at": "2026-08-27T12:45:00"
+    },
+    "price": {
+     "low": 44312,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 577520,
+        "singular": "Boat \"Pure Spirit\" - 90 min",
+        "plural": "Boat \"Pure Spirit\" - 90 min",
+        "note": "The Flagship • max 20 people",
+        "price": 44312,
+        "min_party_size": 1
+       },
+       {
+        "id": 577521,
+        "singular": "Boat \"Pure Spirit\" - 2 hours",
+        "plural": "Boat \"Pure Spirit\" - 2 hours",
+        "note": "The Flagship • max 20 people",
+        "price": 57500,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "576273": {
+   "shortname": "pureboats",
+   "currency": "EUR",
+   "item": {
+    "id": 576273,
+    "availability": {
+     "id": 1864877468,
+     "start_at": "2026-08-26T11:45:00",
+     "end_at": "2026-08-26T11:45:00"
+    },
+    "price": {
+     "low": 66468,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1021830,
+        "singular": "Boat \"Stan Huygens\" - 90 Minutes",
+        "plural": "Boat \"Stan Huygens\" - 90 Minutes",
+        "note": "Classic Boat • max 36 people",
+        "price": 66468,
+        "min_party_size": 1
+       },
+       {
+        "id": 1021831,
+        "singular": "Boat \"Stan Huygens\" - 2 hours",
+        "plural": "Boat \"Stan Huygens\" - 2 hours",
+        "note": "Classic Boat • max 36 people",
+        "price": 88624,
+        "min_party_size": 1
+       },
+       {
+        "id": 1021832,
+        "singular": "Boat \"Stan Huygens\" - 3 hours",
+        "plural": "Boat \"Stan Huygens\" - 3 hours",
+        "note": "Classic Boat • max 36 people",
+        "price": 132936,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "396248": {
+   "shortname": "amsterdaminamillion",
+   "currency": "EUR",
+   "item": {
+    "id": 396248,
+    "availability": {
+     "id": 1866108223,
+     "start_at": "2026-08-26T09:30:00",
+     "end_at": "2026-08-26T12:30:00"
+    },
+    "price": {
+     "low": 36736,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 720366,
+        "singular": "Grupos de 1-5 Pessoas",
+        "plural": "Grupos de 1-5 Pessoas",
+        "note": "",
+        "price": 36736,
+        "min_party_size": 1
+       },
+       {
+        "id": 719814,
+        "singular": "Grupos de 6-10 Pessoas",
+        "plural": "Grupos de 6-10 Pessoas",
+        "note": "",
+        "price": 41983,
+        "min_party_size": 1
+       },
+       {
+        "id": 719815,
+        "singular": "Grupos de 11-15 Pessoas",
+        "plural": "Grupos de 11-15 Pessoas",
+        "note": "",
+        "price": 57727,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "396252": {
+   "shortname": "amsterdaminamillion",
+   "currency": "EUR",
+   "item": {
+    "id": 396252,
+    "availability": {
+     "id": 1866140635,
+     "start_at": "2026-08-25T09:30:00",
+     "end_at": "2026-08-25T12:00:00"
+    },
+    "price": {
+     "low": 29388,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 720366,
+        "singular": "Grupos de 1-5 Pessoas",
+        "plural": "Grupos de 1-5 Pessoas",
+        "note": "",
+        "price": 29388,
+        "min_party_size": 1
+       },
+       {
+        "id": 719814,
+        "singular": "Grupos de 6-10 Pessoas",
+        "plural": "Grupos de 6-10 Pessoas",
+        "note": "",
+        "price": 36736,
+        "min_party_size": 1
+       },
+       {
+        "id": 719815,
+        "singular": "Grupos de 11-15 Pessoas",
+        "plural": "Grupos de 11-15 Pessoas",
+        "note": "",
+        "price": 47231,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "540184": {
+   "shortname": "rederijlampedusa",
+   "currency": "EUR",
+   "item": {
+    "id": 540184,
+    "availability": {
+     "id": 1667518592,
+     "start_at": "2026-08-25T10:30:00",
+     "end_at": "2026-08-25T12:00:00"
+    },
+    "price": {
+     "low": 50165,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 958873,
+        "singular": "Private Charter - Boat Hedir",
+        "plural": "Private Charters - Boat Hedir",
+        "note": "Private Hire of our 11 seater boat Hedir, with storyteller and captain.",
+        "price": 50165,
+        "min_party_size": 1
+       },
+       {
+        "id": 963040,
+        "singular": "Private Charter - Boat Mr Friday",
+        "plural": "Private Charters - Boat Mr Friday",
+        "note": "Private Hire of our 30 seater boat Mr Friday, with storyteller and captain.",
+        "price": 107950,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "384741": {
+   "shortname": "abiketours",
+   "currency": "EUR",
+   "item": {
+    "id": 384741,
+    "availability": {
+     "id": 1883978389,
+     "start_at": "2026-08-27T09:30:00",
+     "end_at": "2026-08-27T12:00:00"
+    },
+    "price": {
+     "low": 3936,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 924502,
+        "singular": "1 person",
+        "plural": "1 person",
+        "note": "",
+        "price": 20782,
+        "min_party_size": 1
+       },
+       {
+        "id": 924503,
+        "singular": "2 persons",
+        "plural": "2 persons",
+        "note": "",
+        "price": 10391,
+        "min_party_size": 1
+       },
+       {
+        "id": 924504,
+        "singular": "3 persons",
+        "plural": "3 persons",
+        "note": "",
+        "price": 6927,
+        "min_party_size": 1
+       },
+       {
+        "id": 924505,
+        "singular": "4-9 persons",
+        "plural": "4-9 persons",
+        "note": "",
+        "price": 5195,
+        "min_party_size": 1
+       },
+       {
+        "id": 924507,
+        "singular": "10+ persons",
+        "plural": "10+ persons",
+        "note": "",
+        "price": 3936,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "148032": {
+   "shortname": "amsterdamprivateboattour",
+   "currency": "EUR",
+   "item": {
+    "id": 148032,
+    "availability": {
+     "id": 1752065526,
+     "start_at": "2026-08-25T11:00:00",
+     "end_at": "2026-08-25T12:30:00"
+    },
+    "price": {
+     "low": 36927,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 466996,
+        "singular": "Private Cruise",
+        "plural": "Private Cruise",
+        "note": "Up to 12 People",
+        "price": 36927,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "177428": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 177428,
+    "availability": {
+     "id": 1782430994,
+     "start_at": "2026-08-31T10:00:00",
+     "end_at": "2026-08-31T17:15:00"
+    },
+    "price": {
+     "low": 13992,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 23320,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15688,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13992,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "117571": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 117571,
+    "availability": {
+     "id": 1757266643,
+     "start_at": "2026-08-31T10:00:00",
+     "end_at": "2026-08-31T17:15:00"
+    },
+    "price": {
+     "low": 13992,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 23320,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15688,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13992,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "190046": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 190046,
+    "availability": {
+     "id": 1757267161,
+     "start_at": "2026-08-31T10:00:00",
+     "end_at": "2026-08-31T17:15:00"
+    },
+    "price": {
+     "low": 13992,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 23320,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15688,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13992,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "190121": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 190121,
+    "availability": {
+     "id": 1757267521,
+     "start_at": "2026-08-31T10:00:00",
+     "end_at": "2026-08-31T17:15:00"
+    },
+    "price": {
+     "low": 13992,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 23320,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15688,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13992,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "190099": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 190099,
+    "availability": {
+     "id": 1757268029,
+     "start_at": "2026-08-31T10:00:00",
+     "end_at": "2026-08-31T17:15:00"
+    },
+    "price": {
+     "low": 13462,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 22260,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15264,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13462,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "190128": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 190128,
+    "availability": {
+     "id": 1757268431,
+     "start_at": "2026-08-31T10:00:00",
+     "end_at": "2026-08-31T17:15:00"
+    },
+    "price": {
+     "low": 13992,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 23320,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15688,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13992,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "190132": {
+   "shortname": "privatedaytoursamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 190132,
+    "availability": {
+     "id": 2100831487,
+     "start_at": "2027-03-18T10:00:00",
+     "end_at": "2027-03-18T17:15:00"
+    },
+    "price": {
+     "low": 13992,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 619316,
+        "singular": "1 Person",
+        "plural": "1 Person",
+        "note": "(Ages 7+)",
+        "price": 57240,
+        "min_party_size": 1
+       },
+       {
+        "id": 619317,
+        "singular": "2 People",
+        "plural": "2 People",
+        "note": "(Ages 7+)",
+        "price": 31270,
+        "min_party_size": 1
+       },
+       {
+        "id": 619318,
+        "singular": "3 People",
+        "plural": "3 People",
+        "note": "(Ages 7+)",
+        "price": 23320,
+        "min_party_size": 1
+       },
+       {
+        "id": 619319,
+        "singular": "4 People",
+        "plural": "4 People",
+        "note": "(Ages 7+)",
+        "price": 18285,
+        "min_party_size": 1
+       },
+       {
+        "id": 619320,
+        "singular": "5 People",
+        "plural": "5 People",
+        "note": "(Ages 7+)",
+        "price": 15688,
+        "min_party_size": 1
+       },
+       {
+        "id": 619321,
+        "singular": "6 People",
+        "plural": "6 People",
+        "note": "(Ages 7+)",
+        "price": 13992,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "619538": {
+   "shortname": "yellowbike",
+   "currency": "EUR",
+   "item": {
+    "id": 619538,
+    "availability": {
+     "id": 1985728784,
+     "start_at": "2026-08-27T09:15:00",
+     "end_at": "2026-08-27T12:15:00"
+    },
+    "price": {
+     "low": 3464,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1212928,
+        "singular": "Koppel / Twee personen",
+        "plural": "Koppels",
+        "note": "Prijs per koppel",
+        "price": 15639,
+        "min_party_size": 1
+       },
+       {
+        "id": 1050396,
+        "singular": "Besloten groep tot 4 personen",
+        "plural": "Besloten groep tot 4 personen",
+        "note": "Prijs per groep",
+        "price": 20887,
+        "min_party_size": 1
+       },
+       {
+        "id": 813324,
+        "singular": "Besloten groep tot 8 personen",
+        "plural": "Besloten groep tot 8 personen",
+        "note": "Prijs per groep",
+        "price": 37785,
+        "min_party_size": 1
+       },
+       {
+        "id": 813325,
+        "singular": "Besloten groep 9 - 19 personen",
+        "plural": "Besloten groep 9 - 19 personen",
+        "note": "Prijs per persoon",
+        "price": 3674,
+        "min_party_size": 1
+       },
+       {
+        "id": 813326,
+        "singular": "Besloten groep 20 - 29 personen",
+        "plural": "Besloten groep 20 - 29 personen",
+        "note": "Prijs per persoon",
+        "price": 3569,
+        "min_party_size": 1
+       },
+       {
+        "id": 813327,
+        "singular": "Besloten groep 30 - 49 personen",
+        "plural": "Besloten groep 30 - 49 personen",
+        "note": "Prijs per persoon",
+        "price": 3516,
+        "min_party_size": 1
+       },
+       {
+        "id": 1062673,
+        "singular": "Besloten groep 50+ personen",
+        "plural": "Besloten groep 50+ personen",
+        "note": "Prijs per persoon",
+        "price": 3464,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "453211": {
+   "shortname": "yellowbike",
+   "currency": "EUR",
+   "item": {
+    "id": 453211,
+    "availability": {
+     "id": 1873138488,
+     "start_at": "2026-08-26T09:15:00",
+     "end_at": "2026-08-26T12:15:00"
+    },
+    "price": {
+     "low": 3464,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1212928,
+        "singular": "Koppel / Twee personen",
+        "plural": "Koppels",
+        "note": "Prijs per koppel",
+        "price": 15639,
+        "min_party_size": 1
+       },
+       {
+        "id": 1050396,
+        "singular": "Besloten groep tot 4 personen",
+        "plural": "Besloten groep tot 4 personen",
+        "note": "Prijs per groep",
+        "price": 20887,
+        "min_party_size": 1
+       },
+       {
+        "id": 813324,
+        "singular": "Besloten groep tot 8 personen",
+        "plural": "Besloten groep tot 8 personen",
+        "note": "Prijs per groep",
+        "price": 37785,
+        "min_party_size": 1
+       },
+       {
+        "id": 813325,
+        "singular": "Besloten groep 9 - 19 personen",
+        "plural": "Besloten groep 9 - 19 personen",
+        "note": "Prijs per persoon",
+        "price": 3674,
+        "min_party_size": 1
+       },
+       {
+        "id": 813327,
+        "singular": "Besloten groep 30 - 49 personen",
+        "plural": "Besloten groep 30 - 49 personen",
+        "note": "Prijs per persoon",
+        "price": 3516,
+        "min_party_size": 1
+       },
+       {
+        "id": 1062673,
+        "singular": "Besloten groep 50+ personen",
+        "plural": "Besloten groep 50+ personen",
+        "note": "Prijs per persoon",
+        "price": 3464,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "508139": {
+   "shortname": "yellowbike",
+   "currency": "EUR",
+   "item": {
+    "id": 508139,
+    "availability": {
+     "id": 1998377091,
+     "start_at": "2026-08-27T10:00:00",
+     "end_at": "2026-08-27T12:00:00"
+    },
+    "price": {
+     "low": 2414,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1212928,
+        "singular": "Koppel / Twee personen",
+        "plural": "Koppels",
+        "note": "Prijs per koppel",
+        "price": 10391,
+        "min_party_size": 1
+       },
+       {
+        "id": 1050396,
+        "singular": "Besloten groep tot 4 personen",
+        "plural": "Besloten groep tot 4 personen",
+        "note": "Prijs per groep",
+        "price": 15639,
+        "min_party_size": 1
+       },
+       {
+        "id": 813324,
+        "singular": "Besloten groep tot 8 personen",
+        "plural": "Besloten groep tot 8 personen",
+        "note": "Prijs per groep",
+        "price": 24350,
+        "min_party_size": 1
+       },
+       {
+        "id": 813325,
+        "singular": "Besloten groep 9 - 19 personen",
+        "plural": "Besloten groep 9 - 19 personen",
+        "note": "Prijs per persoon",
+        "price": 2624,
+        "min_party_size": 1
+       },
+       {
+        "id": 813327,
+        "singular": "Besloten groep 30 - 49 personen",
+        "plural": "Besloten groep 30 - 49 personen",
+        "note": "Prijs per persoon",
+        "price": 2467,
+        "min_party_size": 1
+       },
+       {
+        "id": 1062673,
+        "singular": "Besloten groep 50+ personen",
+        "plural": "Besloten groep 50+ personen",
+        "note": "Prijs per persoon",
+        "price": 2414,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "635956": {
+   "shortname": "rederijlutine",
+   "currency": "EUR",
+   "item": {
+    "id": 635956,
+    "availability": {
+     "id": 1760263841,
+     "start_at": "2026-08-26T09:00:00",
+     "end_at": "2026-08-26T10:00:00"
+    },
+    "price": {
+     "low": 35872,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 1117771,
+        "singular": "Anderhalf uur Privé Tour",
+        "plural": "Anderhalf uur Privé Tour",
+        "note": "Maximaal 6 personen",
+        "price": 35872,
+        "min_party_size": 1
+       },
+       {
+        "id": 1117772,
+        "singular": "Twee uur Privé Tour",
+        "plural": "Twee uur Privé Tour",
+        "note": "Maximal 6 personen",
+        "price": 45367,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "353963": {
+   "shortname": "funamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 353963,
+    "availability": {
+     "id": 1875046805,
+     "start_at": "2026-08-26T12:00:00",
+     "end_at": "2026-08-26T13:15:00"
+    },
+    "price": {
+     "low": 31610,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 645279,
+        "singular": "Extra Small Group - 1 to 6 persons",
+        "plural": "Extra Small Group - 1 to 6 persons",
+        "note": "",
+        "price": 31610,
+        "min_party_size": 1
+       },
+       {
+        "id": 644972,
+        "singular": "Small Group - 7 to 8 persons",
+        "plural": "Small Group - 7 to 8 persons",
+        "note": "",
+        "price": 39513,
+        "min_party_size": 1
+       },
+       {
+        "id": 644976,
+        "singular": "Medium Group - 9 to 12 persons",
+        "plural": "Medium Group - 9 to 12 persons",
+        "note": "",
+        "price": 47416,
+        "min_party_size": 1
+       },
+       {
+        "id": 644994,
+        "singular": "Large Group - 13 to 16 persons",
+        "plural": "Large Group - 13 to 16 persons",
+        "note": "",
+        "price": 57952,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "354014": {
+   "shortname": "funamsterdam",
+   "currency": "EUR",
+   "item": {
+    "id": 354014,
+    "availability": {
+     "id": 1774694147,
+     "start_at": "2026-08-26T12:00:00",
+     "end_at": "2026-08-26T13:15:00"
+    },
+    "price": {
+     "low": 31610,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 645279,
+        "singular": "Extra Small Group - 1 to 6 persons",
+        "plural": "Extra Small Group - 1 to 6 persons",
+        "note": "",
+        "price": 31610,
+        "min_party_size": 1
+       },
+       {
+        "id": 644972,
+        "singular": "Small Group - 7 to 8 persons",
+        "plural": "Small Group - 7 to 8 persons",
+        "note": "",
+        "price": 39513,
+        "min_party_size": 1
+       },
+       {
+        "id": 644976,
+        "singular": "Medium Group - 9 to 12 persons",
+        "plural": "Medium Group - 9 to 12 persons",
+        "note": "",
+        "price": 47416,
+        "min_party_size": 1
+       },
+       {
+        "id": 644994,
+        "singular": "Large Group - 13 to 16 persons",
+        "plural": "Large Group - 13 to 16 persons",
+        "note": "",
+        "price": 57952,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  },
+  "234991": {
+   "shortname": "amsterdamts",
+   "currency": "EUR",
+   "item": {
+    "id": 234991,
+    "availability": {
+     "id": 1970101529,
+     "start_at": "2026-08-26T07:00:00",
+     "end_at": "2026-08-26T18:00:00"
+    },
+    "price": {
+     "low": 84404,
+     "high": null,
+     "breakdown": {
+      "customer_types": [
+       {
+        "id": 442324,
+        "singular": "Group of 1 to 3 people",
+        "plural": "Group of 1 to 3 people",
+        "note": "Price per group",
+        "price": 84404,
+        "min_party_size": 1
+       },
+       {
+        "id": 442325,
+        "singular": "Group of 4 to 7 people",
+        "plural": "Group of 4 to 7 people",
+        "note": "Price per group",
+        "price": 94954,
+        "min_party_size": 1
+       },
+       {
+        "id": 442326,
+        "singular": "Group of 8 to 19 people",
+        "plural": "Group of 8 to 19 people",
+        "note": "Price per group",
+        "price": 125550,
+        "min_party_size": 1
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ "errors": {
+  "pureboats:314378,314383,314385,415027,576273,314386,314373:a1": "TimeoutError('The read operation timed out')"
+ }
+}

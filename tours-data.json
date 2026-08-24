@@ -2965,9 +2965,75 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-25T09:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Private Cruise - 1 Hour\" (no note) prices a party/boat, not a seat; live ladder [('Private Cruise - 1 Hour', 36927, ''), ('Private Cruise - 1.5 Hours', 50115, ''), ('Private Cruise - 2 Hours', 63303, ''), ('Private Cruise - 2.5 Hours', 76491, ''), ('Private Cruise - 3 Hours', 89679, ''), ('Private Cruise - 3.5 Hours', 102867, ''), ('Private Cruise - 5.5 Hours', 171445, ''), ('Private Cruise - 7.5 Hours', 234748, '')]; true amount 369.27 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 15",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "HELD (R2, no derivable priceUnit): anchor \"Private Cruise - 1 Hour\" prices a boat but no tier label/note carries cap or party language; live ladder confirmed 2026-08-24 [('Private Cruise - 1 Hour', 36927, ''), ('Private Cruise - 1.5 Hours', 50115, ''), ('Private Cruise - 2 Hours', 63303, ''), ('Private Cruise - 2.5 Hours', 76491, ''), ('Private Cruise - 3 Hours', 89679, ''), ('Private Cruise - 3.5 Hours', 102867, ''), ('Private Cruise - 5.5 Hours', 171445, ''), ('Private Cruise - 7.5 Hours', 234748, '')]; stored figure 369.27 EUR (s47 anchor) retained; live floor 369.27 EUR; not published",
+      "priceVerifiedAt": "2026-08-24",
+      "priceTiers": [
+        {
+          "singular": "Private Cruise - 1 Hour",
+          "plural": "Private Cruise - 1 Hour",
+          "note": "",
+          "priceCents": 36927,
+          "price": 369.27,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 1.5 Hours",
+          "plural": "Private Cruise - 1.5 Hours",
+          "note": "",
+          "priceCents": 50115,
+          "price": 501.15,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 2 Hours",
+          "plural": "Private Cruise - 2 Hours",
+          "note": "",
+          "priceCents": 63303,
+          "price": 633.03,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 2.5 Hours",
+          "plural": "Private Cruise - 2.5 Hours",
+          "note": "",
+          "priceCents": 76491,
+          "price": 764.91,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 3 Hours",
+          "plural": "Private Cruise - 3 Hours",
+          "note": "",
+          "priceCents": 89679,
+          "price": 896.79,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 3.5 Hours",
+          "plural": "Private Cruise - 3.5 Hours",
+          "note": "",
+          "priceCents": 102867,
+          "price": 1028.67,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 5.5 Hours",
+          "plural": "Private Cruise - 5.5 Hours",
+          "note": "",
+          "priceCents": 171445,
+          "price": 1714.45,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Cruise - 7.5 Hours",
+          "plural": "Private Cruise - 7.5 Hours",
+          "note": "",
+          "priceCents": 234748,
+          "price": 2347.48,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "431111",
@@ -5227,7 +5293,7 @@
       "island": "haarlem",
       "price": 199,
       "priceLabel": "Private group of 1 to 15 people",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 91,
       "currency": "EUR",
       "duration": "2 hours",
@@ -5283,9 +5349,22 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T09:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Private group of 1 to 15 people\" (no note) prices a party/boat, not a seat; live ladder [('Private group of 1 to 15 people', 19900, '')]; true amount 199 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 199",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Private group of 1 to 15 people\" = 199 EUR; priceUnit \"per group, 1 to 15 people\" derived verbatim from that label/note; single whole-group tier; FH price.low 19900; live ladder [('Private group of 1 to 15 people', 19900)]; prior s47 HELD figure was 199",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1 to 15 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Private group of 1 to 15 people",
+          "plural": "Private groups of 1 to 15 people",
+          "note": "",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "674842",
@@ -7173,9 +7252,27 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-25T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"2 hours boat cruise\" (no note) prices a party/boat, not a seat; live ladder [('2 hours boat cruise', 45000, ''), ('1,5 hours boat cruise', 35000, '')]; true amount 450 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 350",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "HELD (R2, no derivable priceUnit): anchor \"2 hours boat cruise\" prices a boat but no tier label/note carries cap or party language; live ladder confirmed 2026-08-24 [('2 hours boat cruise', 45000, ''), ('1,5 hours boat cruise', 35000, '')]; stored figure 450 EUR (s47 anchor) retained; live floor 350 EUR; not published",
+      "priceVerifiedAt": "2026-08-24",
+      "priceTiers": [
+        {
+          "singular": "2 hours boat cruise",
+          "plural": "2 hours boat cruise",
+          "note": "",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        },
+        {
+          "singular": "1,5 hours boat cruise",
+          "plural": "1,5 hours boat cruise",
+          "note": "",
+          "priceCents": 35000,
+          "price": 350,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "107780",
@@ -7612,9 +7709,9 @@
       "category": "",
       "location": "Netherlands/Noord-Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 18.84,
-      "priceLabel": "Child | No Drinks",
-      "priceConfidence": "low",
+      "price": 416.74,
+      "priceLabel": "Private Group - 1 Hour Cruise",
+      "priceConfidence": "high",
       "qualityScore": 88,
       "currency": "EUR",
       "duration": "1 Hour",
@@ -7699,9 +7796,54 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-25T10:30:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: child-only ladder, no adult per-person tier; live ladder [('Child | No Drinks', 1884, 'Up to 18 years old'), ('Child | Including Drinks', 2517, 'Up to 18 years old • Soft drinks included'), ('Private Group - 1 Hour Cruise', 41674, ''), ('Private Group - 2 Hours Cruise', 60665, '')]; true amount 18.84 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 45",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-621: anchor tier \"Private Group - 1 Hour Cruise\" = 416.74 EUR; priceUnit \"per boat, 1 hour\" derived verbatim from that label/note; child tiers (\"Child | No Drinks\" 18.84, \"Child | Including Drinks\" 25.17) are concessions and never anchor; prior s47 figure 18.84 was child-anchored; FH price.low 1884 (not the ruled anchor 41674: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('Child | No Drinks', 1884), ('Child | Including Drinks', 2517), ('Infant', 0), ('Private Group - 1 Hour Cruise', 41674), ('Private Group - 2 Hours Cruise', 60665)]; prior s47 HELD figure was 18.84",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, 1 hour"
+      },
+      "priceTiers": [
+        {
+          "singular": "Child | No Drinks",
+          "plural": "Children | No Drinks",
+          "note": "Up to 18 years old",
+          "priceCents": 1884,
+          "price": 18.84,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Child | Including Drinks",
+          "plural": "Children | Including Drinks",
+          "note": "Up to 18 years old • Soft drinks included",
+          "priceCents": 2517,
+          "price": 25.17,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Group - 1 Hour Cruise",
+          "plural": "Private Groups - 1 Hour Cruise",
+          "note": "",
+          "priceCents": 41674,
+          "price": 416.74,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Group - 2 Hours Cruise",
+          "plural": "Private Groups - 2 Hours Cruise",
+          "note": "",
+          "priceCents": 60665,
+          "price": 606.65,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "688411",
@@ -7778,7 +7920,7 @@
       "island": "amsterdam",
       "price": 272.89,
       "priceLabel": "Private tour 1-4 persons",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 88,
       "currency": "EUR",
       "duration": "2 hours",
@@ -7927,9 +8069,110 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T09:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Private tour 1-4 persons\" (no note) prices a party/boat, not a seat; live ladder [('Private tour 1-4 persons', 27289, ''), ('Private tour 5 persons', 28339, ''), ('Private tour 6 persons', 29388, ''), ('Private tour 7 persons', 30438, ''), ('Private tour 8 persons', 31488, ''), ('Private tour 9 persons', 32537, ''), ('Private tour 10 persons', 33587, ''), ('Private tour 11 persons', 34636, ''), ('Private tour 12 persons', 35686, ''), ('Private tour 13 persons', 36736, ''), ('Private tour 14 persons', 37785, ''), ('Private tour 15 persons', 38835, '')]; true amount 272.89 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 239",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Private tour 1-4 persons\" = 272.89 EUR; priceUnit \"per group, 1-4 persons\" derived verbatim from that label/note; floor band; FH price.low 27289; live ladder [('Private tour 1-4 persons', 27289), ('Private tour 5 persons', 28339), ('Private tour 6 persons', 29388), ('Private tour 7 persons', 30438), ('Private tour 8 persons', 31488), ('Private tour 9 persons', 32537), ('Private tour 10 persons', 33587), ('Private tour 11 persons', 34636), ('Private tour 12 persons', 35686), ('Private tour 13 persons', 36736), ('Private tour 14 persons', 37785), ('Private tour 15 persons', 38835)]; prior s47 HELD figure was 272.89",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1-4 persons"
+      },
+      "priceTiers": [
+        {
+          "singular": "Private tour 1-4 persons",
+          "plural": "Private tours 1-4 persons",
+          "note": "",
+          "priceCents": 27289,
+          "price": 272.89,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 5 persons",
+          "plural": "Private tours 5 persons",
+          "note": "",
+          "priceCents": 28339,
+          "price": 283.39,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 6 persons",
+          "plural": "Private tours 6 persons",
+          "note": "",
+          "priceCents": 29388,
+          "price": 293.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 7 persons",
+          "plural": "Private tours 7 persons",
+          "note": "",
+          "priceCents": 30438,
+          "price": 304.38,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 8 persons",
+          "plural": "Private tours 8 persons",
+          "note": "",
+          "priceCents": 31488,
+          "price": 314.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 9 persons",
+          "plural": "Private tours 9 persons",
+          "note": "",
+          "priceCents": 32537,
+          "price": 325.37,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 10 persons",
+          "plural": "Private tours 10 persons",
+          "note": "",
+          "priceCents": 33587,
+          "price": 335.87,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 11 persons",
+          "plural": "Private tour 11 persons",
+          "note": "",
+          "priceCents": 34636,
+          "price": 346.36,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 12 persons",
+          "plural": "Private tour 12 persons",
+          "note": "",
+          "priceCents": 35686,
+          "price": 356.86,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 13 persons",
+          "plural": "Private tour 13 persons",
+          "note": "",
+          "priceCents": 36736,
+          "price": 367.36,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 14 persons",
+          "plural": "Private tour 14 persons",
+          "note": "",
+          "priceCents": 37785,
+          "price": 377.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 15 persons",
+          "plural": "Private tour 15 persons",
+          "note": "",
+          "priceCents": 38835,
+          "price": 388.35,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "189141",
@@ -9585,9 +9828,43 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-30T11:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"One hour and half  boat rent incl. skipper\" (no note) prices a party/boat, not a seat; live ladder [('One hour and half  boat rent incl. skipper', 46686, ''), ('Two hours boat rent incl. skipper', 62248, ''), ('Two hours and half  boat rent incl. skipper', 77810, ''), ('Three hours boat rent incl. skipper', 93372, '')]; true amount 466.86 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 15",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "HELD (R2, no derivable priceUnit): anchor \"One hour and half  boat rent incl. skipper\" prices a boat but no tier label/note carries cap or party language; live ladder confirmed 2026-08-24 [('One hour and half  boat rent incl. skipper', 46686, ''), ('Two hours boat rent incl. skipper', 62248, ''), ('Two hours and half  boat rent incl. skipper', 77810, ''), ('Three hours boat rent incl. skipper', 93372, '')]; stored figure 466.86 EUR (s47 anchor) retained; live floor 466.86 EUR; not published",
+      "priceVerifiedAt": "2026-08-24",
+      "priceTiers": [
+        {
+          "singular": "One hour and half  boat rent incl. skipper",
+          "plural": "One hour and half  boat rent incl. skipper",
+          "note": "",
+          "priceCents": 46686,
+          "price": 466.86,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Two hours boat rent incl. skipper",
+          "plural": "Two hours boat rent incl. skipper",
+          "note": "",
+          "priceCents": 62248,
+          "price": 622.48,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Two hours and half  boat rent incl. skipper",
+          "plural": "Two hours and half boat rent incl. skipper",
+          "note": "",
+          "priceCents": 77810,
+          "price": 778.1,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Three hours boat rent incl. skipper",
+          "plural": "Three hours boat rent incl. skipper",
+          "note": "",
+          "priceCents": 93372,
+          "price": 933.72,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "422416",
@@ -12811,9 +13088,75 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-09-08T11:30:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Private tour 1 person\" (no note) prices a party/boat, not a seat; live ladder [('Private tour 1 person', 36631, ''), ('Private tour 2 persons', 41878, ''), ('Private tour 3 persons', 47126, ''), ('Private tour 1-4 persons', 52374, ''), ('Private tour 5 persons', 57622, ''), ('Private tour 6 persons', 62870, ''), ('Private tour 7 persons', 68118, ''), ('Private tour 8 persons', 73366, '')]; true amount 366.31 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 366",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "HELD (R2, no derivable priceUnit): whole-group ladder (\"Private tour 1 person\" .. \"8 persons\") but no tier label/note carries a unit-bearing cap or per-group note; live ladder confirmed 2026-08-24 [('Private tour 1 person', 36631, ''), ('Private tour 2 persons', 41878, ''), ('Private tour 3 persons', 47126, ''), ('Private tour 1-4 persons', 52374, ''), ('Private tour 5 persons', 57622, ''), ('Private tour 6 persons', 62870, ''), ('Private tour 7 persons', 68118, ''), ('Private tour 8 persons', 73366, '')]; stored figure 366.31 EUR (s47 anchor) retained; live floor 366.31 EUR; not published",
+      "priceVerifiedAt": "2026-08-24",
+      "priceTiers": [
+        {
+          "singular": "Private tour 1 person",
+          "plural": "Private tours 1 Person",
+          "note": "",
+          "priceCents": 36631,
+          "price": 366.31,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 2 persons",
+          "plural": "Private tours 2 persons",
+          "note": "",
+          "priceCents": 41878,
+          "price": 418.78,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 3 persons",
+          "plural": "Private tours 3 persons",
+          "note": "",
+          "priceCents": 47126,
+          "price": 471.26,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 1-4 persons",
+          "plural": "Private tours 1-4 persons",
+          "note": "",
+          "priceCents": 52374,
+          "price": 523.74,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 5 persons",
+          "plural": "Private tours 5 persons",
+          "note": "",
+          "priceCents": 57622,
+          "price": 576.22,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 6 persons",
+          "plural": "Private tours 6 persons",
+          "note": "",
+          "priceCents": 62870,
+          "price": 628.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 7 persons",
+          "plural": "Private tours 7 persons",
+          "note": "",
+          "priceCents": 68118,
+          "price": 681.18,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private tour 8 persons",
+          "plural": "Private tours 8 persons",
+          "note": "",
+          "priceCents": 73366,
+          "price": 733.66,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "640088",
@@ -14370,9 +14713,9 @@
       "category": "",
       "location": "Netherlands/Noord-Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 329.17,
-      "priceLabel": "1 person ( age 5+ / price pp)",
-      "priceConfidence": "low",
+      "price": 66.47,
+      "priceLabel": "Group of 10 ( age 5+ / price pp)",
+      "priceConfidence": "high",
       "qualityScore": 79,
       "currency": "EUR",
       "duration": null,
@@ -14496,9 +14839,94 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-28T11:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 person ( age 5+ / price pp)\" heads a party-size sliding ladder (10 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 person ( age 5+ / price pp)', 32917, ''), ('Group of 2 ( age 5+ / price pp)', 19729, ''), ('Group of 3 ( age 5+ / price pp)', 14243, ''), ('Group of 4 ( age 5+ / price pp)', 11606, ''), ('Group of 5 ( age 5+ / price pp)', 10023, ''), ('Group of 6 ( age 5+ / price pp)', 8862, ''), ('Group of 7 ( age 5+ / price pp)', 8229, ''), ('Group of 8 ( age 5+ / price pp)', 7913, ''), ('Group of 9 ( age 5+ / price pp)', 7491, ''), ('Group of 10 ( age 5+ / price pp)', 6647, '')]; true amount 329.17 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 20",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"Group of 10 ( age 5+ / price pp)\" = 66.47 EUR; priceUnit \"per person, group of 10\" derived verbatim from that label/note; per-person sliding ladder (price pp); FH price.low 32917 (not the ruled anchor 6647: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('1 person ( age 5+ / price pp)', 32917), ('Group of 2 ( age 5+ / price pp)', 19729), ('Group of 3 ( age 5+ / price pp)', 14243), ('Group of 4 ( age 5+ / price pp)', 11606), ('Group of 5 ( age 5+ / price pp)', 10023), ('Group of 6 ( age 5+ / price pp)', 8862), ('Group of 7 ( age 5+ / price pp)', 8229), ('Group of 8 ( age 5+ / price pp)', 7913), ('Group of 9 ( age 5+ / price pp)', 7491), ('Group of 10 ( age 5+ / price pp)', 6647)]; prior s47 HELD figure was 329.17",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 10"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 person ( age 5+ / price pp)",
+          "plural": "1 person ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 32917,
+          "price": 329.17,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 2 ( age 5+ / price pp)",
+          "plural": "Group of 2 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 19729,
+          "price": 197.29,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 3 ( age 5+ / price pp)",
+          "plural": "Group of 3 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 14243,
+          "price": 142.43,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 4 ( age 5+ / price pp)",
+          "plural": "Group of 4 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 11606,
+          "price": 116.06,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 5 ( age 5+ / price pp)",
+          "plural": "Group of 5 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 10023,
+          "price": 100.23,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 6 ( age 5+ / price pp)",
+          "plural": "Group of 6 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 8862,
+          "price": 88.62,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 7 ( age 5+ / price pp)",
+          "plural": "Group of 7 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 8229,
+          "price": 82.29,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 8 ( age 5+ / price pp)",
+          "plural": "Group of 8 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 7913,
+          "price": 79.13,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 9 ( age 5+ / price pp)",
+          "plural": "Group of 9 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 7491,
+          "price": 74.91,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 10 ( age 5+ / price pp)",
+          "plural": "Group of 10 ( age 5+ / price pp)",
+          "note": "",
+          "priceCents": 6647,
+          "price": 66.47,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "569762",
@@ -17101,7 +17529,7 @@
       "island": "amsterdam",
       "price": 348.16,
       "priceLabel": "Boat \"Geertje\" - 90 min",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": null,
@@ -17164,9 +17592,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-27T19:45:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Geertje\" - 90 min\" (Small open boat • max 10 people) prices a party/boat, not a seat; live ladder [('Boat \"Geertje\" - 90 min', 34816, 'Small open boat • max 10 people'), ('Boat \"Geertje\" - 2 hours', 45367, 'Small open boat • max 10 people'), ('Boat \"Geertje\" - 3 hours', 66468, 'Small open boat • max 10 people')]; true amount 348.16 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 353",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Geertje\" - 90 min\" (Small open boat • max 10 people) = 348.16 EUR; priceUnit \"per boat, max 10 people\" derived verbatim from that label/note; whole-boat duration ladder; note \"Small open boat • max 10 people\"; FH price.low 34816; live ladder [('Boat \"Geertje\" - 90 min', 34816), ('Boat \"Geertje\" - 2 hours', 45367), ('Boat \"Geertje\" - 3 hours', 66468)]; prior s47 HELD figure was 348.16",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 10 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Geertje\" - 90 min",
+          "plural": "Boat \"Geertje\" - 90 min",
+          "note": "Small open boat • max 10 people",
+          "priceCents": 34816,
+          "price": 348.16,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Geertje\" - 2 hours",
+          "plural": "Boat \"Geertje\" - 2 hours",
+          "note": "Small open boat • max 10 people",
+          "priceCents": 45367,
+          "price": 453.67,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Geertje\" - 3 hours",
+          "plural": "Boat \"Geertje\" - 3 hours",
+          "note": "Small open boat • max 10 people",
+          "priceCents": 66468,
+          "price": 664.68,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "314383",
@@ -17179,7 +17636,7 @@
       "island": "amsterdam",
       "price": 348.16,
       "priceLabel": "Boat \"Geertje\" - 90 min",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": "90 min",
@@ -17245,9 +17702,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T09:45:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Geertje\" - 90 min\" (Small open boat • max 10 people) prices a party/boat, not a seat; live ladder [('Boat \"Geertje\" - 90 min', 34816, 'Small open boat • max 10 people'), ('Boat \"Geertje\" - 2 hours', 45367, 'Small open boat • max 10 people'), ('Boat \"Geertje\" - 3 hours', 66468, 'Small open boat • max 10 people')]; true amount 348.16 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 316",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Geertje\" - 90 min\" (Small open boat • max 10 people) = 348.16 EUR; priceUnit \"per boat, max 10 people\" derived verbatim from that label/note; whole-boat duration ladder; note \"Small open boat • max 10 people\"; FH price.low 34816; live ladder [('Boat \"Geertje\" - 90 min', 34816), ('Boat \"Geertje\" - 2 hours', 45367), ('Boat \"Geertje\" - 3 hours', 66468)]; prior s47 HELD figure was 348.16",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 10 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Geertje\" - 90 min",
+          "plural": "Boat \"Geertje\" - 90 min",
+          "note": "Small open boat • max 10 people",
+          "priceCents": 34816,
+          "price": 348.16,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Geertje\" - 2 hours",
+          "plural": "Boat \"Geertje\" - 2 hours",
+          "note": "Small open boat • max 10 people",
+          "priceCents": 45367,
+          "price": 453.67,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Geertje\" - 3 hours",
+          "plural": "Boat \"Geertje\" - 3 hours",
+          "note": "Small open boat • max 10 people",
+          "priceCents": 66468,
+          "price": 664.68,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "314385",
@@ -17260,7 +17746,7 @@
       "island": "amsterdam",
       "price": 379.82,
       "priceLabel": "Boat \"Schollevaar\" - 90 min",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": "90 min",
@@ -17327,9 +17813,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T10:45:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Schollevaar\" - 90 min\" (Classic Boat • max 10 people) prices a party/boat, not a seat; live ladder [('Boat \"Schollevaar\" - 90 min', 37982, 'Classic Boat • max 10 people'), ('Boat \"Schollevaar\" - 2 hours', 49587, 'Classic Boat • max 10 people'), ('Boat \"Schollevaar\" - 3 hours', 71216, 'Classic Boat • max 10 people')]; true amount 379.82 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 353",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Schollevaar\" - 90 min\" (Classic Boat • max 10 people) = 379.82 EUR; priceUnit \"per boat, max 10 people\" derived verbatim from that label/note; whole-boat duration ladder; note \"Classic Boat • max 10 people\"; FH price.low 37982; live ladder [('Boat \"Schollevaar\" - 90 min', 37982), ('Boat \"Schollevaar\" - 2 hours', 49587), ('Boat \"Schollevaar\" - 3 hours', 71216)]; prior s47 HELD figure was 379.82",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 10 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Schollevaar\" - 90 min",
+          "plural": "Boat \"Schollevaar\" - 90 min",
+          "note": "Classic Boat • max 10 people",
+          "priceCents": 37982,
+          "price": 379.82,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Schollevaar\" - 2 hours",
+          "plural": "Boat \"Schollevaar\" - 2 hours",
+          "note": "Classic Boat • max 10 people",
+          "priceCents": 49587,
+          "price": 495.87,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Schollevaar\" - 3 hours",
+          "plural": "Boat \"Schollevaar\" - 3 hours",
+          "note": "Classic Boat • max 10 people",
+          "priceCents": 71216,
+          "price": 712.16,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "396248",
@@ -17342,7 +17857,7 @@
       "island": "amsterdam",
       "price": 367.36,
       "priceLabel": "Grupos de 1-5 Pessoas",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": null,
@@ -17403,9 +17918,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T09:30:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Grupos de 1-5 Pessoas\" (no note) prices a party/boat, not a seat; live ladder [('Grupos de 1-5 Pessoas', 36736, ''), ('Grupos de 6-10 Pessoas', 41983, ''), ('Grupos de 11-15 Pessoas', 57727, '')]; true amount 367.36 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 367",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Grupos de 1-5 Pessoas\" = 367.36 EUR; priceUnit \"per group, 1-5 pessoas\" derived verbatim from that label/note; floor band; FH price.low 36736; live ladder [('Grupos de 1-5 Pessoas', 36736), ('Grupos de 6-10 Pessoas', 41983), ('Grupos de 11-15 Pessoas', 57727)]; prior s47 HELD figure was 367.36",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1-5 pessoas"
+      },
+      "priceTiers": [
+        {
+          "singular": "Grupos de 1-5 Pessoas",
+          "plural": "Grupos de 1-5 Pessoas",
+          "note": "",
+          "priceCents": 36736,
+          "price": 367.36,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Grupos de 6-10 Pessoas",
+          "plural": "Grupos de 6-10 Pessoas",
+          "note": "",
+          "priceCents": 41983,
+          "price": 419.83,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Grupos de 11-15 Pessoas",
+          "plural": "Grupos de 11-15 Pessoas",
+          "note": "",
+          "priceCents": 57727,
+          "price": 577.27,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "415027",
@@ -17418,7 +17962,7 @@
       "island": "amsterdam",
       "price": 395.64,
       "priceLabel": "Boat \"Lucy\" 90 Minutes",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": null,
@@ -17483,9 +18027,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T12:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Lucy\" 90 Minutes\" (Classic Boat • max 6 people) prices a party/boat, not a seat; live ladder [('Boat \"Lucy\" 90 Minutes', 39564, 'Classic Boat • max 6 people'), ('Boat \"Lucy\" 2 Hours', 52225, 'Classic Boat • max 6 people'), ('Boat \"Lucy\" 3 Hours', 72798, 'Classic Boat • max 6 people')]; true amount 395.64 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 374",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Lucy\" 90 Minutes\" (Classic Boat • max 6 people) = 395.64 EUR; priceUnit \"per boat, max 6 people\" derived verbatim from that label/note; whole-boat duration ladder; shortest duration; note \"Classic Boat • max 6 people\"; FH price.low 39564; live ladder [('Boat \"Lucy\" 90 Minutes', 39564), ('Boat \"Lucy\" 2 Hours', 52225), ('Boat \"Lucy\" 3 Hours', 72798)]; prior s47 HELD figure was 395.64",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 6 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Lucy\" 90 Minutes",
+          "plural": "Boat \"Lucy\" 90 Minutes",
+          "note": "Classic Boat • max 6 people",
+          "priceCents": 39564,
+          "price": 395.64,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Lucy\" 2 Hours",
+          "plural": "Boat \"Lucy\" 2 Hours",
+          "note": "Classic Boat • max 6 people",
+          "priceCents": 52225,
+          "price": 522.25,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Lucy\" 3 Hours",
+          "plural": "Boat \"Lucy\" 3 Hours",
+          "note": "Classic Boat • max 6 people",
+          "priceCents": 72798,
+          "price": 727.98,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "451050",
@@ -18141,7 +18714,7 @@
       "island": "amsterdam",
       "price": 501.65,
       "priceLabel": "Private Charter - Boat Hedir",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": "90 minutes",
@@ -18202,9 +18775,30 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-25T10:30:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Private Charter - Boat Hedir\" (Private Hire of our 11 seater boat Hedir, with storyteller and captain.) prices a party/boat, not a seat; live ladder [('Private Charter - Boat Hedir', 50165, 'Private Hire of our 11 seater boat Hedir, with storyteller and captain.'), ('Private Charter - Boat Mr Friday', 107950, 'Private Hire of our 30 seater boat Mr Friday, with storyteller and captain.')]; true amount 501.65 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 501",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Private Charter - Boat Hedir\" (Private Hire of our 11 seater boat Hedir, with storyteller and captain.) = 501.65 EUR; priceUnit \"per boat, 11 seater\" derived verbatim from that label/note; vessel-banded; note \"Private Hire of our 11 seater boat Hedir, with storyteller and captain.\"; FH price.low 50165; live ladder [('Private Charter - Boat Hedir', 50165), ('Private Charter - Boat Mr Friday', 107950)]; prior s47 HELD figure was 501.65",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, 11 seater"
+      },
+      "priceTiers": [
+        {
+          "singular": "Private Charter - Boat Hedir",
+          "plural": "Private Charters - Boat Hedir",
+          "note": "Private Hire of our 11 seater boat Hedir, with storyteller and captain.",
+          "priceCents": 50165,
+          "price": 501.65,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Charter - Boat Mr Friday",
+          "plural": "Private Charters - Boat Mr Friday",
+          "note": "Private Hire of our 30 seater boat Mr Friday, with storyteller and captain.",
+          "priceCents": 107950,
+          "price": 1079.5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "544893",
@@ -18428,7 +19022,7 @@
       "island": "amsterdam",
       "price": 664.68,
       "priceLabel": "Boat \"Stan Huygens\" - 90 Minutes",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "EUR",
       "duration": "90 min",
@@ -18495,9 +19089,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T11:45:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Stan Huygens\" - 90 Minutes\" (Classic Boat • max 36 people) prices a party/boat, not a seat; live ladder [('Boat \"Stan Huygens\" - 90 Minutes', 66468, 'Classic Boat • max 36 people'), ('Boat \"Stan Huygens\" - 2 hours', 88624, 'Classic Boat • max 36 people'), ('Boat \"Stan Huygens\" - 3 hours', 132936, 'Classic Boat • max 36 people')]; true amount 664.68 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 664",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Stan Huygens\" - 90 Minutes\" (Classic Boat • max 36 people) = 664.68 EUR; priceUnit \"per boat, max 36 people\" derived verbatim from that label/note; whole-boat duration ladder; note \"Classic Boat • max 36 people\"; FH price.low 66468; live ladder [('Boat \"Stan Huygens\" - 90 Minutes', 66468), ('Boat \"Stan Huygens\" - 2 hours', 88624), ('Boat \"Stan Huygens\" - 3 hours', 132936)]; prior s47 HELD figure was 664.68",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 36 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Stan Huygens\" - 90 Minutes",
+          "plural": "Boat \"Stan Huygens\" - 90 Minutes",
+          "note": "Classic Boat • max 36 people",
+          "priceCents": 66468,
+          "price": 664.68,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Stan Huygens\" - 2 hours",
+          "plural": "Boat \"Stan Huygens\" - 2 hours",
+          "note": "Classic Boat • max 36 people",
+          "priceCents": 88624,
+          "price": 886.24,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Stan Huygens\" - 3 hours",
+          "plural": "Boat \"Stan Huygens\" - 3 hours",
+          "note": "Classic Boat • max 36 people",
+          "priceCents": 132936,
+          "price": 1329.36,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "580248",
@@ -19131,7 +19754,7 @@
       "island": "amsterdam",
       "price": 443.12,
       "priceLabel": "Boat \"Pure Spirit\" - 90 min",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 74,
       "currency": "EUR",
       "duration": "90 min",
@@ -19180,9 +19803,30 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-27T12:45:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Pure Spirit\" - 90 min\" (The Flagship • max 20 people) prices a party/boat, not a seat; live ladder [('Boat \"Pure Spirit\" - 90 min', 44312, 'The Flagship • max 20 people'), ('Boat \"Pure Spirit\" - 2 hours', 57500, 'The Flagship • max 20 people')]; true amount 443.12 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 400",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Pure Spirit\" - 90 min\" (The Flagship • max 20 people) = 443.12 EUR; priceUnit \"per boat, max 20 people\" derived verbatim from that label/note; whole-boat duration ladder; note \"The Flagship • max 20 people\"; FH price.low 44312; live ladder [('Boat \"Pure Spirit\" - 90 min', 44312), ('Boat \"Pure Spirit\" - 2 hours', 57500)]; prior s47 HELD figure was 443.12",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 20 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Pure Spirit\" - 90 min",
+          "plural": "Boat \"Pure Spirit\" - 90 min",
+          "note": "The Flagship • max 20 people",
+          "priceCents": 44312,
+          "price": 443.12,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Pure Spirit\" - 2 hours",
+          "plural": "Boat \"Pure Spirit\" - 2 hours",
+          "note": "The Flagship • max 20 people",
+          "priceCents": 57500,
+          "price": 575,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "424811",
@@ -20439,9 +21083,9 @@
       "category": "",
       "location": "Netherlands/Noord-Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 207.82,
-      "priceLabel": "1 person",
-      "priceConfidence": "low",
+      "price": 39.36,
+      "priceLabel": "10+ persons",
+      "priceConfidence": "high",
       "qualityScore": 73,
       "currency": "EUR",
       "duration": null,
@@ -20525,9 +21169,54 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-27T09:30:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 person\" heads a party-size sliding ladder (5 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 person', 20782, ''), ('2 persons', 10391, ''), ('3 persons', 6927, ''), ('4-9 persons', 5195, ''), ('10+ persons', 3936, '')]; true amount 207.82 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 207",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"10+ persons\" = 39.36 EUR; priceUnit \"per person, group of 10+\" derived verbatim from that label/note; quirk: 1 person 207.82 = 2 x 103.91 = 3 x 69.27 ~= 4 x 51.95 -- the 1-4 tiers divide a fixed ~207.82 group fare; per-head only from the 10+ band; FH price.low 3936; live ladder [('1 person', 20782), ('2 persons', 10391), ('3 persons', 6927), ('4-9 persons', 5195), ('10+ persons', 3936)]; prior s47 HELD figure was 207.82",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 10+"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 person",
+          "plural": "1 person",
+          "note": "",
+          "priceCents": 20782,
+          "price": 207.82,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 persons",
+          "plural": "2 persons",
+          "note": "",
+          "priceCents": 10391,
+          "price": 103.91,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 persons",
+          "plural": "3 persons",
+          "note": "",
+          "priceCents": 6927,
+          "price": 69.27,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4-9 persons",
+          "plural": "4-9 persons",
+          "note": "",
+          "priceCents": 5195,
+          "price": 51.95,
+          "minPartySize": 1
+        },
+        {
+          "singular": "10+ persons",
+          "plural": "10+ persons",
+          "note": "",
+          "priceCents": 3936,
+          "price": 39.36,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "401372",
@@ -21482,7 +22171,7 @@
       "island": "amsterdam",
       "price": 369.27,
       "priceLabel": "Private Cruise",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 71,
       "currency": "EUR",
       "duration": "90 minutes",
@@ -21524,9 +22213,22 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-25T11:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Private Cruise\" (Up to 12 People) prices a party/boat, not a seat; live ladder [('Private Cruise', 36927, 'Up to 12 People')]; true amount 369.27 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 350",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Private Cruise\" (Up to 12 People) = 369.27 EUR; priceUnit \"per group, up to 12 people\" derived verbatim from that label/note; single whole-group tier; note \"Up to 12 People\"; FH price.low 36927; live ladder [('Private Cruise', 36927)]; prior s47 HELD figure was 369.27",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, up to 12 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Private Cruise",
+          "plural": "Private Cruise",
+          "note": "Up to 12 People",
+          "priceCents": 36927,
+          "price": 369.27,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "421462",
@@ -23038,9 +23740,9 @@
       "category": "",
       "location": "Netherlands/North Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 139.92,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "EUR",
       "duration": "7 hours",
@@ -23129,9 +23831,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-31T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 23320, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15688, '(Ages 7+)'), ('6 People', 13992, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 490",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 23320,
+          "price": 233.2,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15688,
+          "price": 156.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13992,
+          "price": 139.92,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "190099",
@@ -23142,9 +23897,9 @@
       "category": "",
       "location": "Netherlands/North Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 134.62,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "EUR",
       "duration": "7 hours",
@@ -23231,9 +23986,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-31T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 22260, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15264, '(Ages 7+)'), ('6 People', 13462, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 540",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 134.62 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13462; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 22260), ('4 People', 18285), ('5 People', 15264), ('6 People', 13462)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 22260,
+          "price": 222.6,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15264,
+          "price": 152.64,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13462,
+          "price": 134.62,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "190128",
@@ -23244,9 +24052,9 @@
       "category": "",
       "location": "Netherlands/North Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 139.92,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "EUR",
       "duration": "7 hours",
@@ -23333,9 +24141,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-31T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 23320, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15688, '(Ages 7+)'), ('6 People', 13992, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 540",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 23320,
+          "price": 233.2,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15688,
+          "price": 156.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13992,
+          "price": 139.92,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "314364",
@@ -23699,7 +24560,7 @@
       "island": "amsterdam",
       "price": 103.91,
       "priceLabel": "Koppel / Twee personen",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "EUR",
       "duration": null,
@@ -23796,9 +24657,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-27T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Koppel / Twee personen\" (Prijs per koppel) prices a party/boat, not a seat; live ladder [('Koppel / Twee personen', 10391, 'Prijs per koppel'), ('Besloten groep tot 4 personen', 15639, 'Prijs per groep'), ('Besloten groep tot 8 personen', 24350, 'Prijs per groep'), ('Besloten groep 9 - 19 personen', 2624, 'Prijs per persoon'), ('Besloten groep 30 - 49 personen', 2467, 'Prijs per persoon'), ('Besloten groep 50+ personen', 2414, 'Prijs per persoon')]; true amount 103.91 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 103",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Koppel / Twee personen\" (Prijs per koppel) = 103.91 EUR; priceUnit \"per couple\" derived verbatim from that label/note; hybrid ladder; couple tier is the smallest bookable unit; note \"Prijs per koppel\"; NOT the large-group per-person tiers; FH price.low 2414 (not the ruled anchor 10391: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('Koppel / Twee personen', 10391), ('Besloten groep tot 4 personen', 15639), ('Besloten groep tot 8 personen', 24350), ('Besloten groep 9 - 19 personen', 2624), ('Besloten groep 30 - 49 personen', 2467), ('Besloten groep 50+ personen', 2414)]; prior s47 HELD figure was 103.91",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per couple"
+      },
+      "priceTiers": [
+        {
+          "singular": "Koppel / Twee personen",
+          "plural": "Koppels",
+          "note": "Prijs per koppel",
+          "priceCents": 10391,
+          "price": 103.91,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep tot 4 personen",
+          "plural": "Besloten groep tot 4 personen",
+          "note": "Prijs per groep",
+          "priceCents": 15639,
+          "price": 156.39,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep tot 8 personen",
+          "plural": "Besloten groep tot 8 personen",
+          "note": "Prijs per groep",
+          "priceCents": 24350,
+          "price": 243.5,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 9 - 19 personen",
+          "plural": "Besloten groep 9 - 19 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 2624,
+          "price": 26.24,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 30 - 49 personen",
+          "plural": "Besloten groep 30 - 49 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 2467,
+          "price": 24.67,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 50+ personen",
+          "plural": "Besloten groep 50+ personen",
+          "note": "Prijs per persoon",
+          "priceCents": 2414,
+          "price": 24.14,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "600443",
@@ -23931,7 +24845,7 @@
       "island": "amsterdam",
       "price": 358.72,
       "priceLabel": "Anderhalf uur Privé Tour",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "EUR",
       "duration": null,
@@ -23991,9 +24905,30 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T09:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Anderhalf uur Privé Tour\" (Maximaal 6 personen) prices a party/boat, not a seat; live ladder [('Anderhalf uur Privé Tour', 35872, 'Maximaal 6 personen'), ('Twee uur Privé Tour', 45367, 'Maximal 6 personen')]; true amount 358.72 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 358",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Anderhalf uur Privé Tour\" (Maximaal 6 personen) = 358.72 EUR; priceUnit \"per boat, maximaal 6 personen\" derived verbatim from that label/note; whole-boat duration ladder; note \"Maximaal 6 personen\"; FH price.low 35872; live ladder [('Anderhalf uur Privé Tour', 35872), ('Twee uur Privé Tour', 45367)]; prior s47 HELD figure was 358.72",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, maximaal 6 personen"
+      },
+      "priceTiers": [
+        {
+          "singular": "Anderhalf uur Privé Tour",
+          "plural": "Anderhalf uur Privé Tour",
+          "note": "Maximaal 6 personen",
+          "priceCents": 35872,
+          "price": 358.72,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Twee uur Privé Tour",
+          "plural": "Twee uur Privé Tour",
+          "note": "Maximal 6 personen",
+          "priceCents": 45367,
+          "price": 453.67,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "668209",
@@ -25649,7 +26584,7 @@
       "island": "amsterdam",
       "price": 293.88,
       "priceLabel": "Grupos de 1-5 Pessoas",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 69,
       "currency": "EUR",
       "duration": null,
@@ -25709,9 +26644,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-25T09:30:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Grupos de 1-5 Pessoas\" (no note) prices a party/boat, not a seat; live ladder [('Grupos de 1-5 Pessoas', 29388, ''), ('Grupos de 6-10 Pessoas', 36736, ''), ('Grupos de 11-15 Pessoas', 47231, '')]; true amount 293.88 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 293",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Grupos de 1-5 Pessoas\" = 293.88 EUR; priceUnit \"per group, 1-5 pessoas\" derived verbatim from that label/note; floor band; FH price.low 29388; live ladder [('Grupos de 1-5 Pessoas', 29388), ('Grupos de 6-10 Pessoas', 36736), ('Grupos de 11-15 Pessoas', 47231)]; prior s47 HELD figure was 293.88",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1-5 pessoas"
+      },
+      "priceTiers": [
+        {
+          "singular": "Grupos de 1-5 Pessoas",
+          "plural": "Grupos de 1-5 Pessoas",
+          "note": "",
+          "priceCents": 29388,
+          "price": 293.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Grupos de 6-10 Pessoas",
+          "plural": "Grupos de 6-10 Pessoas",
+          "note": "",
+          "priceCents": 36736,
+          "price": 367.36,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Grupos de 11-15 Pessoas",
+          "plural": "Grupos de 11-15 Pessoas",
+          "note": "",
+          "priceCents": 47231,
+          "price": 472.31,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "447119",
@@ -28240,7 +29204,7 @@
       "island": "amsterdam",
       "price": 316.1,
       "priceLabel": "Extra Small Group - 1 to 6 persons",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "EUR",
       "duration": "75 minutes",
@@ -28310,9 +29274,46 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T12:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Extra Small Group - 1 to 6 persons\" (no note) prices a party/boat, not a seat; live ladder [('Extra Small Group - 1 to 6 persons', 31610, ''), ('Small Group - 7 to 8 persons', 39513, ''), ('Medium Group - 9 to 12 persons', 47416, ''), ('Large Group - 13 to 16 persons', 57952, '')]; true amount 316.1 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 316",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Extra Small Group - 1 to 6 persons\" = 316.1 EUR; priceUnit \"per group, 1 to 6 persons\" derived verbatim from that label/note; floor band; FH price.low 31610; live ladder [('Extra Small Group - 1 to 6 persons', 31610), ('Small Group - 7 to 8 persons', 39513), ('Medium Group - 9 to 12 persons', 47416), ('Large Group - 13 to 16 persons', 57952)]; prior s47 HELD figure was 316.1",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1 to 6 persons"
+      },
+      "priceTiers": [
+        {
+          "singular": "Extra Small Group - 1 to 6 persons",
+          "plural": "Extra Small Group - 1 to 6 persons",
+          "note": "",
+          "priceCents": 31610,
+          "price": 316.1,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Small Group - 7 to 8 persons",
+          "plural": "Small Group - 7 to 8 persons",
+          "note": "",
+          "priceCents": 39513,
+          "price": 395.13,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Medium Group - 9 to 12 persons",
+          "plural": "Medium Group - 9 to 12 persons",
+          "note": "",
+          "priceCents": 47416,
+          "price": 474.16,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Large Group - 13 to 16 persons",
+          "plural": "Large Group - 13 to 16 persons",
+          "note": "",
+          "priceCents": 57952,
+          "price": 579.52,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "353966",
@@ -28497,7 +29498,7 @@
       "island": "amsterdam",
       "price": 316.1,
       "priceLabel": "Extra Small Group - 1 to 6 persons",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "EUR",
       "duration": "75 minutes",
@@ -28566,9 +29567,46 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T12:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Extra Small Group - 1 to 6 persons\" (no note) prices a party/boat, not a seat; live ladder [('Extra Small Group - 1 to 6 persons', 31610, ''), ('Small Group - 7 to 8 persons', 39513, ''), ('Medium Group - 9 to 12 persons', 47416, ''), ('Large Group - 13 to 16 persons', 57952, '')]; true amount 316.1 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 316",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Extra Small Group - 1 to 6 persons\" = 316.1 EUR; priceUnit \"per group, 1 to 6 persons\" derived verbatim from that label/note; floor band; FH price.low 31610; live ladder [('Extra Small Group - 1 to 6 persons', 31610), ('Small Group - 7 to 8 persons', 39513), ('Medium Group - 9 to 12 persons', 47416), ('Large Group - 13 to 16 persons', 57952)]; prior s47 HELD figure was 316.1",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1 to 6 persons"
+      },
+      "priceTiers": [
+        {
+          "singular": "Extra Small Group - 1 to 6 persons",
+          "plural": "Extra Small Group - 1 to 6 persons",
+          "note": "",
+          "priceCents": 31610,
+          "price": 316.1,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Small Group - 7 to 8 persons",
+          "plural": "Small Group - 7 to 8 persons",
+          "note": "",
+          "priceCents": 39513,
+          "price": 395.13,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Medium Group - 9 to 12 persons",
+          "plural": "Medium Group - 9 to 12 persons",
+          "note": "",
+          "priceCents": 47416,
+          "price": 474.16,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Large Group - 13 to 16 persons",
+          "plural": "Large Group - 13 to 16 persons",
+          "note": "",
+          "priceCents": 57952,
+          "price": 579.52,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "354041",
@@ -30447,7 +31485,7 @@
       "island": "amsterdam",
       "price": 156.39,
       "priceLabel": "Koppel / Twee personen",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 67,
       "currency": "EUR",
       "duration": null,
@@ -30541,9 +31579,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T09:15:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Koppel / Twee personen\" (Prijs per koppel) prices a party/boat, not a seat; live ladder [('Koppel / Twee personen', 15639, 'Prijs per koppel'), ('Besloten groep tot 4 personen', 20887, 'Prijs per groep'), ('Besloten groep tot 8 personen', 37785, 'Prijs per groep'), ('Besloten groep 9 - 19 personen', 3674, 'Prijs per persoon'), ('Besloten groep 30 - 49 personen', 3516, 'Prijs per persoon'), ('Besloten groep 50+ personen', 3464, 'Prijs per persoon')]; true amount 156.39 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 156",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Koppel / Twee personen\" (Prijs per koppel) = 156.39 EUR; priceUnit \"per couple\" derived verbatim from that label/note; hybrid ladder; couple tier is the smallest bookable unit; note \"Prijs per koppel\"; NOT the large-group per-person tiers; FH price.low 3464 (not the ruled anchor 15639: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('Koppel / Twee personen', 15639), ('Besloten groep tot 4 personen', 20887), ('Besloten groep tot 8 personen', 37785), ('Besloten groep 9 - 19 personen', 3674), ('Besloten groep 30 - 49 personen', 3516), ('Besloten groep 50+ personen', 3464)]; prior s47 HELD figure was 156.39",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per couple"
+      },
+      "priceTiers": [
+        {
+          "singular": "Koppel / Twee personen",
+          "plural": "Koppels",
+          "note": "Prijs per koppel",
+          "priceCents": 15639,
+          "price": 156.39,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep tot 4 personen",
+          "plural": "Besloten groep tot 4 personen",
+          "note": "Prijs per groep",
+          "priceCents": 20887,
+          "price": 208.87,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep tot 8 personen",
+          "plural": "Besloten groep tot 8 personen",
+          "note": "Prijs per groep",
+          "priceCents": 37785,
+          "price": 377.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 9 - 19 personen",
+          "plural": "Besloten groep 9 - 19 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3674,
+          "price": 36.74,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 30 - 49 personen",
+          "plural": "Besloten groep 30 - 49 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3516,
+          "price": 35.16,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 50+ personen",
+          "plural": "Besloten groep 50+ personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3464,
+          "price": 34.64,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "537264",
@@ -30914,7 +32005,7 @@
       "island": "amsterdam",
       "price": 156.39,
       "priceLabel": "Koppel / Twee personen",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 67,
       "currency": "EUR",
       "duration": null,
@@ -31017,9 +32108,70 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-27T09:15:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Koppel / Twee personen\" (Prijs per koppel) prices a party/boat, not a seat; live ladder [('Koppel / Twee personen', 15639, 'Prijs per koppel'), ('Besloten groep tot 4 personen', 20887, 'Prijs per groep'), ('Besloten groep tot 8 personen', 37785, 'Prijs per groep'), ('Besloten groep 9 - 19 personen', 3674, 'Prijs per persoon'), ('Besloten groep 20 - 29 personen', 3569, 'Prijs per persoon'), ('Besloten groep 30 - 49 personen', 3516, 'Prijs per persoon'), ('Besloten groep 50+ personen', 3464, 'Prijs per persoon')]; true amount 156.39 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 156",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Koppel / Twee personen\" (Prijs per koppel) = 156.39 EUR; priceUnit \"per couple\" derived verbatim from that label/note; hybrid ladder; couple tier is the smallest bookable unit; note \"Prijs per koppel\"; NOT the large-group per-person tiers; FH price.low 3464 (not the ruled anchor 15639: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('Koppel / Twee personen', 15639), ('Besloten groep tot 4 personen', 20887), ('Besloten groep tot 8 personen', 37785), ('Besloten groep 9 - 19 personen', 3674), ('Besloten groep 20 - 29 personen', 3569), ('Besloten groep 30 - 49 personen', 3516), ('Besloten groep 50+ personen', 3464)]; prior s47 HELD figure was 156.39",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per couple"
+      },
+      "priceTiers": [
+        {
+          "singular": "Koppel / Twee personen",
+          "plural": "Koppels",
+          "note": "Prijs per koppel",
+          "priceCents": 15639,
+          "price": 156.39,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep tot 4 personen",
+          "plural": "Besloten groep tot 4 personen",
+          "note": "Prijs per groep",
+          "priceCents": 20887,
+          "price": 208.87,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep tot 8 personen",
+          "plural": "Besloten groep tot 8 personen",
+          "note": "Prijs per groep",
+          "priceCents": 37785,
+          "price": 377.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 9 - 19 personen",
+          "plural": "Besloten groep 9 - 19 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3674,
+          "price": 36.74,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 20 - 29 personen",
+          "plural": "Besloten groep 20 - 29 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3569,
+          "price": 35.69,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 30 - 49 personen",
+          "plural": "Besloten groep 30 - 49 personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3516,
+          "price": 35.16,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Besloten groep 50+ personen",
+          "plural": "Besloten groep 50+ personen",
+          "note": "Prijs per persoon",
+          "priceCents": 3464,
+          "price": 34.64,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "621416",
@@ -31744,7 +32896,7 @@
       "island": "amsterdam",
       "price": 395.64,
       "priceLabel": "Boat \"Lucy\" 90 Minutes",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 66,
       "currency": "EUR",
       "duration": null,
@@ -31803,9 +32955,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T12:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Boat \"Lucy\" 90 Minutes\" (Classic Boat • max 6 people) prices a party/boat, not a seat; live ladder [('Boat \"Lucy\" 90 Minutes', 39564, 'Classic Boat • max 6 people'), ('Boat \"Lucy\" 2 Hours', 52225, 'Classic Boat • max 6 people'), ('Boat \"Lucy\" 3 Hours', 72798, 'Classic Boat • max 6 people')]; true amount 395.64 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 316",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Boat \"Lucy\" 90 Minutes\" (Classic Boat • max 6 people) = 395.64 EUR; priceUnit \"per boat, max 6 people\" derived verbatim from that label/note; whole-boat duration ladder; shortest duration; note \"Classic Boat • max 6 people\"; FH price.low 39564; live ladder [('Boat \"Lucy\" 90 Minutes', 39564), ('Boat \"Lucy\" 2 Hours', 52225), ('Boat \"Lucy\" 3 Hours', 72798)]; prior s47 HELD figure was 395.64",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per boat, max 6 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Boat \"Lucy\" 90 Minutes",
+          "plural": "Boat \"Lucy\" 90 Minutes",
+          "note": "Classic Boat • max 6 people",
+          "priceCents": 39564,
+          "price": 395.64,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Lucy\" 2 Hours",
+          "plural": "Boat \"Lucy\" 2 Hours",
+          "note": "Classic Boat • max 6 people",
+          "priceCents": 52225,
+          "price": 522.25,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Boat \"Lucy\" 3 Hours",
+          "plural": "Boat \"Lucy\" 3 Hours",
+          "note": "Classic Boat • max 6 people",
+          "priceCents": 72798,
+          "price": 727.98,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "453469",
@@ -32549,9 +33730,9 @@
       "category": "",
       "location": "Netherlands/North Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 139.92,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "EUR",
       "duration": "7 hours",
@@ -32642,9 +33823,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-31T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 23320, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15688, '(Ages 7+)'), ('6 People', 13992, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 50",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 23320,
+          "price": 233.2,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15688,
+          "price": 156.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13992,
+          "price": 139.92,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "177428",
@@ -32655,9 +33889,9 @@
       "category": "",
       "location": "Netherlands/Noord-Holland/Vijfhuizen",
       "island": "vijfhuizen",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 139.92,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "EUR",
       "duration": "7 hours",
@@ -32746,9 +33980,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-31T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 23320, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15688, '(Ages 7+)'), ('6 People', 13992, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 540",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 23320,
+          "price": 233.2,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15688,
+          "price": 156.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13992,
+          "price": 139.92,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "190121",
@@ -32759,9 +34046,9 @@
       "category": "",
       "location": "Netherlands/North Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 139.92,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "EUR",
       "duration": "7 hours",
@@ -32851,9 +34138,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-31T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 23320, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15688, '(Ages 7+)'), ('6 People', 13992, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 540",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 23320,
+          "price": 233.2,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15688,
+          "price": 156.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13992,
+          "price": 139.92,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "190132",
@@ -32864,9 +34204,9 @@
       "category": "",
       "location": "Netherlands/North Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 572.4,
-      "priceLabel": "1 Person",
-      "priceConfidence": "low",
+      "price": 139.92,
+      "priceLabel": "6 People",
+      "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "EUR",
       "duration": "7 hours",
@@ -32953,9 +34293,62 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2027-03-18T10:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"1 Person\" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean \"From\" anchor; live ladder [('1 Person', 57240, '(Ages 7+)'), ('2 People', 31270, '(Ages 7+)'), ('3 People', 23320, '(Ages 7+)'), ('4 People', 18285, '(Ages 7+)'), ('5 People', 15688, '(Ages 7+)'), ('6 People', 13992, '(Ages 7+)')]; true amount 572.4 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 540",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per person, group of 6"
+      },
+      "priceTiers": [
+        {
+          "singular": "1 Person",
+          "plural": "1 Person",
+          "note": "(Ages 7+)",
+          "priceCents": 57240,
+          "price": 572.4,
+          "minPartySize": 1
+        },
+        {
+          "singular": "2 People",
+          "plural": "2 People",
+          "note": "(Ages 7+)",
+          "priceCents": 31270,
+          "price": 312.7,
+          "minPartySize": 1
+        },
+        {
+          "singular": "3 People",
+          "plural": "3 People",
+          "note": "(Ages 7+)",
+          "priceCents": 23320,
+          "price": 233.2,
+          "minPartySize": 1
+        },
+        {
+          "singular": "4 People",
+          "plural": "4 People",
+          "note": "(Ages 7+)",
+          "priceCents": 18285,
+          "price": 182.85,
+          "minPartySize": 1
+        },
+        {
+          "singular": "5 People",
+          "plural": "5 People",
+          "note": "(Ages 7+)",
+          "priceCents": 15688,
+          "price": 156.88,
+          "minPartySize": 1
+        },
+        {
+          "singular": "6 People",
+          "plural": "6 People",
+          "note": "(Ages 7+)",
+          "priceCents": 13992,
+          "price": 139.92,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "232281",
@@ -35098,7 +36491,7 @@
       "island": "bruges",
       "price": 844.04,
       "priceLabel": "Group of 1 to 3 people",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 64,
       "currency": "EUR",
       "duration": "11 Hours",
@@ -35167,9 +36560,38 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s47-wams-legacy-enrich: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), anchor start_at 2026-08-26T07:00:00; evidence scripts-staging/s47-wams-legacy-enrich/obs-legacy-enrich.json",
-      "priceBasis": "HELD: anchor tier \"Group of 1 to 3 people\" (Price per group) prices a party/boat, not a seat; live ladder [('Group of 1 to 3 people', 84404, 'Price per group'), ('Group of 4 to 7 people', 94954, 'Price per group'), ('Group of 8 to 19 people', 125550, 'Price per group')]; true amount 844.04 EUR stamped; WAMS has no priceUnit render path on this base — release candidate once #91 lands; stored legacy figure was 833",
-      "priceVerifiedAt": "2026-08-24"
+      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
+      "priceBasis": "D-614: anchor tier \"Group of 1 to 3 people\" (Price per group) = 844.04 EUR; priceUnit \"per group, 1 to 3 people\" derived verbatim from that label/note; note \"Price per group\"; floor band; FH price.low 84404; live ladder [('Group of 1 to 3 people', 84404), ('Group of 4 to 7 people', 94954), ('Group of 8 to 19 people', 125550)]; prior s47 HELD figure was 844.04",
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group, 1 to 3 people"
+      },
+      "priceTiers": [
+        {
+          "singular": "Group of 1 to 3 people",
+          "plural": "Group of 1 to 3 people",
+          "note": "Price per group",
+          "priceCents": 84404,
+          "price": 844.04,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 4 to 7 people",
+          "plural": "Group of 4 to 7 people",
+          "note": "Price per group",
+          "priceCents": 94954,
+          "price": 949.54,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Group of 8 to 19 people",
+          "plural": "Group of 8 to 19 people",
+          "note": "Price per group",
+          "priceCents": 125550,
+          "price": 1255.5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "329648",
