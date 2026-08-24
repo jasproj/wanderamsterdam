@@ -1,0 +1,1923 @@
+{
+ "anchor": "2026-08-25",
+ "companies": {
+  "kinboat": {
+   "body_head": "{\"company\":{\"cls\":\"Company\",\"uri\":\"\\/api\\/v1\\/companies\\/kinboat\\/\",\"pk\":81161,\"shortname\":\"kinboat\",\"name\":\"KINboat\",\"p",
+   "code": 200,
+   "err": null
+  },
+  "paynehurdstours": {
+   "body_head": "{\"company\":{\"cls\":\"Company\",\"uri\":\"\\/api\\/v1\\/companies\\/paynehurdstours\\/\",\"pk\":134532,\"shortname\":\"paynehurdstours\",\"n",
+   "code": 200,
+   "err": null
+  }
+ },
+ "control": {
+  "code": 400,
+  "falsifiable": true
+ },
+ "dates": [
+  "2026-08-25",
+  "2026-08-26",
+  "2026-08-27",
+  "2026-08-28",
+  "2026-08-29",
+  "2026-08-30",
+  "2026-08-31",
+  "2026-09-01",
+  "2026-09-02",
+  "2026-09-03",
+  "2026-09-04",
+  "2026-09-05",
+  "2026-09-06",
+  "2026-09-07",
+  "2026-09-24",
+  "2026-10-24",
+  "2026-11-23"
+ ],
+ "errors": [],
+ "liveDetails": {
+  "523958": [
+   "{\"currency\": \"EUR\", \"fees\": true, \"taxes\": true}"
+  ],
+  "662825": [
+   "{\"currency\": \"EUR\", \"fees\": true, \"taxes\": true}"
+  ],
+  "699480": [
+   "{\"currency\": \"EUR\", \"fees\": true, \"taxes\": true}"
+  ]
+ },
+ "meta": {
+  "523958": {
+   "currency": "EUR",
+   "label": "Volwassene",
+   "name": "Open Boot Rondvaart met Onbeperkte Drankjes vertrekt vanaf Centraal Station",
+   "price": 31.65,
+   "sn": "kinboat"
+  },
+  "662825": {
+   "currency": "EUR",
+   "label": "Group",
+   "name": "Private Canal Boat Tour with Champagne Tasting",
+   "price": 997.11,
+   "sn": "paynehurdstours"
+  },
+  "699480": {
+   "currency": "EUR",
+   "label": "Group",
+   "name": "Private Canal Boat Tour",
+   "price": 524.79,
+   "sn": "paynehurdstours"
+  }
+ },
+ "obs": {
+  "523958": {
+   "2026-08-25": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-25T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-08-26": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-26T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-08-30": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-30T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-02": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-02T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-03": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-03T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-04": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-04T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-05": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-05T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-06": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-06T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-07": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-07",
+    "start_at": "2026-09-07T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-09-24": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-09-24",
+    "start_at": "2026-09-24T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-10-24": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-10-24",
+    "start_at": "2026-10-24T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   },
+   "2026-11-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 3165,
+    "requested": "2026-11-23",
+    "start_at": "2026-11-23T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 31.65,
+      "cents": 3165,
+      "min_party_size": 1,
+      "note": "Vanaf 13 jaar",
+      "plural": "Volwassenen",
+      "singular": "Volwassene",
+      "tier_id": 1081837
+     },
+     {
+      "amount": 15.83,
+      "cents": 1583,
+      "min_party_size": 1,
+      "note": "Vanaf 3 tot 12 jaar",
+      "plural": "Kinderen",
+      "singular": "Kind",
+      "tier_id": 1081838
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "API",
+      "plural": "Infants",
+      "singular": "Infant",
+      "tier_id": 695693
+     }
+    ]
+   }
+  },
+  "662825": {
+   "2026-08-25": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-26T12:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-26": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-26T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-30": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-30T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-02": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-02T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-03": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-03T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-04": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-04T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-05": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-05T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-06": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-06T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-07": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-07",
+    "start_at": "2026-09-07T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-24": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-09-24",
+    "start_at": "2026-09-24T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-10-24": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-10-24",
+    "start_at": "2026-10-24T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-11-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 99711,
+    "requested": "2026-11-23",
+    "start_at": "2026-11-23T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 997.11,
+      "cents": 99711,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   }
+  },
+  "699480": {
+   "2026-08-25": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-26T09:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-26": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-26T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-30": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-30T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-02": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-02T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-03": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-03T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-04": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-04T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-05": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-05T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-06": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-06T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-07": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-07",
+    "start_at": "2026-09-07T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-09-24": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-09-24",
+    "start_at": "2026-09-24T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-10-24": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-10-24",
+    "start_at": "2026-10-24T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   },
+   "2026-11-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": null,
+    "low": 52479,
+    "requested": "2026-11-23",
+    "start_at": "2026-11-23T09:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "amount": 524.79,
+      "cents": 52479,
+      "min_party_size": 1,
+      "note": "Price per group.",
+      "plural": "Groups",
+      "singular": "Group",
+      "tier_id": 1162095
+     }
+    ],
+    "window": "anchor:2026-08-25",
+    "zeroOnly": false,
+    "zero_tiers": [
+     {
+      "amount": 0.0,
+      "cents": 0,
+      "min_party_size": 1,
+      "note": "Ages 0-17 \u2022 Price per person",
+      "plural": "Children",
+      "singular": "Child",
+      "tier_id": 1162096
+     }
+    ]
+   }
+  }
+ },
+ "population": [
+  523958,
+  662825,
+  699480
+ ],
+ "reanchored": {}
+}
