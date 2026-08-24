@@ -1,0 +1,56 @@
+start 2026-08-24T19:54:07.940138+00:00
+stored-USD population: 230
+shortnames: 49  unparsed bookingUrl rows: []
+  abiketours batch 0: 200 currency=EUR items=0/2
+  adamandevetours batch 0: 200 currency=EUR items=4/5
+  amigotoursspain batch 0: 200 currency=EUR items=0/1
+  amsterdamboatexperience batch 0: 200 currency=EUR items=1/8
+  amsterdamboattrips batch 0: 200 currency=EUR items=0/3
+  amsterdambyboat batch 0: 200 currency=EUR items=1/1
+  amsterdamexperiences batch 0: 200 currency=EUR items=7/12
+  amsterdamfoodtours batch 0: 200 currency=EUR items=5/5
+  ask-a-badass batch 0: 200 currency=EUR items=7/8
+  babyloncitytours-amsterdam batch 0: 200 currency=EUR items=17/18
+  boatamsterdam batch 0: 200 currency=EUR items=0/1
+  boomchicago batch 0: 200 currency=EUR items=1/1
+  canalsup batch 0: 200 currency=EUR items=0/1
+  captaindaveamsterdam batch 0: 200 currency=EUR items=0/2
+  captainjackamsterdam batch 0: 200 currency=EUR items=6/6
+  desteek batch 0: 200 currency=EUR items=7/8
+  diamonds-amsterdam batch 0: 200 currency=EUR items=0/1
+  eatingeurope-amsterdam batch 0: 200 currency=EUR items=3/4
+  evabluelab batch 0: 200 currency=EUR items=1/1
+  flagshipamsterdam batch 0: 200 currency=EUR items=0/3
+  freedamtours batch 0: 200 currency=EUR items=2/2
+  friendshipamsterdam batch 0: 200 currency=EUR items=0/1
+  funamsterdam batch 0: 200 currency=EUR items=4/17
+  funboatamsterdam batch 0: 200 currency=EUR items=0/1
+  guiadeamsterdam batch 0: 200 currency=EUR items=18/20
+  guiadeamsterdam batch 1: 200 currency=EUR items=19/20
+  guiadeamsterdam batch 2: 200 currency=EUR items=7/7
+  historicalamsterdamtours batch 0: 200 currency=EUR items=2/2
+  historywalks batch 0: 200 currency=EUR items=1/1
+  insolitamsterdam batch 0: 200 currency=EUR items=5/6
+  kinboat batch 0: 200 currency=EUR items=0/8
+  leemstar batch 0: 200 currency=EUR items=2/4
+  mikesbiketoursamsterdam batch 0: 200 currency=EUR items=1/2
+  mokumboot batch 0: 200 currency=EUR items=0/5
+  molenadriaan batch 0: 200 currency=EUR items=1/1
+  offcourse batch 0: 200 currency=EUR items=1/1
+  paynehurdstours batch 0: 200 currency=EUR items=2/2
+  plasticwhale batch 0: 200 currency=EUR items=1/1
+  privatedaytoursamsterdam batch 0: 200 currency=EUR items=2/2
+  rederijlampedusa batch 0: 200 currency=EUR items=1/1
+  rockthatboat batch 0: 200 currency=EUR items=2/3
+  sherpafoodtours_nl batch 0: 200 currency=USD items=1/1
+  starboardboats batch 0: 200 currency=EUR items=5/6
+  thoseamsterdames batch 0: 200 currency=EUR items=2/4
+  tnta batch 0: 200 currency=EUR items=2/2
+  tourguidesforyou batch 0: 200 currency=EUR items=2/2
+  vaartuig batch 0: 200 currency=EUR items=0/1
+  webikeamsterdam batch 0: 200 currency=EUR items=4/4
+  whoisamsterdamtours batch 0: 200 currency=EUR items=5/8
+  xalamtours batch 0: 200 currency=EUR items=1/2
+  yellowbike batch 0: 200 currency=EUR items=2/2
+population 230 observed 230 reachable 230 unreachable 0 item-missing 75
+live currency dist: Counter({'EUR': 229, 'USD': 1})
