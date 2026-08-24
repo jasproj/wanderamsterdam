@@ -1,0 +1,195 @@
+top-level keys: ['schemaVersion', 'lastNormalized', 'tours'] {'schemaVersion': '1.0.8', 'lastNormalized': '2026-05-28T15:23:28.310Z', 'tours': '<list 1637>'}
+rows: 1637
+KEYS: {'id': 500, 'pk': 1637, 'name': 1637, 'company': 500, 'bookingUrl': 1637, 'category': 500, 'location': 1637, 'island': 500, 'price': 1637, 'priceLabel': 1082, 'priceConfidence': 1082, 'qualityScore': 500, 'currency': 1119, 'duration': 500, 'durationText': 500, 'description': 1637, 'descriptionRaw': 500, 'descriptionQuality': 500, 'highlights': 500, 'tags': 1637, 'image': 1631, 'galleryImages': 500, 'rating': 500, 'reviewCount': 500, 'ratingSource': 500, 'freeCancellation': 500, 'timeOfDay': 500, 'capacity': 500, 'enrichmentSource': 500, 'status': 500, 'statusReason': 500, 'statusFirstSeen': 500, 'statusConsecutiveRuns': 500, 'lastUpdated': 500, 'gallery': 1409, 'priceBreakdown': 776, 'priceIncludesBookingFees': 776, 'priceIncludesTaxes': 776, 'priceEnrichmentSource': 1369, 'priceEnrichmentAt': 1369, 'priceEnrichmentStatus': 1369, '_unknownFields': 1, 'needsEnrichment': 1137, 'source': 1137, 'imageEnrichmentSource': 1137, 'imageEnrichmentAt': 1137, 'imageEnrichmentStatus': 1137, 'bookingUrlLegacy': 1130, 'bookingDead': 7, 'bookingDeadCheckedAt': 7}
+STAMP-SHAPED KEYS: ['priceLabel', 'ratingSource', 'enrichmentSource', 'lastUpdated', 'priceEnrichmentSource', 'priceEnrichmentAt', 'priceEnrichmentStatus', '_unknownFields', 'needsEnrichment', 'source', 'imageEnrichmentSource', 'imageEnrichmentAt', 'imageEnrichmentStatus', 'bookingDeadCheckedAt']
+
+== priceLabel (present in 970 rows)
+    126  "unknown"
+     95  "Adult"
+     87  "per adult"
+     62  "Person"
+     41  "starting at"
+     41  "Persoon"
+     38  "Volwassene"
+     32  "Adulto"
+     28  "Felicit\u00e0"
+     21  "Private group of 1 to 15 people"
+     21  "Fiets met versnelling - normaal frame"
+     20  "Hand Brake Bike"
+     19  "Grupo Privado 1 a 4 personas"
+     17  "Personen"
+     14  "per person"
+     10  "Volwassen"
+      9  "Volledige dag"
+      8  "General Admission"
+      8  "Bike"
+      7  "Private Tour"
+      7  "Group of 1 to 6 people"
+      7  "Private tour for 1 person"
+      6  "Adult 18+ price per person"
+      6  "Steppen"
+      6  "Kids MTB 20\""
+      5  "1 person ( age 5+ / price pp)"
+      5  "Grupo Privado 1 a 5 personas"
+      5  "Salon"
+      5  "Group of 1 to 3 people"
+      5  "Gruppo privato di 4 persone"
+      5  "Basic Gravelbike - XS"
+      5  "Car"
+      4  "1 to 6 people"
+      4  "1 Person"
+      4  "Koppel / Twee personen"
+      4  "Huur 1 uur"
+      4  "Grupos de 1-5 Pessoas"
+      3  "An Hour and a Half Cruise"
+      3  "Kids S"
+      3  "1 Hour Game"
+
+== ratingSource (present in 500 rows)
+    500  ""
+
+== enrichmentSource (present in 500 rows)
+    500  ""
+
+== lastUpdated (present in 500 rows)
+    500  ""
+
+== priceEnrichmentSource (present in 1369 rows)
+   1369  "extract-prices-v7-api"
+
+== priceEnrichmentAt (present in 1369 rows)
+     20  "2026-05-28T05:46:08.339Z"
+     20  "2026-05-28T05:46:46.550Z"
+     20  "2026-05-28T05:46:52.294Z"
+     20  "2026-05-28T05:48:23.698Z"
+     20  "2026-05-28T05:46:57.531Z"
+     20  "2026-05-28T05:48:29.165Z"
+     20  "2026-05-28T05:48:41.917Z"
+     20  "2026-05-28T05:48:58.489Z"
+     20  "2026-05-28T05:49:05.837Z"
+     20  "2026-05-28T05:50:29.098Z"
+     20  "2026-05-28T05:52:57.200Z"
+     20  "2026-05-28T05:53:58.078Z"
+     20  "2026-05-28T05:54:00.492Z"
+     20  "2026-05-28T05:49:02.995Z"
+     20  "2026-05-28T05:54:17.465Z"
+     20  "2026-05-28T05:54:18.473Z"
+     19  "2026-05-28T05:54:16.776Z"
+     18  "2026-05-28T05:53:31.864Z"
+     18  "2026-05-28T05:53:51.006Z"
+     18  "2026-05-28T05:54:19.164Z"
+     16  "2026-05-28T05:50:44.295Z"
+     16  "2026-05-28T05:51:40.114Z"
+     16  "2026-05-28T05:52:41.985Z"
+     16  "2026-05-28T05:52:51.432Z"
+     15  "2026-05-28T05:47:23.752Z"
+     15  "2026-05-28T05:47:48.810Z"
+     15  "2026-05-28T05:49:54.049Z"
+     14  "2026-05-28T05:51:28.488Z"
+     14  "2026-05-28T05:52:53.071Z"
+     14  "2026-05-28T05:53:43.820Z"
+     14  "2026-05-28T05:54:23.673Z"
+     13  "2026-05-28T05:47:14.784Z"
+     13  "2026-05-28T05:47:27.413Z"
+     13  "2026-05-28T05:49:17.644Z"
+     13  "2026-05-28T05:46:16.053Z"
+     12  "2026-05-28T05:52:15.928Z"
+     12  "2026-05-28T05:49:03.940Z"
+     11  "2026-05-28T05:47:45.519Z"
+     11  "2026-05-28T05:49:27.084Z"
+     11  "2026-05-28T05:53:41.676Z"
+
+== priceEnrichmentStatus (present in 1369 rows)
+    702  "high"
+    593  "none"
+     74  "zero_price"
+
+== _unknownFields (present in 1 rows)
+      1  _unknownFields.priceSource="v52-dominant-gate"
+
+== needsEnrichment (present in 1137 rows)
+   1137  true
+
+== source (present in 1137 rows)
+   1137  "fareharbor-hermes-extract"
+
+== imageEnrichmentSource (present in 1137 rows)
+   1137  "extract-images-v1"
+
+== imageEnrichmentAt (present in 1137 rows)
+      1  "2026-05-28T00:09:50.610Z"
+      1  "2026-05-28T00:10:00.074Z"
+      1  "2026-05-28T00:10:10.895Z"
+      1  "2026-05-28T00:10:20.111Z"
+      1  "2026-05-28T00:10:29.174Z"
+      1  "2026-05-28T00:10:38.557Z"
+      1  "2026-05-28T00:10:47.733Z"
+      1  "2026-05-28T00:10:57.550Z"
+      1  "2026-05-28T00:11:06.554Z"
+      1  "2026-05-28T00:11:15.794Z"
+      1  "2026-05-28T00:11:25.198Z"
+      1  "2026-05-28T00:11:35.074Z"
+      1  "2026-05-28T00:11:45.158Z"
+      1  "2026-05-28T00:11:54.864Z"
+      1  "2026-05-28T00:12:04.917Z"
+      1  "2026-05-28T00:12:14.782Z"
+      1  "2026-05-28T00:12:25.212Z"
+      1  "2026-05-28T00:12:35.528Z"
+      1  "2026-05-28T00:12:45.366Z"
+      1  "2026-05-28T00:12:56.159Z"
+      1  "2026-05-28T00:13:07.005Z"
+      1  "2026-05-28T00:13:17.348Z"
+      1  "2026-05-28T00:13:27.415Z"
+      1  "2026-05-28T00:13:37.808Z"
+      1  "2026-05-28T00:13:47.903Z"
+      1  "2026-05-28T00:13:58.039Z"
+      1  "2026-05-28T00:14:07.957Z"
+      1  "2026-05-28T00:14:18.353Z"
+      1  "2026-05-28T00:14:28.243Z"
+      1  "2026-05-28T00:14:38.585Z"
+      1  "2026-05-28T00:14:48.757Z"
+      1  "2026-05-28T00:14:59.114Z"
+      1  "2026-05-28T00:15:09.183Z"
+      1  "2026-05-28T00:15:21.130Z"
+      1  "2026-05-28T00:15:30.948Z"
+      1  "2026-05-28T00:15:41.017Z"
+      1  "2026-05-28T00:15:51.783Z"
+      1  "2026-05-28T00:16:02.220Z"
+      1  "2026-05-28T00:16:12.707Z"
+      1  "2026-05-28T00:16:22.783Z"
+
+== imageEnrichmentStatus (present in 1137 rows)
+   1131  "filestack_found"
+      6  "no_filestack_images"
+
+== bookingDeadCheckedAt (present in 7 rows)
+      7  "2026-05-28"
+
+rows with NO priceSource/priceEnrichmentSource: 268
+ of which price>0: 268
+date fields: Counter({'priceEnrichmentAt': 1369, 'imageEnrichmentAt': 1137, 'bookingDeadCheckedAt': 7})
+  priceEnrichmentAt: oldest 2026-05-28 newest 2026-05-28
+  imageEnrichmentAt: oldest 2026-05-28 newest 2026-05-28
+  bookingDeadCheckedAt: oldest 2026-05-28 newest 2026-05-28
+
+priceLabel: Counter({None: 667, 'unknown': 126, 'Adult': 95, 'per adult': 87, 'Person': 62, 'starting at': 41, 'Persoon': 41, 'Volwassene': 38, 'Adulto': 32, 'Felicità': 28, 'Private group of 1 to 15 people': 21, 'Fiets met versnelling - normaal frame': 21, 'Hand Brake Bike': 20, 'Grupo Privado 1 a 4 personas': 19, 'Personen': 17, 'per person': 14, 'Volwassen': 10, 'Volledige dag': 9, 'General Admission': 8, 'Bike': 8, 'Private Tour': 7, 'Group of 1 to 6 people': 7, 'Private tour for 1 person': 7, 'Adult 18+ price per person': 6, 'Steppen': 6, 'Kids MTB 20"': 6, '1 person ( age 5+ / price pp)': 5, 'Grupo Privado 1 a 5 personas': 5, 'Salon': 5, 'Group of 1 to 3 people': 5, 'Gruppo privato di 4 persone': 5, 'Basic Gravelbike - XS': 5, 'Car': 5, '1 to 6 people': 4, '1 Person': 4, 'Koppel / Twee personen': 4, 'Huur 1 uur': 4, 'Grupos de 1-5 Pessoas': 4, 'An Hour and a Half Cruise': 3, 'Kids S': 3, '1 Hour Game': 3, '1 Hour': 3, 'Prive Groepshuur - Week': 3, 'Person NO Drinks': 3, 'Middag': 3, 'Kind': 3, 'Private workshop': 3, 'Groep tot 6 personen': 3, 'First Lesson': 3, 'Early Bird Ticket': 3, 'Participant': 3, 'Adult without Drinks and Snacks': 2, 'Private Tour 2 hours': 2, 'Private Cruise - 1 Hour': 2, 'Grupo - hasta 2 personas': 2, 'huur 1 uur': 2, 'Private Tour Deposit': 2, 'Adult (English speaking)': 2, 'Kids Ticket (<6y old)': 2, 'Adult Ticket': 2, 'Bicycle': 2, 'Private group up to 10': 2, 'Private tour': 2, 'Privé 1 persoon: 1 les': 2, 'Small Group': 2, 'Private Tour - Two Persons': 2, 'Group': 2, 'Volwassene voorschot/ adult deposit': 2, 'One Hour': 2, 'Volwassenen': 2, 'Privécharter': 2, 'Groep vanaf 10 personen': 2, 'SUP': 2, 'Eenpersoons kano': 2, 'Boom Community Night Ticket': 2, 'Course Participant': 2, '1 Tijdsblok Suppen': 2, 'Private Boat Delphine': 1, 'Private Group up to 10': 1, 'Single Ticket Smoke Tour': 1, 'Person (with Drinks included)': 1, 'Private Group - 1 Hour Cruise': 1, '2 hours boat cruise': 1, 'Pride tour guest': 1, 'One Hour Rental': 1, 'Adult - Drinks & Welcome Snack': 1, 'Private Group 1 to 5 people': 1, 'Oil Wrestling': 1, 'Strippers': 1, 'Adult WITH Hot Chocolate & Stroopwafel': 1, 'Adult (13+)': 1, 'Normale fiets - 1 Dag': 1, 'E-fatbike': 1, 'Café Cruiser': 1, '60 minuten': 1, '90 Minuten': 1, 'Privé groep 1-5 personen': 1, 'Halve dag huur (vier uur of korter)': 1, 'Volwassene met bierproverij en  kerken': 1, 'Privé Tour': 1, 'Zes uur verhuur': 1, 'Persoon - High Tea': 1, 'Ontbijt Erfgoedcruise': 1, 'Single ticket': 1, '1 Hour Private Cruise': 1, 'Person - 60 minutes': 1, 'Private VIP Charter • 2 Hours': 1, 'Besloten groep tot 4 personen': 1, 'SmartWalk': 1, 'Prive Tour': 1, 'Privé-rondleiding middelbare scholen': 1, 'Pakket BRONS': 1, 'Ticket': 1, '1 - 6 people full day walk': 1, 'Scooter': 1, 'Person - Bring your own drinks': 1, 'Group of 1': 1, '1 Dag': 1, 'Person - Lunch': 1, 'Per telefoon': 1, 'Gezelschap': 1, 'Group of 1 to 6 People': 1, '18 Hole Game': 1, 'Person - Two Heat Race': 1, 'Rookie': 1, 'Group of 6 to 10 people': 1, 'Kano1: (1 uur )\xa0max 3 personen': 1, 'kano 1: Huur 2 uur': 1, '1-3 people': 1, 'Boat "Schollevaar" - 90 min': 1, 'Privérondleiding': 1, 'Dagdeel verhuur': 1, 'Één uur Huur': 1, 'Groep 11 t/m 20 personen': 1, '1 Hour Private Cruise - 12 Pax': 1, 'Adult 14+': 1, 'Prive groep': 1, '1 Hour Private Cruise - 30Pax': 1, 'Private Group of 1 person': 1, 'Group of 1 to 4 people': 1, 'Persoon • Inclusief fiets': 1, '20-29 people': 1, 'Privé tour': 1, 'Zaanse Schans + Volendam/Edam': 1, 'Persoon - 1 uur standaard': 1, 'NABV LID': 1, 'Twee tot Drie Personen': 1, 'Vier uur verhuur': 1, 'personen': 1, 'Groep tot 10 personen': 1, 'Groep vanaf 6 personen': 1, 'Groep vanaf 8 personen': 1, 'Groep vanaf 11 personen': 1, 'Persoon zonder fiets': 1, 'Een persoon': 1, 'Kids Bike - For riders 125 (4\'1") and up': 1, 'Zespersoons elektroboot': 1, 'Show Ticket': 1, 'Koppels': 1, 'Early Bird Ringside Standing': 1, "Seat at the Owner's Table": 1, 'Balcony Seat': 1, 'Early Bird Table Seats': 1, 'Improv Class': 1, 'Kid': 1})
+priceLabel=='charter': 0 delta vs claimed 0: 0
+rows with priceBreakdown: 776
+ sample: [{"id": 180113, "singular": "Adult", "plural": "Adults", "note": "", "priceCents": 23850, "price": 238.5, "minPartySize": 1}, {"id": 180114, "singular": "Youth (Ages 10 - 17)", "plural": "Youths (Ages 10 - 17)", "note": "", "priceCents": 18974, "price": 189.74, "minPartySize": 1}, {"id": 180136, "si
+ price==max(breakdown)!=min: 180 delta vs 0: 180
+    83660 238.5 [{'id': 180113, 'singular': 'Adult', 'plural': 'Adults', 'note': '', 'priceCents': 23850, 'price': 238.5, 'minPartySize': 1}, {'id': 180114, 'singular': 'Youth (Ages 10 - 17)', 'plural': 'Youths (Ages 10 - 17)', 'note': '', 'priceCents': 18974, 'price': 189.74, 'minPartySize': 1}, {'id': 180136, 'singular': 'Child (Ages 9 and under)', 'plural': 'Children (Ages 9 and under)', 'note': '', 'priceCents': 14310, 'price': 143.1, 'minPartySize': 1}]
+    83634 90.1 [{'id': 180113, 'singular': 'Adult', 'plural': 'Adults', 'note': '', 'priceCents': 9010, 'price': 90.1, 'minPartySize': 1}, {'id': 180114, 'singular': 'Youth (Ages 10 - 17)', 'plural': 'Youths (Ages 10 - 17)', 'note': '', 'priceCents': 7314, 'price': 73.14, 'minPartySize': 1}, {'id': 180136, 'singular': 'Child (Ages 9 and under)', 'plural': 'Children (Ages 9 and under)', 'note': '', 'priceCents': 5830, 'price': 58.3, 'minPartySize': 1}]
+    83695 238.5 [{'id': 180113, 'singular': 'Adult', 'plural': 'Adults', 'note': '', 'priceCents': 23850, 'price': 238.5, 'minPartySize': 2}, {'id': 180114, 'singular': 'Youth (Ages 10 - 17)', 'plural': 'Youths (Ages 10 - 17)', 'note': '', 'priceCents': 18974, 'price': 189.74, 'minPartySize': 2}, {'id': 180136, 'singular': 'Child (Ages 9 and under)', 'plural': 'Children (Ages 9 and under)', 'note': '', 'priceCents': 14310, 'price': 143.1, 'minPartySize': 2}]
+    471664 118.16 [{'id': 845598, 'singular': 'Adult', 'plural': 'Adults', 'note': '18 years and older', 'priceCents': 11816, 'price': 118.16, 'minPartySize': 1}, {'id': 845602, 'singular': 'Youth', 'plural': 'Youth', 'note': 'Age 12 - 17', 'priceCents': 10325, 'price': 103.25, 'minPartySize': 1}, {'id': 845599, 'singular': 'Children', 'plural': 'Children', 'note': 'Age 5 - 11', 'priceCents': 9330, 'price': 93.3, 'minPartySize': 1}, {'id': 845601, 'singular': 'Infant', 'plural': 'Infant', 'note': 'Age 0-4  (share food with parents)', 'priceCents': 1, 'price': 0.01, 'minPartySize': 1}]
+    684392 369.27 [{'id': 873074, 'singular': '1 person ( age 5+ / price pp)', 'plural': '1 person ( age 5+ / price pp)', 'note': '', 'priceCents': 36927, 'price': 369.27, 'minPartySize': 1}, {'id': 873075, 'singular': 'Group of 2 ( age 5+ / price pp)', 'plural': 'Group of 2 ( age 5+ / price pp)', 'note': '', 'priceCents': 21628, 'price': 216.28, 'minPartySize': 1}, {'id': 873076, 'singular': 'Group of 3 ( age 5+ / price pp)', 'plural': 'Group of 3 ( age 5+ / price pp)', 'note': '', 'priceCents': 16353, 'price': 163.53, 'minPartySize': 1}, {'id': 873077, 'singular': 'Group of 4 ( age 5+ / price pp)', 'plural': 'Group of 4 ( age 5+ / price pp)', 'note': '', 'priceCents': 13927, 'price': 139.27, 'minPartySize': 1}, {'id': 873078, 'singular': 'Group of 5 ( age 5+ / price pp)', 'plural': 'Group of 5 ( age 5+ / price pp)', 'note': '', 'priceCents': 12344, 'price': 123.44, 'minPartySize': 1}, {'id': 873079, 'singular': 'Group of 6 ( age 5+ / price pp)', 'plural': 'Group of 6 ( age 5+ / price pp)', 'note': '', 'priceCents': 11394, 'price': 113.94, 'minPartySize': 1}, {'id': 873080, 'singular': 'Group of 7 ( age 5+ / price pp)', 'plural': 'Group of 7 ( age 5+ / price pp)', 'note': '', 'priceCents': 10656, 'price': 106.56, 'minPartySize': 1}, {'id': 873081, 'singular': 'Group of 8 ( age 5+ / price pp)', 'plural': 'Group of 8 ( age 5+ / price pp)', 'note': '', 'priceCents': 10234, 'price': 102.34, 'minPartySize': 1}, {'id': 873082, 'singular': 'Group of 9 ( age 5+ / price pp)', 'plural': 'Group of 9 ( age 5+ / price pp)', 'note': '', 'priceCents': 9706, 'price': 97.06, 'minPartySize': 1}, {'id': 873084, 'singular': 'Group of 10 ( age 5+ / price pp)', 'plural': 'Group of 10 ( age 5+ / price pp)', 'note': '', 'priceCents': 9390, 'price': 93.9, 'minPartySize': 1}]
+    151273 41.34 [{'id': 301309, 'singular': 'Adulto', 'plural': 'Adultos', 'note': '+12 años', 'priceCents': 4134, 'price': 41.34, 'minPartySize': 1}, {'id': 301308, 'singular': 'Joven', 'plural': 'Jóvenes', 'note': '6-16 Años', 'priceCents': 3074, 'price': 30.74, 'minPartySize': 1}, {'id': 301310, 'singular': 'Niño', 'plural': 'Niños', 'note': 'Menor de 5 años', 'priceCents': 0, 'price': 0, 'minPartySize': 1}]
+    653198 31.45 [{'id': 1076469, 'singular': 'Adult without Drinks and Snacks', 'plural': 'Adults without Drinks and Snacks', 'note': '', 'priceCents': 3145, 'price': 31.45, 'minPartySize': 1}, {'id': 1076470, 'singular': 'Child without Drinks and Snacks', 'plural': 'Children without Drinks and Snacks', 'note': '', 'priceCents': 2623, 'price': 26.23, 'minPartySize': 1}]
+    164572 21.2 [{'id': 301309, 'singular': 'Adulto', 'plural': 'Adultos', 'note': '+12 años', 'priceCents': 2120, 'price': 21.2, 'minPartySize': 1}, {'id': 301308, 'singular': 'Joven', 'plural': 'Jóvenes', 'note': 'de 6 a 12 años', 'priceCents': 1908, 'price': 19.08, 'minPartySize': 1}, {'id': 324055, 'singular': 'Niño', 'plural': 'Niños', 'note': 'menos de 6 años', 'priceCents': 0, 'price': 0, 'minPartySize': 1}]
+    92113 238.5 [{'id': 180113, 'singular': 'Adult', 'plural': 'Adults', 'note': '', 'priceCents': 23850, 'price': 238.5, 'minPartySize': 2}, {'id': 180114, 'singular': 'Youth (Ages 10 - 17)', 'plural': 'Youths (Ages 10 - 17)', 'note': '', 'priceCents': 18974, 'price': 189.74, 'minPartySize': 2}, {'id': 180136, 'singular': 'Child (Ages 9 and under)', 'plural': 'Children (Ages 9 and under)', 'note': '', 'priceCents': 14310, 'price': 143.1, 'minPartySize': 2}]
+    151284 62.54 [{'id': 301309, 'singular': 'Adulto', 'plural': 'Adultos', 'note': '+12 años', 'priceCents': 6254, 'price': 62.54, 'minPartySize': 1}, {'id': 301308, 'singular': 'Joven', 'plural': 'Jóvenes', 'note': '6-16 Años', 'priceCents': 4134, 'price': 41.34, 'minPartySize': 1}, {'id': 301310, 'singular': 'Niño', 'plural': 'Niños', 'note': 'Menor de 5 años', 'priceCents': 0, 'price': 0, 'minPartySize': 1}]
+ tier-like keys: ['priceBreakdown']
+   priceBreakdown distinct 330 [('[{"id": 762635, "singular": "Felicit\\u00e0", "plural": "Felicit\\u00e0"', 28), ('[{"id": 1137679, "singular": "Private group of 1 to 15 people", "plura', 21), ('[{"id": 708874, "singular": "Fiets met versnelling - normaal frame", "', 21), ('[{"id": 1077719, "singular": "Hand Brake Bike", "plural": "Hand Brake ', 20), ('[{"id": 301689, "singular": "Grupo Privado 1 a 4 personas", "plural": ', 19), ('[{"id": 422285, "singular": "Volwassene", "plural": "Volwassenen", "no', 12)]
+
+currency (UNVERIFIED-STORED): Counter({'EUR': 889, None: 518, 'USD': 230})
+price>0: 970 price types: Counter({'NoneType': 667, 'float': 599, 'int': 371})
+price==0: 0
