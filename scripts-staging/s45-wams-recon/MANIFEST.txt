@@ -1,0 +1,9 @@
+# s45 WAMS recon — served-bytes copies NOT tracked (multi-MB). Re-fetch and compare sha256.
+# served-tours-data.json = https://wanderamsterdam.com/tours-data.json fetched 2026-08-24 pre-merge, == git show 82e5fa7:tours-data.json
+# live-post-merge.json   = same URL fetched 2026-08-24 post-merge of #87,  == git show 95c58df:tours-data.json
+6b5aa6feb813ad24cacbf3b3207bb3c914dff537248f671a2ba3d2bbb5e0b0a9    4872232 bytes  served-tours-data.json
+b39b55566c09ee9abf0e9b487d40fe8ebb04d76876ff5c07c36305ef8689fdc2    4909317 bytes  live-post-merge.json
+# tracked served-bytes copies (small):
+b861d73e882680c3cef048b1629952d073d1bd6ef7bf050376cbe62353b77178      16646 bytes  served-app.js
+ebe301d1dd0f3ba054bd6e76d81c2cb3c15d5ddcecf4e1f562fffc623c9390dd      30216 bytes  served-index.html
+b861d73e882680c3cef048b1629952d073d1bd6ef7bf050376cbe62353b77178      16646 bytes  live-app-post.js

@@ -1,0 +1,24 @@
+max-tier 180 split: price==breakdown[0] (adult-first): 177  price!=breakdown[0] (true max-tier pick): 3
+   523958 31.65 Volwassene [('Infant', 0), ('Volwassene', 31.65), ('Kind', 15.83)]
+   662825 997.11 Group [('Child', 0), ('Group', 997.11)]
+   699480 524.79 Group [('Child', 0), ('Group', 524.79)]
+price-pick policy over 776 breakdown rows: Counter({'==first': 698, 'other': 75, '==max': 3})
+price==min positive tier: 503
+legacy(id key): 500  hermes: 1137  overlap: 0
+legacy w/ priceEnrichmentSource: 232  hermes w/: 1137
+no-stamp 268: legacy 268 hermes 0
+no-stamp priceLabel: [('unknown', 126), ('per adult', 87), ('starting at', 41), ('per person', 14)]
+no-stamp currency: Counter({'EUR': 267, 'USD': 1})
+no-stamp sample: [(689900, 26, 'EUR', 'per adult', 'https://fareharbor.com/embeds/book/mikesbiketoursa'), (70147, 37, 'EUR', 'per adult', 'https://fareharbor.com/embeds/book/mikesbiketoursa'), (518416, 39, 'EUR', 'unknown', 'https://fareharbor.com/embeds/book/amsterdamboattr'), (177104, 44, 'EUR', 'per adult', 'https://fareharbor.com/embeds/book/captaindaveamst'), (198502, 41, 'EUR', 'unknown', 'https://fareharbor.com/embeds/book/amsterdamboattr'), (198517, 39, 'EUR', 'unknown', 'https://fareharbor.com/embeds/book/amsterdamboattr')]
+status x price>0: Counter({('high', True): 702, ('none', False): 593, (None, True): 268, ('zero_price', False): 74})
+currency x source: Counter({('EUR', 'hermes'): 618, (None, 'hermes'): 518, ('EUR', 'legacy'): 271, ('USD', 'legacy'): 229, ('USD', 'hermes'): 1})
+USD rows w/ breakdown: 154
+USD sample urls: ['https://fareharbor.com/embeds/book/babyloncitytours-amsterda', 'https://fareharbor.com/embeds/book/babyloncitytours-amsterda', 'https://fareharbor.com/embeds/book/babyloncitytours-amsterda', 'https://fareharbor.com/embeds/book/babyloncitytours-amsterda', 'https://fareharbor.com/embeds/book/babyloncitytours-amsterda']
+zero_price rows price: Counter({None: 74})
+'none' rows price: Counter({'NoneType': 593})
+_unknownFields row: 442206 20 None {'priceSource': 'v52-dominant-gate'}
+bookingDead: [(151541, True), (488352, True), (488338, True), (488341, True), (488350, True), (488351, True), (488353, True)]
+statuses: Counter({None: 1137, 'active': 500})
+priceConfidence: Counter({'high': 803, None: 667, 'low': 125, 'medium': 42})
+empty-string stamp fields (legacy): ratingSource/enrichmentSource/lastUpdated all '' : 500
+legacy rating>0: 0 reviewCount>0: 0
