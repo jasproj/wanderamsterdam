@@ -2,7 +2,7 @@
 """s48-wams-heldrelease — release 30 of the 34 s47 HELD rows under Jason's rulings; 4 stay held.
 
 Rulings applied (2026-08-24):
-  D-622 (R1, new): per-person sliding ladder -> the LARGEST-BAND per-person figure anchors "From"
+  s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending) (R1, new): per-person sliding ladder -> the LARGEST-BAND per-person figure anchors "From"
         (floor of the ladder = cheapest non-concession fare; usually FareHarbor price.low — 524008 differs, recorded in priceBasis).
   D-614: whole-group ladder banded by party size -> the floor band publishes.
   D-621: child tiers are concessions and never anchor; re-anchor to the first non-concession tier.
@@ -28,12 +28,12 @@ assert len(pop) == 34 and pop == sorted(items), ('population drift', len(pop), l
 
 # pk -> (ruling, anchor tier label, priceUnit, extra basis note). Unit strings are derived from the quoted label/note only.
 def rel(ruling, label, unit, note=''): return dict(ruling=ruling, label=label, unit=unit, note=note)
-PDTA = rel('D-622', '6 People', 'per person, group of 6', 'per-person sliding ladder; 1 Person tier is the dearest, not a "From" anchor')
+PDTA = rel('s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending)', '6 People', 'per person, group of 6', 'per-person sliding ladder; 1 Person tier is the dearest, not a "From" anchor')
 PLAN = {
     117571: PDTA, 177428: PDTA, 190046: PDTA, 190121: PDTA, 190128: PDTA, 190132: PDTA, 190099: PDTA,
-    384741: rel('D-622', '10+ persons', 'per person, group of 10+',
+    384741: rel('s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending)', '10+ persons', 'per person, group of 10+',
                 'quirk: 1 person 207.82 = 2 x 103.91 = 3 x 69.27 ~= 4 x 51.95 -- the 1-4 tiers divide a fixed ~207.82 group fare; per-head only from the 10+ band'),
-    524008: rel('D-622', 'Group of 10 ( age 5+ / price pp)', 'per person, group of 10', 'per-person sliding ladder (price pp)'),
+    524008: rel('s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending)', 'Group of 10 ( age 5+ / price pp)', 'per person, group of 10', 'per-person sliding ladder (price pp)'),
     148032: rel('D-614', 'Private Cruise', 'per group, up to 12 people', 'single whole-group tier; note "Up to 12 People"'),
     672906: rel('D-614', 'Private group of 1 to 15 people', 'per group, 1 to 15 people', 'single whole-group tier'),
     234991: rel('D-614', 'Group of 1 to 3 people', 'per group, 1 to 3 people', 'note "Price per group"; floor band'),
@@ -91,5 +91,5 @@ c = collections.Counter((s['disposition'], s['ruling']) for s in summary); print
 for s in summary: print(f"{s['pk']} {s['disposition']:8} {s['ruling']:6} {s['prior']!s:>7} -> {s['price']!s:>7}  {s['priceUnit'] or '-'}")
 out = json.dumps(doc, indent=2, ensure_ascii=False) + '\n'
 if execute:
-    open(DATA, 'w').write(out); json.dump(dict(pass_=PASS, day=DAY, rulings={'D-622': 'largest-band per-person figure anchors From (R1)', 'D-614': 'whole-group floor band publishes', 'D-621': 'child tiers never anchor', 'R2': 'no derivable priceUnit -> stays held'}, rows=summary), open(E + '/apply-summary.json', 'w'), indent=1, ensure_ascii=False); print('WROTE', DATA)
+    open(DATA, 'w').write(out); json.dump(dict(pass_=PASS, day=DAY, rulings={'s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending)': 'largest-band per-person figure anchors From (R1)', 'D-614': 'whole-group floor band publishes', 'D-621': 'child tiers never anchor', 'R2': 'no derivable priceUnit -> stays held'}, rows=summary), open(E + '/apply-summary.json', 'w'), indent=1, ensure_ascii=False); print('WROTE', DATA)
 else: print('DRY RUN')
