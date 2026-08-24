@@ -12232,7 +12232,39 @@
       "priceEnrichmentStatus": "high",
       "currencyVerifiedSource": "s45-wams-currency-verify",
       "currencyVerifiedAt": "2026-08-24T19:56:32.731507+00:00",
-      "currencyVerifiedLive": "EUR"
+      "currencyVerifiedLive": "EUR",
+      "priceSource": "s46-wams-maxtier-3",
+      "priceBasis": "Volwassene: adult per-person tier of live ladder (Infant 0 / Volwassene 31.65 / Kind 15.83), 17/17 date-valid; adult anchors \"From\", child tier Kind 15.83 does not (WHAW s45 precedent 57549)",
+      "priceTiers": [
+        {
+          "id": 1081837,
+          "singular": "Volwassene",
+          "plural": "Volwassenen",
+          "note": "Vanaf 13 jaar",
+          "priceCents": 3165,
+          "price": 31.65,
+          "minPartySize": 1
+        },
+        {
+          "id": 1081838,
+          "singular": "Kind",
+          "plural": "Kinderen",
+          "note": "Vanaf 3 tot 12 jaar",
+          "priceCents": 1583,
+          "price": 15.83,
+          "minPartySize": 1
+        },
+        {
+          "id": 695693,
+          "singular": "Infant",
+          "plural": "Infants",
+          "note": "API",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceVerifiedAt": "2026-08-24"
     },
     {
       "id": "526535",
@@ -43064,7 +43096,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Group",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1162096,
@@ -43094,7 +43126,30 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:54:36.154Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/paynehurdstours/items/662825/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/paynehurdstours/items/662825/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceSource": "s46-wams-maxtier-3",
+      "priceBasis": "HELD: sole positive tier \"Group\" note \"Price per group.\" is a whole-group fare (997.11 EUR per group, min_party_size 1, no party cap); Child 0 EUR per person. WAMS has no priceUnit render path; not published as a per-person \"From\" price",
+      "priceTiers": [
+        {
+          "id": 1162095,
+          "singular": "Group",
+          "plural": "Groups",
+          "note": "Price per group.",
+          "priceCents": 99711,
+          "price": 997.11,
+          "minPartySize": 1
+        },
+        {
+          "id": 1162096,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 0-17 • Price per person",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceVerifiedAt": "2026-08-24"
     },
     {
       "pk": 662835,
@@ -47530,7 +47585,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Group",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1162096,
@@ -47560,7 +47615,30 @@
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T01:09:15.726Z",
       "imageEnrichmentStatus": "filestack_found",
-      "bookingUrlLegacy": "https://fareharbor.com/paynehurdstours/items/699480/book/?full-items=yes&flow=no&ref=walktheplankadventures"
+      "bookingUrlLegacy": "https://fareharbor.com/paynehurdstours/items/699480/book/?full-items=yes&flow=no&ref=walktheplankadventures",
+      "priceSource": "s46-wams-maxtier-3",
+      "priceBasis": "HELD: sole positive tier \"Group\" note \"Price per group.\" is a whole-group fare (524.79 EUR per group, min_party_size 1, no party cap); Child 0 EUR per person. WAMS has no priceUnit render path; not published as a per-person \"From\" price",
+      "priceTiers": [
+        {
+          "id": 1162095,
+          "singular": "Group",
+          "plural": "Groups",
+          "note": "Price per group.",
+          "priceCents": 52479,
+          "price": 524.79,
+          "minPartySize": 1
+        },
+        {
+          "id": 1162096,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 0-17 • Price per person",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceVerifiedAt": "2026-08-24"
     },
     {
       "pk": 728187,
