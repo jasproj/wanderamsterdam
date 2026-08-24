@@ -43096,7 +43096,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Group",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1162096,
@@ -43149,7 +43149,11 @@
           "minPartySize": 1
         }
       ],
-      "priceVerifiedAt": "2026-08-24"
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group"
+      },
+      "priceReleasedBy": "s47-wams-priceunit: HELD condition in priceBasis lifted — explicit-field priceUnit render path landed (KWST mechanism via WNZ #108); unit \"per group\" because no party cap exists in any #90 evidence; live currency EUR per #90 liveDetails; price/basis/tiers stamps from #90 stand"
     },
     {
       "pk": 662835,
@@ -47585,7 +47589,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Group",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1162096,
@@ -47638,7 +47642,11 @@
           "minPartySize": 1
         }
       ],
-      "priceVerifiedAt": "2026-08-24"
+      "priceVerifiedAt": "2026-08-24",
+      "_unknownFields": {
+        "priceUnit": "per group"
+      },
+      "priceReleasedBy": "s47-wams-priceunit: HELD condition in priceBasis lifted — explicit-field priceUnit render path landed (KWST mechanism via WNZ #108); unit \"per group\" because no party cap exists in any #90 evidence; live currency EUR per #90 liveDetails; price/basis/tiers stamps from #90 stand"
     },
     {
       "pk": 728187,
