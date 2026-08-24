@@ -1,0 +1,41 @@
+disposition {'high': 136, 'none': 43, 'high:held-whole-group': 34, 'zero_price': 52, 'high:reanchored': 2}
+rulings:
+  107307 hold anchor tier "2 hours boat cruise" (no note) prices a party/boat, not a seat
+  117571 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  148032 hold anchor tier "Private Cruise" (Up to 12 People) prices a party/boat, not a seat
+  177428 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  190046 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  190099 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  190121 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  190128 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  190132 hold anchor tier "1 Person" heads a party-size sliding ladder (6 tiers); per-seat price depends on party size, not a clean "From" anchor
+  234991 hold anchor tier "Group of 1 to 3 people" (Price per group) prices a party/boat, not a seat
+  244818 hold anchor tier "One hour and half  boat rent incl. skipper" (no note) prices a party/boat, not a seat
+  314373 hold anchor tier "Boat "Lucy" 90 Minutes" (Classic Boat • max 6 people) prices a party/boat, not a seat
+  314378 hold anchor tier "Boat "Geertje" - 90 min" (Small open boat • max 10 people) prices a party/boat, not a seat
+  314383 hold anchor tier "Boat "Geertje" - 90 min" (Small open boat • max 10 people) prices a party/boat, not a seat
+  314385 hold anchor tier "Boat "Schollevaar" - 90 min" (Classic Boat • max 10 people) prices a party/boat, not a seat
+  314386 hold anchor tier "Boat "Pure Spirit" - 90 min" (The Flagship • max 20 people) prices a party/boat, not a seat
+  326244 hold anchor tier "Private Cruise - 1 Hour" (no note) prices a party/boat, not a seat
+  353963 hold anchor tier "Extra Small Group - 1 to 6 persons" (no note) prices a party/boat, not a seat
+  354014 hold anchor tier "Extra Small Group - 1 to 6 persons" (no note) prices a party/boat, not a seat
+  384741 hold anchor tier "1 person" heads a party-size sliding ladder (5 tiers); per-seat price depends on party size, not a clean "From" anchor
+  396248 hold anchor tier "Grupos de 1-5 Pessoas" (no note) prices a party/boat, not a seat
+  396252 hold anchor tier "Grupos de 1-5 Pessoas" (no note) prices a party/boat, not a seat
+  415027 hold anchor tier "Boat "Lucy" 90 Minutes" (Classic Boat • max 6 people) prices a party/boat, not a seat
+  453211 hold anchor tier "Koppel / Twee personen" (Prijs per koppel) prices a party/boat, not a seat
+  508139 hold anchor tier "Koppel / Twee personen" (Prijs per koppel) prices a party/boat, not a seat
+  524008 hold anchor tier "1 person ( age 5+ / price pp)" heads a party-size sliding ladder (10 tiers); per-seat price depends on party size, not a clean "From" anchor
+  540184 hold anchor tier "Private Charter - Boat Hedir" (Private Hire of our 11 seater boat Hedir, with storyteller and captain.) prices a party/boat, not a seat
+  576273 hold anchor tier "Boat "Stan Huygens" - 90 Minutes" (Classic Boat • max 36 people) prices a party/boat, not a seat
+  592154 hold child-only ladder, no adult per-person tier
+  594114 reanchor Adult 3674
+  619538 hold anchor tier "Koppel / Twee personen" (Prijs per koppel) prices a party/boat, not a seat
+  623293 hold anchor tier "Private tour 1 person" (no note) prices a party/boat, not a seat
+  635425 reanchor Person 12590
+  635956 hold anchor tier "Anderhalf uur Privé Tour" (Maximaal 6 personen) prices a party/boat, not a seat
+  672906 hold anchor tier "Private group of 1 to 15 people" (no note) prices a party/boat, not a seat
+  690937 hold anchor tier "Private tour 1-4 persons" (no note) prices a party/boat, not a seat
+zero_price confidence moves {('high', 'low'): 19, ('medium', 'low'): 38, ('low', 'low'): 72}
+high: stored==live 9, changed 129; max |delta| 313.26
+WROTE tours-data.json
