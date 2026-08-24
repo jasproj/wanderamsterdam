@@ -1,0 +1,352 @@
+{
+ "pass_": "s48-wams-heldrelease",
+ "day": "2026-08-24",
+ "rulings": {
+  "D-622": "largest-band per-person figure anchors From (R1)",
+  "D-614": "whole-group floor band publishes",
+  "D-621": "child tiers never anchor",
+  "R2": "no derivable priceUnit -> stays held"
+ },
+ "rows": [
+  {
+   "pk": 107307,
+   "name": "Private Deluxe Boat Cruise",
+   "disposition": "held",
+   "ruling": "R2",
+   "prior": 450,
+   "price": 450,
+   "label": "2 hours boat cruise",
+   "priceUnit": null
+  },
+  {
+   "pk": 117571,
+   "name": "Giethoorn, Private Boat Tour & Exploring the North of The Netherlands",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 139.92,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 148032,
+   "name": "Private Cruise on the Sophie",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 369.27,
+   "price": 369.27,
+   "label": "Private Cruise",
+   "priceUnit": "per group, up to 12 people"
+  },
+  {
+   "pk": 177428,
+   "name": "Amsterdam Castle & Utrecht City Tour",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 139.92,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 190046,
+   "name": "Giethoorn, Private Boat Tour & Zaanse Schans Windmills",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 139.92,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 190099,
+   "name": "Holland Four City Charm Tour",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 134.62,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 190121,
+   "name": "Gouda, Witches & Cheese",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 139.92,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 190128,
+   "name": "Kinderdijk Windmills, Delft City & Delft Blue Factory Visit",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 139.92,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 190132,
+   "name": "Keukenhof, Tulip Farm, Flower Fields & Zaanse Schans Windmills",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 572.4,
+   "price": 139.92,
+   "label": "6 People",
+   "priceUnit": "per person, group of 6"
+  },
+  {
+   "pk": 234991,
+   "name": "Bruges City Tour • 11 Hours",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 844.04,
+   "price": 844.04,
+   "label": "Group of 1 to 3 people",
+   "priceUnit": "per group, 1 to 3 people"
+  },
+  {
+   "pk": 244818,
+   "name": "Big Saloon Boat",
+   "disposition": "held",
+   "ruling": "R2",
+   "prior": 466.86,
+   "price": 466.86,
+   "label": "One hour and half  boat rent incl. skipper",
+   "priceUnit": null
+  },
+  {
+   "pk": 314373,
+   "name": "Private Afternoon Cruise",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 395.64,
+   "price": 395.64,
+   "label": "Boat \"Lucy\" 90 Minutes",
+   "priceUnit": "per boat, max 6 people"
+  },
+  {
+   "pk": 314378,
+   "name": "Private Evening Cruise",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 348.16,
+   "price": 348.16,
+   "label": "Boat \"Geertje\" - 90 min",
+   "priceUnit": "per boat, max 10 people"
+  },
+  {
+   "pk": 314383,
+   "name": "Geertje",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 348.16,
+   "price": 348.16,
+   "label": "Boat \"Geertje\" - 90 min",
+   "priceUnit": "per boat, max 10 people"
+  },
+  {
+   "pk": 314385,
+   "name": "Schollevaar",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 379.82,
+   "price": 379.82,
+   "label": "Boat \"Schollevaar\" - 90 min",
+   "priceUnit": "per boat, max 10 people"
+  },
+  {
+   "pk": 314386,
+   "name": "Pure Spirit",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 443.12,
+   "price": 443.12,
+   "label": "Boat \"Pure Spirit\" - 90 min",
+   "priceUnit": "per boat, max 20 people"
+  },
+  {
+   "pk": 326244,
+   "name": "Private Leemstar V Amsterdam Discovery Cruise",
+   "disposition": "held",
+   "ruling": "R2",
+   "prior": 369.27,
+   "price": 369.27,
+   "label": "Private Cruise - 1 Hour",
+   "priceUnit": null
+  },
+  {
+   "pk": 353963,
+   "name": "Private Beer Bike",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 316.1,
+   "price": 316.1,
+   "label": "Extra Small Group - 1 to 6 persons",
+   "priceUnit": "per group, 1 to 6 persons"
+  },
+  {
+   "pk": 354014,
+   "name": "Private Bubbly Bike",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 316.1,
+   "price": 316.1,
+   "label": "Extra Small Group - 1 to 6 persons",
+   "priceUnit": "per group, 1 to 6 persons"
+  },
+  {
+   "pk": 384741,
+   "name": "Private Highlights Bike Tour",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 207.82,
+   "price": 39.36,
+   "label": "10+ persons",
+   "priceUnit": "per person, group of 10+"
+  },
+  {
+   "pk": 396248,
+   "name": "Excursão Privada em Português aos Moinhos de Zaanse Schans",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 367.36,
+   "price": 367.36,
+   "label": "Grupos de 1-5 Pessoas",
+   "priceUnit": "per group, 1-5 pessoas"
+  },
+  {
+   "pk": 396252,
+   "name": "De Pijp: Bairro da Heineken Experience - Tour Privado",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 293.88,
+   "price": 293.88,
+   "label": "Grupos de 1-5 Pessoas",
+   "priceUnit": "per group, 1-5 pessoas"
+  },
+  {
+   "pk": 415027,
+   "name": "Lucy",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 395.64,
+   "price": 395.64,
+   "label": "Boat \"Lucy\" 90 Minutes",
+   "priceUnit": "per boat, max 6 people"
+  },
+  {
+   "pk": 453211,
+   "name": "Privé E-biketour door Amsterdam",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 156.39,
+   "price": 156.39,
+   "label": "Koppel / Twee personen",
+   "priceUnit": "per couple"
+  },
+  {
+   "pk": 508139,
+   "name": "Privé Amsterdamse Stadswandeling",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 103.91,
+   "price": 103.91,
+   "label": "Koppel / Twee personen",
+   "priceUnit": "per couple"
+  },
+  {
+   "pk": 524008,
+   "name": "Jewish History Tour - Private Tour",
+   "disposition": "released",
+   "ruling": "D-622",
+   "prior": 329.17,
+   "price": 66.47,
+   "label": "Group of 10 ( age 5+ / price pp)",
+   "priceUnit": "per person, group of 10"
+  },
+  {
+   "pk": 540184,
+   "name": "Private Canal Tour",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 501.65,
+   "price": 501.65,
+   "label": "Private Charter - Boat Hedir",
+   "priceUnit": "per boat, 11 seater"
+  },
+  {
+   "pk": 576273,
+   "name": "Stan Huygens",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 664.68,
+   "price": 664.68,
+   "label": "Boat \"Stan Huygens\" - 90 Minutes",
+   "priceUnit": "per boat, max 36 people"
+  },
+  {
+   "pk": 592154,
+   "name": "Private Cruise with Drinks | Starts from Starboard Dock",
+   "disposition": "released",
+   "ruling": "D-621",
+   "prior": 18.84,
+   "price": 416.74,
+   "label": "Private Group - 1 Hour Cruise",
+   "priceUnit": "per boat, 1 hour"
+  },
+  {
+   "pk": 619538,
+   "name": "Privé Grote Fietstour Amsterdam Highlights",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 156.39,
+   "price": 156.39,
+   "label": "Koppel / Twee personen",
+   "priceUnit": "per couple"
+  },
+  {
+   "pk": 623293,
+   "name": "Amsterdam Food Tour De Pijp - Private",
+   "disposition": "held",
+   "ruling": "R2",
+   "prior": 366.31,
+   "price": 366.31,
+   "label": "Private tour 1 person",
+   "priceUnit": null
+  },
+  {
+   "pk": 635956,
+   "name": "Privé rondvaart Amsterdam",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 358.72,
+   "price": 358.72,
+   "label": "Anderhalf uur Privé Tour",
+   "priceUnit": "per boat, maximaal 6 personen"
+  },
+  {
+   "pk": 672906,
+   "name": "Private walking tour of Haarlem",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 199,
+   "price": 199,
+   "label": "Private group of 1 to 15 people",
+   "priceUnit": "per group, 1 to 15 people"
+  },
+  {
+   "pk": 690937,
+   "name": "Amsterdam Family Walking Tour",
+   "disposition": "released",
+   "ruling": "D-614",
+   "prior": 272.89,
+   "price": 272.89,
+   "label": "Private tour 1-4 persons",
+   "priceUnit": "per group, 1-4 persons"
+  }
+ ]
+}
