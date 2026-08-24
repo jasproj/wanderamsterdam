@@ -14840,7 +14840,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"Group of 10 ( age 5+ / price pp)\" = 66.47 EUR; priceUnit \"per person, group of 10\" derived verbatim from that label/note; per-person sliding ladder (price pp); FH price.low 32917 (not the ruled anchor 6647: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('1 person ( age 5+ / price pp)', 32917), ('Group of 2 ( age 5+ / price pp)', 19729), ('Group of 3 ( age 5+ / price pp)', 14243), ('Group of 4 ( age 5+ / price pp)', 11606), ('Group of 5 ( age 5+ / price pp)', 10023), ('Group of 6 ( age 5+ / price pp)', 8862), ('Group of 7 ( age 5+ / price pp)', 8229), ('Group of 8 ( age 5+ / price pp)', 7913), ('Group of 9 ( age 5+ / price pp)', 7491), ('Group of 10 ( age 5+ / price pp)', 6647)]; prior s47 HELD figure was 329.17",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"Group of 10 ( age 5+ / price pp)\" = 66.47 EUR; priceUnit \"per person, group of 10\" derived verbatim from that label/note; per-person sliding ladder (price pp); FH price.low 32917 (not the ruled anchor 6647: FH low is the cheapest tier of any kind; the ruling anchors the named tier); live ladder [('1 person ( age 5+ / price pp)', 32917), ('Group of 2 ( age 5+ / price pp)', 19729), ('Group of 3 ( age 5+ / price pp)', 14243), ('Group of 4 ( age 5+ / price pp)', 11606), ('Group of 5 ( age 5+ / price pp)', 10023), ('Group of 6 ( age 5+ / price pp)', 8862), ('Group of 7 ( age 5+ / price pp)', 8229), ('Group of 8 ( age 5+ / price pp)', 7913), ('Group of 9 ( age 5+ / price pp)', 7491), ('Group of 10 ( age 5+ / price pp)', 6647)]; prior s47 HELD figure was 329.17",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 10"
@@ -21170,7 +21170,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"10+ persons\" = 39.36 EUR; priceUnit \"per person, group of 10+\" derived verbatim from that label/note; quirk: 1 person 207.82 = 2 x 103.91 = 3 x 69.27 ~= 4 x 51.95 -- the 1-4 tiers divide a fixed ~207.82 group fare; per-head only from the 10+ band; FH price.low 3936; live ladder [('1 person', 20782), ('2 persons', 10391), ('3 persons', 6927), ('4-9 persons', 5195), ('10+ persons', 3936)]; prior s47 HELD figure was 207.82",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"10+ persons\" = 39.36 EUR; priceUnit \"per person, group of 10+\" derived verbatim from that label/note; quirk: 1 person 207.82 = 2 x 103.91 = 3 x 69.27 ~= 4 x 51.95 -- the 1-4 tiers divide a fixed ~207.82 group fare; per-head only from the 10+ band; FH price.low 3936; live ladder [('1 person', 20782), ('2 persons', 10391), ('3 persons', 6927), ('4-9 persons', 5195), ('10+ persons', 3936)]; prior s47 HELD figure was 207.82",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 10+"
@@ -23832,7 +23832,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
@@ -23987,7 +23987,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 134.62 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13462; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 22260), ('4 People', 18285), ('5 People', 15264), ('6 People', 13462)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 134.62 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13462; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 22260), ('4 People', 18285), ('5 People', 15264), ('6 People', 13462)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
@@ -24142,7 +24142,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
@@ -33824,7 +33824,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
@@ -33981,7 +33981,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
@@ -34139,7 +34139,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
@@ -34294,7 +34294,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "D-622: anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
+      "priceBasis": "s48-R1 sliding-ladder ruling (largest-band per-person floor anchors; decision id pending): anchor tier \"6 People\" ((Ages 7+)) = 139.92 EUR; priceUnit \"per person, group of 6\" derived verbatim from that label/note; per-person sliding ladder; 1 Person tier is the dearest, not a \"From\" anchor; FH price.low 13992; live ladder [('1 Person', 57240), ('2 People', 31270), ('3 People', 23320), ('4 People', 18285), ('5 People', 15688), ('6 People', 13992)]; prior s47 HELD figure was 572.4",
       "priceVerifiedAt": "2026-08-24",
       "_unknownFields": {
         "priceUnit": "per person, group of 6"
