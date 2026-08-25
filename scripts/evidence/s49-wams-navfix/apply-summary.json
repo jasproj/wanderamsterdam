@@ -1,0 +1,21 @@
+{
+ "pass_": "s49-wams-navfix",
+ "ladder_day": "2026-08-24",
+ "ruling": "D-614 (WENG s49 C rule: party-total ladder rising with band; floor TOTAL anchors, tier label verbatim as unit)",
+ "sha256": {
+  "before_tours_data": "580368f3d7ffdcab44da46178ea3aaa77d8a2aa37e3494fd10985667795eb421",
+  "after_tours_data": "3bbde73833fb61ea1d53e8d79457d596dc762be4263832cdf950f44f041fe980"
+ },
+ "rows": [
+  {
+   "pk": 623293,
+   "name": "Amsterdam Food Tour De Pijp - Private",
+   "disposition": "released",
+   "ruling": "D-614 (C rule)",
+   "prior": 366.31,
+   "price": 366.31,
+   "label": "Private tour 1 person",
+   "priceUnit": "Private tour 1 person"
+  }
+ ]
+}
