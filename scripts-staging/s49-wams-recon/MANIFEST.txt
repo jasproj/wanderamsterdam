@@ -1,0 +1,5 @@
+# s49 WAMS post-merge verify — served-bytes copy NOT tracked (multi-MB). Re-fetch and compare sha256.
+# served-tours-data-s49.json = https://wanderamsterdam.com/tours-data.json fetched 2026-08-25 post-merge of #95
+#                               == git show 7f504da:tours-data.json (squash SHA on main)
+580368f3d7ffdcab44da46178ea3aaa77d8a2aa37e3494fd10985667795eb421    5299888 bytes  served-tours-data-s49.json
+580368f3d7ffdcab44da46178ea3aaa77d8a2aa37e3494fd10985667795eb421    5299888 bytes  git show 7f504da:tours-data.json (same hash — squash preserved tree exactly)
