@@ -12984,7 +12984,7 @@
       "island": "amsterdam",
       "price": 366.31,
       "priceLabel": "Private tour 1 person",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 81,
       "currency": "EUR",
       "duration": null,
@@ -13097,8 +13097,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "HELD (template ruling pending): whole-group ladder (\"Private tour 1 person\" .. \"8 persons\") — tier labels carry party-size text but do not fit either established template cleanly: not a single D-614 whole-group-band tier (cf. pk 690937's lone \"Private tour 1-4 persons\" tier), and not a clean R1 per-person sliding ladder (R1 tiers are themselves per-head rates); this ladder's totals increase linearly by a constant +52.48 EUR/head (366.31, 418.78, 471.26, [523.74 @ n=4], 576.22, 628.70, 681.18, 733.66 = 366.31 + 52.48*(n-1)), i.e. a base-fee-plus-per-head group total, not a per-attendee rate card; the \"Private tour 1-4 persons\" tier sits exactly where a clean \"4 persons\" step would (+52.48 over the 3-person tier) and is suspected to be a mislabeled/merged \"4 persons\" tier rather than a genuine 1-4 range band; queued for a ruling on which template (R1 sliding-per-person vs D-614 whole-group-band) governs a mixed incremental/banded party ladder, and on the suspected \"1-4 persons\" mislabel; no description/title cap language found to derive a unit from independently; live ladder confirmed 2026-08-24 [('Private tour 1 person', 36631, ''), ('Private tour 2 persons', 41878, ''), ('Private tour 3 persons', 47126, ''), ('Private tour 1-4 persons', 52374, ''), ('Private tour 5 persons', 57622, ''), ('Private tour 6 persons', 62870, ''), ('Private tour 7 persons', 68118, ''), ('Private tour 8 persons', 73366, '')]; stored figure 366.31 EUR (s47 anchor) retained; live floor 366.31 EUR; not published",
+      "priceSource": "s49-wams-navfix: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json (carried forward, no reprobe)",
+      "priceBasis": "D-614 (per WENG s49 C rule: a party-total ladder rising with band is D-614; the floor TOTAL anchors, tier label used verbatim as priceUnit): floor tier \"Private tour 1 person\" = 366.31 EUR (unchanged); priceUnit \"Private tour 1 person\" is the anchor tier's own label, verbatim, per the C rule's unit convention for this ladder shape; carried forward from the prior template-ruling note: this ladder's totals rise linearly by a constant +52.48 EUR/head (366.31, 418.78, 471.26, [523.74 @ n=4], 576.22, 628.70, 681.18, 733.66 = 366.31 + 52.48*(n-1)), and the \"Private tour 1-4 persons\" tier sits exactly where a clean \"4 persons\" step would land (+52.48 over the 3-person tier) — still suspected to be a mislabeled/merged \"4 persons\" tier, not a genuine 1-4 range band; that mislabel note is informational only and does not block release under the C rule, since the ruling anchors the named floor tier regardless; live ladder confirmed 2026-08-24 [('Private tour 1 person', 36631, ''), ('Private tour 2 persons', 41878, ''), ('Private tour 3 persons', 47126, ''), ('Private tour 1-4 persons', 52374, ''), ('Private tour 5 persons', 57622, ''), ('Private tour 6 persons', 62870, ''), ('Private tour 7 persons', 68118, ''), ('Private tour 8 persons', 73366, '')]; prior stamp was HELD (template ruling pending), s48/s47 anchor figure 366.31 EUR unchanged",
       "priceVerifiedAt": "2026-08-24",
       "priceTiers": [
         {
@@ -13165,7 +13165,10 @@
           "price": 733.66,
           "minPartySize": 1
         }
-      ]
+      ],
+      "_unknownFields": {
+        "priceUnit": "Private tour 1 person"
+      }
     },
     {
       "id": "640088",
