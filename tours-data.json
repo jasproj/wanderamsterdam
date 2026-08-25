@@ -2854,7 +2854,7 @@
       "island": "amsterdam",
       "price": 369.27,
       "priceLabel": "Private Cruise - 1 Hour",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "EUR",
       "duration": "90 Minutes",
@@ -2965,8 +2965,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "HELD (R2, no derivable priceUnit): anchor \"Private Cruise - 1 Hour\" prices a boat but no tier label/note carries cap or party language; live ladder confirmed 2026-08-24 [('Private Cruise - 1 Hour', 36927, ''), ('Private Cruise - 1.5 Hours', 50115, ''), ('Private Cruise - 2 Hours', 63303, ''), ('Private Cruise - 2.5 Hours', 76491, ''), ('Private Cruise - 3 Hours', 89679, ''), ('Private Cruise - 3.5 Hours', 102867, ''), ('Private Cruise - 5.5 Hours', 171445, ''), ('Private Cruise - 7.5 Hours', 234748, '')]; stored figure 369.27 EUR (s47 anchor) retained; live floor 369.27 EUR; not published",
+      "priceSource": "s49-wams-heldrelease-2: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json (carried forward, no reprobe)",
+      "priceBasis": "D-?? (pending): description-derived priceUnit sanctioned — source quoted verbatim in priceBasis, conflicts flagged in-stamp: anchor/floor tier \"Private Cruise - 1 Hour\" = 369.27 EUR (unchanged from s48); priceUnit \"per boat, up to 12 guests\" derived verbatim from description/highlights: \"The cruise is intimate and has no more than 12 guests on board.\"; FLAG: stored duration field \"90 Minutes\" mismatches the anchor tier \"Private Cruise - 1 Hour\" (90 min pairs with the second tier, \"Private Cruise - 1.5 Hours\", 501.15 EUR) — unit and price follow the ruled 1-Hour anchor, duration field not reconciled; live ladder [('Private Cruise - 1 Hour', 36927, ''), ('Private Cruise - 1.5 Hours', 50115, ''), ('Private Cruise - 2 Hours', 63303, ''), ('Private Cruise - 2.5 Hours', 76491, ''), ('Private Cruise - 3 Hours', 89679, ''), ('Private Cruise - 3.5 Hours', 102867, ''), ('Private Cruise - 5.5 Hours', 171445, ''), ('Private Cruise - 7.5 Hours', 234748, '')]; prior stamp was HELD (R2, no derivable priceUnit)",
       "priceVerifiedAt": "2026-08-24",
       "priceTiers": [
         {
@@ -3033,7 +3033,10 @@
           "price": 2347.48,
           "minPartySize": 1
         }
-      ]
+      ],
+      "_unknownFields": {
+        "priceUnit": "per boat, up to 12 guests"
+      }
     },
     {
       "id": "431111",
@@ -7201,9 +7204,9 @@
       "category": "",
       "location": "Netherlands/Noord-Holland/Amsterdam",
       "island": "amsterdam",
-      "price": 450,
-      "priceLabel": "2 hours boat cruise",
-      "priceConfidence": "low",
+      "price": 350.0,
+      "priceLabel": "1,5 hours boat cruise",
+      "priceConfidence": "high",
       "qualityScore": 88,
       "currency": "EUR",
       "duration": null,
@@ -7252,8 +7255,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "HELD (R2, no derivable priceUnit): anchor \"2 hours boat cruise\" prices a boat but no tier label/note carries cap or party language; live ladder confirmed 2026-08-24 [('2 hours boat cruise', 45000, ''), ('1,5 hours boat cruise', 35000, '')]; stored figure 450 EUR (s47 anchor) retained; live floor 350 EUR; not published",
+      "priceSource": "s49-wams-heldrelease-2: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json (carried forward, no reprobe)",
+      "priceBasis": "D-?? (pending): description-derived priceUnit sanctioned — source quoted verbatim in priceBasis, conflicts flagged in-stamp: floor tier \"1,5 hours boat cruise\" = 350.0 EUR (drops from the s48 HELD anchor 450 EUR on tier \"2 hours boat cruise\" — floor is the cheaper of the two live tiers, not the prior s47 anchor); priceUnit \"per boat, up to 12 guests\" derived verbatim from description: \"The boats are cozy and private, with space for up to 12 guests.\"; FLAG: stored capacity field = 10, description says 12 — unit follows the description quote, capacity field not reconciled; live ladder [('2 hours boat cruise', 45000, ''), ('1,5 hours boat cruise', 35000, '')]; prior stamp was HELD (R2, no derivable priceUnit), s47 anchor figure 450 EUR",
       "priceVerifiedAt": "2026-08-24",
       "priceTiers": [
         {
@@ -7272,7 +7275,10 @@
           "price": 350,
           "minPartySize": 1
         }
-      ]
+      ],
+      "_unknownFields": {
+        "priceUnit": "per boat, up to 12 guests"
+      }
     },
     {
       "id": "107780",
@@ -9748,7 +9754,7 @@
       "island": "amsterdam",
       "price": 466.86,
       "priceLabel": "One hour and half  boat rent incl. skipper",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "EUR",
       "duration": null,
@@ -9828,8 +9834,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "HELD (R2, no derivable priceUnit): anchor \"One hour and half  boat rent incl. skipper\" prices a boat but no tier label/note carries cap or party language; live ladder confirmed 2026-08-24 [('One hour and half  boat rent incl. skipper', 46686, ''), ('Two hours boat rent incl. skipper', 62248, ''), ('Two hours and half  boat rent incl. skipper', 77810, ''), ('Three hours boat rent incl. skipper', 93372, '')]; stored figure 466.86 EUR (s47 anchor) retained; live floor 466.86 EUR; not published",
+      "priceSource": "s49-wams-heldrelease-2: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json (carried forward, no reprobe)",
+      "priceBasis": "D-?? (pending): description-derived priceUnit sanctioned — source quoted verbatim in priceBasis, conflicts flagged in-stamp: anchor/floor tier \"One hour and half  boat rent incl. skipper\" = 466.86 EUR (unchanged from s48); priceUnit \"per boat, up to 85 passengers\" derived verbatim from description: \"Capacity / Up to 85 passengers\" (header-labeled block); matches stored capacity field 85 — no conflict; live ladder [('One hour and half  boat rent incl. skipper', 46686, ''), ('Two hours boat rent incl. skipper', 62248, ''), ('Two hours and half  boat rent incl. skipper', 77810, ''), ('Three hours boat rent incl. skipper', 93372, '')]; prior stamp was HELD (R2, no derivable priceUnit)",
       "priceVerifiedAt": "2026-08-24",
       "priceTiers": [
         {
@@ -9864,7 +9870,10 @@
           "price": 933.72,
           "minPartySize": 1
         }
-      ]
+      ],
+      "_unknownFields": {
+        "priceUnit": "per boat, up to 85 passengers"
+      }
     },
     {
       "id": "422416",
@@ -13089,7 +13098,7 @@
         }
       ],
       "priceSource": "s48-wams-heldrelease: FareHarbor price-preview per-item v2 (undated, include_breakdown=yes), live 2026-08-24, details.currency EUR; evidence scripts/evidence/s48-wams-held/probe-2026-08-24.json",
-      "priceBasis": "HELD (R2, no derivable priceUnit): whole-group ladder (\"Private tour 1 person\" .. \"8 persons\") but no tier label/note carries a unit-bearing cap or per-group note; live ladder confirmed 2026-08-24 [('Private tour 1 person', 36631, ''), ('Private tour 2 persons', 41878, ''), ('Private tour 3 persons', 47126, ''), ('Private tour 1-4 persons', 52374, ''), ('Private tour 5 persons', 57622, ''), ('Private tour 6 persons', 62870, ''), ('Private tour 7 persons', 68118, ''), ('Private tour 8 persons', 73366, '')]; stored figure 366.31 EUR (s47 anchor) retained; live floor 366.31 EUR; not published",
+      "priceBasis": "HELD (template ruling pending): whole-group ladder (\"Private tour 1 person\" .. \"8 persons\") — tier labels carry party-size text but do not fit either established template cleanly: not a single D-614 whole-group-band tier (cf. pk 690937's lone \"Private tour 1-4 persons\" tier), and not a clean R1 per-person sliding ladder (R1 tiers are themselves per-head rates); this ladder's totals increase linearly by a constant +52.48 EUR/head (366.31, 418.78, 471.26, [523.74 @ n=4], 576.22, 628.70, 681.18, 733.66 = 366.31 + 52.48*(n-1)), i.e. a base-fee-plus-per-head group total, not a per-attendee rate card; the \"Private tour 1-4 persons\" tier sits exactly where a clean \"4 persons\" step would (+52.48 over the 3-person tier) and is suspected to be a mislabeled/merged \"4 persons\" tier rather than a genuine 1-4 range band; queued for a ruling on which template (R1 sliding-per-person vs D-614 whole-group-band) governs a mixed incremental/banded party ladder, and on the suspected \"1-4 persons\" mislabel; no description/title cap language found to derive a unit from independently; live ladder confirmed 2026-08-24 [('Private tour 1 person', 36631, ''), ('Private tour 2 persons', 41878, ''), ('Private tour 3 persons', 47126, ''), ('Private tour 1-4 persons', 52374, ''), ('Private tour 5 persons', 57622, ''), ('Private tour 6 persons', 62870, ''), ('Private tour 7 persons', 68118, ''), ('Private tour 8 persons', 73366, '')]; stored figure 366.31 EUR (s47 anchor) retained; live floor 366.31 EUR; not published",
       "priceVerifiedAt": "2026-08-24",
       "priceTiers": [
         {

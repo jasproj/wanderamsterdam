@@ -1,0 +1,55 @@
+{
+ "pass_": "s49-wams-heldrelease-2",
+ "wall_day": "2026-08-25",
+ "ladder_day": "2026-08-24",
+ "rulings": {
+  "D-??": "description-derived priceUnit sanctioned (source quoted verbatim, conflicts flagged in-stamp); pending id assignment",
+  "R2 (restamped)": "no derivable priceUnit from either channel; template ruling queued (pk 623293)"
+ },
+ "sha256": {
+  "before_tours_data": "01792f963f9ed0e7e26e6bfcfa1c8fb7baf1658a3a363bac2a9777677034d5fd",
+  "after_tours_data": "580368f3d7ffdcab44da46178ea3aaa77d8a2aa37e3494fd10985667795eb421"
+ },
+ "rows": [
+  {
+   "pk": 107307,
+   "name": "Private Deluxe Boat Cruise",
+   "disposition": "released",
+   "ruling": "D-??",
+   "prior": 450,
+   "price": 350.0,
+   "label": "1,5 hours boat cruise",
+   "priceUnit": "per boat, up to 12 guests"
+  },
+  {
+   "pk": 244818,
+   "name": "Big Saloon Boat",
+   "disposition": "released",
+   "ruling": "D-??",
+   "prior": 466.86,
+   "price": 466.86,
+   "label": "One hour and half  boat rent incl. skipper",
+   "priceUnit": "per boat, up to 85 passengers"
+  },
+  {
+   "pk": 326244,
+   "name": "Private Leemstar V Amsterdam Discovery Cruise",
+   "disposition": "released",
+   "ruling": "D-??",
+   "prior": 369.27,
+   "price": 369.27,
+   "label": "Private Cruise - 1 Hour",
+   "priceUnit": "per boat, up to 12 guests"
+  },
+  {
+   "pk": 623293,
+   "name": "Amsterdam Food Tour De Pijp - Private",
+   "disposition": "held",
+   "ruling": "R2 (restamped)",
+   "prior": 366.31,
+   "price": 366.31,
+   "label": "Private tour 1 person",
+   "priceUnit": null
+  }
+ ]
+}
