@@ -1,0 +1,58 @@
+{
+ "sha256_before_originmain": "3bbde73833fb61ea1d53e8d79457d596dc762be4263832cdf950f44f041fe980",
+ "sha256_after": "1f5cda8f525730e3000598161ac17743414681f37a8026f301e77b83fc669d00",
+ "rows": 1637,
+ "population": 1367,
+ "outOfPopulationRowsChanged": 0,
+ "byteRoundTrip": true,
+ "before": {
+  "visible": 874,
+  "offers": 874
+ },
+ "after": {
+  "visible": 856,
+  "offers": 856,
+  "visibleEqualsOffers": true,
+  "mismatchPks": []
+ },
+ "visibleDeltaByDisposition": {
+  "D-624:repriced": 41,
+  "zero_price": -11,
+  "D-614:unchanged": 0,
+  "D-624:unchanged": 0,
+  "D-621:unchanged": 0,
+  "s48-R1:repriced": 0,
+  "D-614:repriced": 13,
+  "UNSAMPLED": -65,
+  "D-621:repriced": 6,
+  "HELD": -5,
+  "single-tier:unchanged": 0,
+  "PROBE_ERROR": 0,
+  "single-tier:repriced": 3,
+  "D-620": 0
+ },
+ "visibleDeltaTotal": -18,
+ "popSuppressed": 679,
+ "suppressedRenderViolations": [],
+ "nonPopulationRenderDiff": 0,
+ "popVisibleBefore": 699,
+ "popVisibleAfter": 681,
+ "withUnitAfter": 315,
+ "disposition": {
+  "D-624:repriced": 109,
+  "zero_price": 90,
+  "D-614:unchanged": 90,
+  "D-624:unchanged": 301,
+  "D-621:unchanged": 79,
+  "s48-R1:repriced": 21,
+  "D-614:repriced": 64,
+  "UNSAMPLED": 571,
+  "D-621:repriced": 11,
+  "HELD": 5,
+  "PROBE_ERROR": 19,
+  "single-tier:unchanged": 3,
+  "single-tier:repriced": 3,
+  "D-620": 1
+ },
+ "stampedAt": "2026-08-25T17:38:48.116Z"
+}
