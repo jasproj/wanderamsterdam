@@ -1,0 +1,6154 @@
+{
+ "population": 233,
+ "rowsChanged": 233,
+ "untouchedInPop": 0,
+ "disposition": {
+  "D-624:repriced": 29,
+  "D-624:unchanged": 111,
+  "HELD-quote": 46,
+  "D-614:unchanged": 4,
+  "UNSAMPLED": 36,
+  "D-621:repriced": 3,
+  "zero-base": 2,
+  "s48-R1:repriced": 1,
+  "single-tier:unchanged": 1
+ },
+ "probeHitCount": 197,
+ "unsampledCount": 36,
+ "anchorChanges": [
+  {
+   "pk": 689900,
+   "name": "Amsterdam City Highlights Bike Tour – 1.5 Hours",
+   "old": 26.24,
+   "new": 20.99,
+   "rule": "D-624",
+   "label": "BYOB Adult"
+  },
+  {
+   "pk": 70147,
+   "name": "Amsterdam City Bike Tour",
+   "old": 36.74,
+   "new": 31.49,
+   "rule": "D-624",
+   "label": "BYOB Adult"
+  },
+  {
+   "pk": 382318,
+   "name": "Rondvaart met Hollandse kaas en drankjes",
+   "old": 44.08,
+   "new": 33.59,
+   "rule": "D-624",
+   "label": "Volwassen 12+"
+  },
+  {
+   "pk": 98443,
+   "name": "Amsterdam Luxury Boat Canal Cruise – starts from Anne Frank House",
+   "old": 25,
+   "new": 26.17,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 418536,
+   "name": "Luxury Canal Cruise Boat with Drinks and Cheese - from Central Station",
+   "old": 29.58,
+   "new": 25.12,
+   "rule": "D-624",
+   "label": "Adult • excluding Cheese & Unlimited Drinks"
+  },
+  {
+   "pk": 155671,
+   "name": "Amsterdam Luxury Boat Canal Cruise – starts from Rijksmuseum",
+   "old": 20.48,
+   "new": 25.12,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 183962,
+   "name": "Luxury Canal Cruise Boat with Drinks and Cheese - starts from Anne Frank House",
+   "old": 29.59,
+   "new": 26.17,
+   "rule": "D-624",
+   "label": "Adult • excluding Cheese & Unlimited Drinks"
+  },
+  {
+   "pk": 70139,
+   "name": "Countryside North E-Bike Tour, Long route",
+   "old": 61.93,
+   "new": 46.18,
+   "rule": "D-624",
+   "label": "BYOB Adult E-Bike"
+  },
+  {
+   "pk": 336992,
+   "name": "Shared Amsterdam Canal Cruise With Drinks",
+   "old": 32.28,
+   "new": 19,
+   "rule": "D-624",
+   "label": "Adult - Without drinks"
+  },
+  {
+   "pk": 418535,
+   "name": "Amsterdam Luxury Boat Canal Cruise – starts from Central Station",
+   "old": 25,
+   "new": 25.12,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 543102,
+   "name": "Shared Amsterdam Canal Cruise | Starts from Rembrandt Square",
+   "old": 36.73,
+   "new": 23.59,
+   "rule": "D-624",
+   "label": "Adult - No Drinks"
+  },
+  {
+   "pk": 531428,
+   "name": "Luxury Canal Cruise with Unlimited Drinks from Central Station",
+   "old": 36,
+   "new": 36.7,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 486969,
+   "name": "Amsterdam Light Festival Cruise on Classic Saloon Boat",
+   "old": 39.49,
+   "new": 28.86,
+   "rule": "D-624",
+   "label": "Adult: No Drinks"
+  },
+  {
+   "pk": 548791,
+   "name": "Amsterdam Flower Boat",
+   "old": 21.85,
+   "new": 19.86,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 372749,
+   "name": "Open Boot Rondvaart vertrek vanaf Anne Frank Huis",
+   "old": 20,
+   "new": 20.95,
+   "rule": "D-624",
+   "label": "Volwassene"
+  },
+  {
+   "pk": 608193,
+   "name": "Luxury Canal Cruise Boat with Bubbles & Bites - starts from Central Station",
+   "old": 38.28,
+   "new": 25.12,
+   "rule": "D-624",
+   "label": "Adult • excluding Bites & Unlimited Bubbles"
+  },
+  {
+   "pk": 536654,
+   "name": "Rondvaart Luxe Open Sloep - Inclusief Drankjes",
+   "old": 29.87,
+   "new": 30.92,
+   "rule": "D-624",
+   "label": "Volwassene onbeperkt drankjes"
+  },
+  {
+   "pk": 70151,
+   "name": "E-Bike Tour Amsterdam",
+   "old": 48.28,
+   "new": 32.54,
+   "rule": "D-624",
+   "label": "BYOB Adult E-Bike"
+  },
+  {
+   "pk": 585256,
+   "name": "Amsterdam Light Festival Cruise on Classic Saloon Boat (City Center)",
+   "old": 39.56,
+   "new": 28.86,
+   "rule": "D-624",
+   "label": "Adult: No Drinks"
+  },
+  {
+   "pk": 604247,
+   "name": "Luxury Canal Cruise Boat with Bubbles & Bites - starts from Anne Frank House",
+   "old": 38.28,
+   "new": 26.17,
+   "rule": "D-624",
+   "label": "Adult • excluding Bites & Unlimited Bubbles"
+  },
+  {
+   "pk": 586523,
+   "name": "Zaanse Schans E-Bike Tour",
+   "old": 82.92,
+   "new": 67.17,
+   "rule": "D-624",
+   "label": "BYOB Adult E-Bike"
+  },
+  {
+   "pk": 526535,
+   "name": "Open Boot Rondvaart met Onbeperkte Drankjes vanaf Anne Frank Huis",
+   "old": 31,
+   "new": 31.65,
+   "rule": "D-624",
+   "label": "Volwassene"
+  },
+  {
+   "pk": 313508,
+   "name": "Amsterdam Noord Artist Ferry Tour",
+   "old": 295,
+   "new": 312.7,
+   "rule": "D-621",
+   "label": "Traveler"
+  },
+  {
+   "pk": 313511,
+   "name": "Amsterdam Hidden Gems East Tour",
+   "old": 295,
+   "new": 312.7,
+   "rule": "D-621",
+   "label": "Traveler"
+  },
+  {
+   "pk": 313513,
+   "name": "Amsterdam Famous City Landmarks Tour",
+   "old": 295,
+   "new": 312.7,
+   "rule": "D-621",
+   "label": "Traveler"
+  },
+  {
+   "pk": 580248,
+   "name": "The Ultimate Canal Cruise (14+) - Departure Herengracht 128 on the Stan Huygens",
+   "old": 72.66,
+   "new": 77.92,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 722806,
+   "name": "Utrecht: Rondvaart in Open Sloep",
+   "old": 21,
+   "new": 19.99,
+   "rule": "D-624",
+   "label": "Volwassene"
+  },
+  {
+   "pk": 608158,
+   "name": "Excursão aos moinhos de vento + Passeio de Barco pelos canais",
+   "old": 63.5,
+   "new": null,
+   "rule": "zero-base",
+   "label": null
+  },
+  {
+   "pk": 635407,
+   "name": "Open Boot Rondvaart met Onbeperkte Drankjes vertrekt vanaf Leidseplein (Rosewood Hotel)",
+   "old": 31,
+   "new": 31.65,
+   "rule": "D-624",
+   "label": "Volwassene"
+  },
+  {
+   "pk": 671612,
+   "name": "Shared Amsterdam Dutch Cheese Tasting Canal Cruise",
+   "old": 28.7,
+   "new": 24.35,
+   "rule": "D-624",
+   "label": "Adult WITH Cheese"
+  },
+  {
+   "pk": 708352,
+   "name": "Plastic Hunting - Secondary Schools & Students (Netherlands)",
+   "old": 26.24,
+   "new": 15.74,
+   "rule": "s48-R1",
+   "label": "151-200 Students"
+  },
+  {
+   "pk": 647991,
+   "name": "Amsterdam Embroidery Workshop",
+   "old": 94,
+   "new": 94.41,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 634932,
+   "name": "Beginner Crochet Workshop: Bandana",
+   "old": 83,
+   "new": 83.91,
+   "rule": "D-624",
+   "label": "First Lesson"
+  },
+  {
+   "pk": 668237,
+   "name": "Sewing Machine Basics Lesson (West)",
+   "old": 24,
+   "new": 24.09,
+   "rule": "D-624",
+   "label": "Adult"
+  },
+  {
+   "pk": 396253,
+   "name": "Tour em Português pelo Centro Histórico de Amsterdam | Dam, Bairro Judeu e Mercado das Flores",
+   "old": 36.74,
+   "new": null,
+   "rule": "zero-base",
+   "label": null
+  }
+ ],
+ "sha256": {
+  "before": "1f5cda8f525730e3000598161ac17743414681f37a8026f301e77b83fc669d00",
+  "after": "56b62b3c9d566f2ab50a98de8a6d2c2aac6a47f8fc0a50cf05fde87146abf29f"
+ },
+ "summary": [
+  {
+   "pk": 689900,
+   "name": "Amsterdam City Highlights Bike Tour – 1.5 Hours",
+   "old": 26.24,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+ | Regular Bike",
+     "price": 26.24,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 12-17 | Regular Bike",
+     "price": 23.09,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 18+",
+     "price": 41.98,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Ages 12-17 | Suitable from 155cm and up",
+     "price": 38.83,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "BYOB Adult",
+     "note": "Bring your own bike",
+     "price": 20.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "BYOB Child",
+     "note": "Ages 12-17 | Bring your own bike",
+     "price": 17.84,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 20.99,
+   "label": "BYOB Adult",
+   "unit": null
+  },
+  {
+   "pk": 70147,
+   "name": "Amsterdam City Bike Tour",
+   "old": 36.74,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+ | Regular Bike",
+     "price": 36.74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 12-17 | Regular Bike",
+     "price": 32.54,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 18+",
+     "price": 48.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Ages 12-17 | Suitable from 155cm and up",
+     "price": 44.08,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "BYOB Adult",
+     "note": "Bring your own bike",
+     "price": 31.49,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "BYOB Child",
+     "note": "Ages 12-17 | Bring your own bike",
+     "price": 27.29,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 31.49,
+   "label": "BYOB Adult",
+   "unit": null
+  },
+  {
+   "pk": 518416,
+   "name": "Cozy & Fun Canal Tour from Central Station (incl morning Tour)",
+   "old": 39.04,
+   "oldLabel": "VIP Ticket 18+",
+   "tiers": [
+    {
+     "singular": "VIP Ticket 18+",
+     "note": "Unlimited Cocktails & Mix Drinks",
+     "price": 39.04,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Drink Package 18+",
+     "note": "Open Bar: Wine, Prosecco, Beer & Soft",
+     "price": 31.65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Cozy & Fun Experience 12+",
+     "note": "Optional drinks available at the well stocked bar",
+     "price": 23.21,
+     "min": 1,
+     "cls": "unnamed"
+    },
+    {
+     "singular": "Kind 3-11",
+     "note": "3-11 jaar",
+     "price": 10.02,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "0-2 jaar",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 39.04,
+   "label": "VIP Ticket 18+",
+   "unit": null
+  },
+  {
+   "pk": 177104,
+   "name": "Cruise Like a Local —Explore the canals",
+   "old": 44.16,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "11+ years",
+     "price": 44.16,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "3-10 years • Infants tickets upon request—please contact us for more details!",
+     "price": 35.72,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 44.16,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 198502,
+   "name": "Amsterdam Light Festival Ticket • Air BnB best verkochte winter boot tour",
+   "old": 41.72,
+   "oldLabel": "Light Festival Guest - Open Bar Included",
+   "tiers": [
+    {
+     "singular": "Light Festival Guest - Open Bar Included",
+     "note": "Age + 13 years",
+     "price": 41.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Light Festival Tour only (Excl. Drinks)",
+     "note": "Age + 12 years",
+     "price": 31.23,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Kind Incl drankjes",
+     "note": "4-12 jaar",
+     "price": 20.89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kind 4-12 | Optionele Drankjes",
+     "note": "ALF Kind 4-12 | Optionele Drankjes",
+     "price": 15.64,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "0-2 jaar",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 41.72,
+   "label": "Light Festival Guest - Open Bar Included",
+   "unit": null
+  },
+  {
+   "pk": 198517,
+   "name": "Cozy and Fun Boat Experience",
+   "old": 39.04,
+   "oldLabel": "VIP Ticket 18+",
+   "tiers": [
+    {
+     "singular": "VIP Ticket 18+",
+     "note": "Unlimited Cocktails & Mix Drinks",
+     "price": 39.04,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Drink Package 18+",
+     "note": "Open Bar: Wine, Prosecco, Beer & Soft",
+     "price": 31.65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Cozy & Fun Experience Age 11+",
+     "note": "Optional drinks available at the well stocked bar",
+     "price": 23.21,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Kind 3-11",
+     "note": "3-11 years old",
+     "price": 10.02,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "0-2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 39.04,
+   "label": "VIP Ticket 18+",
+   "unit": null
+  },
+  {
+   "pk": 382318,
+   "name": "Rondvaart met Hollandse kaas en drankjes",
+   "old": 44.08,
+   "oldLabel": "VIP Ticket 18+",
+   "tiers": [
+    {
+     "singular": "VIP Ticket 18+",
+     "note": "18+ Unlimited Cocktails, Mix Drinks & Cheese",
+     "price": 44.08,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassen 12+",
+     "note": "(Non) Alcoholic drinks (Prosecco, Wine, Beer) & Cheese included",
+     "price": 33.59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Tour Only 12+",
+     "note": "Without drinks & food",
+     "price": 23.09,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Kind Incl drankjes",
+     "note": "4-12 jaar",
+     "price": 15.74,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "0-2 jaar",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 33.59,
+   "label": "Volwassen 12+",
+   "unit": null
+  },
+  {
+   "pk": 183956,
+   "name": "Evening Cruise - starts from Anne Frank House",
+   "old": 26.17,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 26.17,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 16.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 26.17,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 477106,
+   "name": "Hello Amsterdam - Introduction Walking Tour - offered in English",
+   "old": 30.44,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+ years",
+     "price": 30.44,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child/Teenager",
+     "note": "Please not that we are covering the topics of the Red Light District and Cannabis. If you are fine, so are we.",
+     "price": 20.99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 30.44,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 98443,
+   "name": "Amsterdam Luxury Boat Canal Cruise – starts from Anne Frank House",
+   "old": 25,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 26.17,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 16.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 26.17,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 177100,
+   "name": "Morning Cruise— Before the hustle and the bustle!",
+   "old": 41,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "11+ years",
+     "price": 41,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "3-10 years • Infants tickets upon request—please contact us for more details!",
+     "price": 32.56,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Private Charter 90-minutes",
+     "note": "",
+     "price": 340.25,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 41,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 178676,
+   "name": "Early Morning Cruise —Canals all to ourselves",
+   "old": 41,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "11+ years",
+     "price": 41,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "3-10 years • Infants tickets upon request—please contact us for more details!",
+     "price": 32.56,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Private Charter 90-minutes",
+     "note": "",
+     "price": 340.25,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 41,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 235393,
+   "name": "Amsterdam Canal Cruise from Anne Frank Museum",
+   "old": 17.99,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 17.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-12. Please select adult tickets first to add child/infant tickets",
+     "price": 10.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "0-3 years. Please select adult tickets first to add child/infant tickets",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Family Ticket (2 Adults, 2 Children)",
+     "note": "Children 4 - 12 years",
+     "price": 52.11,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Booking",
+     "note": "From 8 to 25 people",
+     "price": 16.2,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 17.99,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 418536,
+   "name": "Luxury Canal Cruise Boat with Drinks and Cheese - from Central Station",
+   "old": 29.58,
+   "oldLabel": "Adult • including Cheese & Unlimited Drinks",
+   "tiers": [
+    {
+     "singular": "Adult • including Cheese & Unlimited Drinks",
+     "note": "Ages 12+",
+     "price": 37.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • excluding Cheese & Unlimited Drinks",
+     "note": "Ages 12+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 16.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult • excluding Cheese & Unlimited Drinks",
+   "unit": null
+  },
+  {
+   "pk": 431109,
+   "name": "Jordaan Food Tour: Special 10 Year Anniversary Edition",
+   "old": 119,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 107,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 95,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 119,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 155671,
+   "name": "Amsterdam Luxury Boat Canal Cruise – starts from Rijksmuseum",
+   "old": 20.48,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 183962,
+   "name": "Luxury Canal Cruise Boat with Drinks and Cheese - starts from Anne Frank House",
+   "old": 29.59,
+   "oldLabel": "Adult • including Cheese & Unlimited Drinks",
+   "tiers": [
+    {
+     "singular": "Adult • including Cheese & Unlimited Drinks",
+     "note": "Ages 12+",
+     "price": 37.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • excluding Cheese & Unlimited Drinks",
+     "note": "Ages 12+",
+     "price": 26.17,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 17.73,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 26.17,
+   "label": "Adult • excluding Cheese & Unlimited Drinks",
+   "unit": null
+  },
+  {
+   "pk": 431111,
+   "name": "Eating Amsterdam: Food & Canals Tour",
+   "old": 159,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 143,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 127,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 159,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 488635,
+   "name": "Windmill, Cheese Farms, & Countryside Electric Bike Tour: 2.5 hours",
+   "old": 39.36,
+   "oldLabel": "Adult -  Height 150+ cm",
+   "tiers": [
+    {
+     "singular": "Adult -  Height 150+ cm",
+     "note": "Ages 14+",
+     "price": 39.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Height 155+ cm",
+     "note": "Ages 11- 13",
+     "price": 35.16,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 39.36,
+   "label": "Adult -  Height 150+ cm",
+   "unit": null
+  },
+  {
+   "pk": 509826,
+   "name": "Luxurious Local Open Boat Cruise",
+   "old": 23.74,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 23.74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "11 years and younger",
+     "price": 15.77,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 23.74,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 525088,
+   "name": "Combiticket Haarlem Windmill + Open Canal Tour",
+   "old": 31.12,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 31.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "11 years and younger",
+     "price": 23.74,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 31.12,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 70139,
+   "name": "Countryside North E-Bike Tour, Long route",
+   "old": 61.93,
+   "oldLabel": "Adult with E-Bike",
+   "tiers": [
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 18+",
+     "price": 61.93,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Ages 12-17 | Suitable from 155cm and up",
+     "price": 51.43,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "BYOB Adult E-Bike",
+     "note": "Bring your own bike",
+     "price": 46.18,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "BYOB Child E-Bike",
+     "note": "Ages 12-17 | Bring your own bike",
+     "price": 35.69,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 46.18,
+   "label": "BYOB Adult E-Bike",
+   "unit": null
+  },
+  {
+   "pk": 336992,
+   "name": "Shared Amsterdam Canal Cruise With Drinks",
+   "old": 32.28,
+   "oldLabel": "Adult - Unlimited Drinks",
+   "tiers": [
+    {
+     "singular": "Adult - Unlimited Drinks",
+     "note": "18+ Including Beer, Wine and Soda unlimited.",
+     "price": 32.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Without drinks",
+     "note": "18+ Buy drinks on board",
+     "price": 19,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Without drinks",
+     "note": "18+ Buy drinks on board",
+     "price": 21.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child | No Drinks",
+     "note": "Up to 18 years old",
+     "price": 18.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child | Including Drinks",
+     "note": "Up to 18 years old • Soft drinks included",
+     "price": 25.17,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 19,
+   "label": "Adult - Without drinks",
+   "unit": null
+  },
+  {
+   "pk": 418535,
+   "name": "Amsterdam Luxury Boat Canal Cruise – starts from Central Station",
+   "old": 25,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 16.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 526918,
+   "name": "Evening Cruise- starts from Rijksmuseum",
+   "old": 25.12,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 543102,
+   "name": "Shared Amsterdam Canal Cruise | Starts from Rembrandt Square",
+   "old": 36.73,
+   "oldLabel": "Adult - Unlimited Drinks",
+   "tiers": [
+    {
+     "singular": "Adult - Unlimited Drinks",
+     "note": "18+ • All drinks included",
+     "price": 36.73,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - No Drinks",
+     "note": "18+ • Buy drinks on board",
+     "price": 23.59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child | No Drinks",
+     "note": "Up to 18 years old",
+     "price": 18.84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child | Including Drinks",
+     "note": "Up to 18 years old • Soft drinks included",
+     "price": 25.17,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 23.59,
+   "label": "Adult - No Drinks",
+   "unit": null
+  },
+  {
+   "pk": 556814,
+   "name": "Tulip Tour from Central Station",
+   "old": 41.53,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 41.53,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • including Unlimited Drinks",
+     "note": "",
+     "price": 49.93,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 30.98,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 41.53,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 569191,
+   "name": "Private Countryside North E-Bike Tour",
+   "old": 475,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 475
+  },
+  {
+   "pk": 521785,
+   "name": "Private Van Gogh Museum Private Tour",
+   "old": 340,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 340
+  },
+  {
+   "pk": 418537,
+   "name": "Evening Cruise - starts from Central Station",
+   "old": 25.12,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 16.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 531428,
+   "name": "Luxury Canal Cruise with Unlimited Drinks from Central Station",
+   "old": 36,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 36.7,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 36.7,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 549979,
+   "name": "Heineken Flagship Cruise",
+   "old": 27.22,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 27.22,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 27.22,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 563676,
+   "name": "Private Zaanse Schans By E-Bike Tour",
+   "old": 600,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 600
+  },
+  {
+   "pk": 674855,
+   "name": "Kaasfondue of Uiensoep Boot",
+   "old": 76.34,
+   "oldLabel": "2 uur - Privé Rondvaart",
+   "tiers": [
+    {
+     "singular": "2 uur - Privé Rondvaart",
+     "note": "Vanaf 10 personen",
+     "price": 76.34,
+     "min": 10,
+     "cls": "group"
+    },
+    {
+     "singular": "2.5 uur - Privé Rondvaart",
+     "note": "Vanaf 10 personen",
+     "price": 92.17,
+     "min": 10,
+     "cls": "group"
+    },
+    {
+     "singular": "3 uur - Privé Rondvaart",
+     "note": "Vanaf 10 personen",
+     "price": 107.99,
+     "min": 10,
+     "cls": "group"
+    },
+    {
+     "singular": "Baby",
+     "note": "Leeftijd 0-3",
+     "price": 2.7,
+     "min": 10,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 76.34,
+   "label": "2 uur - Privé Rondvaart",
+   "unit": "2 uur - Privé Rondvaart"
+  },
+  {
+   "pk": 326297,
+   "name": "Private Countryside South Bike Tour",
+   "old": 405,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 405
+  },
+  {
+   "pk": 486969,
+   "name": "Amsterdam Light Festival Cruise on Classic Saloon Boat",
+   "old": 39.49,
+   "oldLabel": "Adult: Unlimited Drinks",
+   "tiers": [
+    {
+     "singular": "Adult: Unlimited Drinks",
+     "note": "Ages 12+",
+     "price": 39.49,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult: No Drinks",
+     "note": "Ages 12+",
+     "price": 28.86,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 20.42,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0-2",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 28.86,
+   "label": "Adult: No Drinks",
+   "unit": null
+  },
+  {
+   "pk": 548791,
+   "name": "Amsterdam Flower Boat",
+   "old": 21.85,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 19.86,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Up to 12 years old",
+     "price": 19.37,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "",
+     "price": 2.7,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 19.86,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 569192,
+   "name": "Private Amsterdam Urban Adventures Bike Tour",
+   "old": 320,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 320
+  },
+  {
+   "pk": 93151,
+   "name": "Amsterdam City Bike Tour",
+   "old": 37.1,
+   "oldLabel": "Adult - English Only",
+   "tiers": [
+    {
+     "singular": "Adult - English Only",
+     "note": "",
+     "price": 37.1,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Young Child - English Only",
+     "note": "",
+     "price": 26.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child - English Only",
+     "note": "",
+     "price": 31.8,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant - English Only",
+     "note": "",
+     "price": 10.6,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 37.1,
+   "label": "Adult - English Only",
+   "unit": null
+  },
+  {
+   "pk": 576673,
+   "name": "Amsterdam Light Festival Cruise on Luxury Saloon Boat (CS)",
+   "old": 30.87,
+   "oldLabel": "Adult - No drinks included",
+   "tiers": [
+    {
+     "singular": "Adult - No drinks included",
+     "note": "13+ years",
+     "price": 30.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Drinks + Snack included",
+     "note": "13+ years",
+     "price": 41.4,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 20.85,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 30.87,
+   "label": "Adult - No drinks included",
+   "unit": null
+  },
+  {
+   "pk": 107780,
+   "name": "Traditional Cruise with Live Guide",
+   "old": 16.74,
+   "oldLabel": "Adult • Without Drinks",
+   "tiers": [
+    {
+     "singular": "Adult • Without Drinks",
+     "note": "Ages 18+",
+     "price": 16.74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • Incl. 2 Drinks",
+     "note": "Ages 18+",
+     "price": 24.11,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • With Open Bar",
+     "note": "Ages 18+",
+     "price": 27.27,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-15",
+     "price": 10.41,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 16.74,
+   "label": "Adult • Without Drinks",
+   "unit": null
+  },
+  {
+   "pk": 280871,
+   "name": "Private Anne Frank & the Jewish History of Amsterdam Tour",
+   "old": 415,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 15",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 415
+  },
+  {
+   "pk": 372749,
+   "name": "Open Boot Rondvaart vertrek vanaf Anne Frank Huis",
+   "old": 20,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 20.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 10.4,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 20.95,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 577792,
+   "name": "School Group City Bike Tour Amsterdam",
+   "old": 28.86,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+ | Regular Bike",
+     "price": 28.86,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Student",
+     "note": "",
+     "price": 28.86,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 28.86,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 688411,
+   "name": "Shared - Authentic Open Boat Tour - 60 Min - Incl. Giant Clog & Tulips",
+   "old": 23.44,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All ages • Incl. giant clog & tulips",
+     "price": 23.44,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 23.44,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 193864,
+   "name": "Amsterdam Festival of Lights—#15",
+   "old": 47.33,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "11+ years",
+     "price": 47.33,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "3-10 years • Infants tickets upon request—please contact us for more details!",
+     "price": 38.89,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 47.33,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 577238,
+   "name": "School Group Countryside South Bike Tour",
+   "old": 36.74,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 36.74,
+     "min": 14,
+     "cls": "base"
+    },
+    {
+     "singular": "Student",
+     "note": "",
+     "price": 36.74,
+     "min": 14,
+     "cls": "never"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 14,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 36.74,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 589793,
+   "name": "Private All Year Round Flowers & Windmills Tour",
+   "old": 1155,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 1155
+  },
+  {
+   "pk": 683888,
+   "name": "Private Muiderslot, Naarden & De Haar Tour",
+   "old": 1155,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 1155
+  },
+  {
+   "pk": 683889,
+   "name": "Private Palace Het Loo Tour",
+   "old": 1250,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 1250
+  },
+  {
+   "pk": 683890,
+   "name": "Private Haarlem City Tour",
+   "old": 790,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 790
+  },
+  {
+   "pk": 147079,
+   "name": "Amsterdam (Open) Boat Tour with live Guide and Unlimited Drinks",
+   "old": 31.49,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 31.49,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-15",
+     "price": 15.68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Make your cruise Private",
+     "note": "Select if you want to make your cruise private · A minimum of 15 adults is required to make this option available",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 31.49,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 394135,
+   "name": "Zaanse Schans Windmills & Zaandam: Countryside E-Bike Tour 5.5 hours",
+   "old": 78.72,
+   "oldLabel": "Adult - Bike size 150+ cm",
+   "tiers": [
+    {
+     "singular": "Adult - Bike size 150+ cm",
+     "note": "",
+     "price": 78.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Bike Size 1.55m +",
+     "note": "",
+     "price": 73.47,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 78.72,
+   "label": "Adult - Bike size 150+ cm",
+   "unit": null
+  },
+  {
+   "pk": 582063,
+   "name": "Stroopwafel Workshop - Albert Cuyp Market",
+   "old": 23.5,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+ years old",
+     "price": 23.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Under 12",
+     "price": 21.1,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 23.5,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 582394,
+   "name": "Amsterdam Canal Cruise from Central Station",
+   "old": 16,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 16
+  },
+  {
+   "pk": 608193,
+   "name": "Luxury Canal Cruise Boat with Bubbles & Bites - starts from Central Station",
+   "old": 38.28,
+   "oldLabel": "Adult • including Bites & Unlimited Bubbles",
+   "tiers": [
+    {
+     "singular": "Adult • including Bites & Unlimited Bubbles",
+     "note": "Ages 12+",
+     "price": 39.33,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • excluding Bites & Unlimited Bubbles",
+     "note": "Ages 12+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 18.26,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult • excluding Bites & Unlimited Bubbles",
+   "unit": null
+  },
+  {
+   "pk": 717791,
+   "name": "Amsterdam Maritime History Tour with Tastings & Museum Ticket",
+   "old": 89.22,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 89.22,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 89.22,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 244801,
+   "name": "Private Semi-Open Boat",
+   "old": 50,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 50
+  },
+  {
+   "pk": 422416,
+   "name": "Private Keukenhof and Tulips Tour",
+   "old": 930,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 930
+  },
+  {
+   "pk": 422718,
+   "name": "10 Taste Amsterdam Food Tour on UNESCO canals and Jordaan",
+   "old": 86.07,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 86.07,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 86.07,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 471998,
+   "name": "Amsterdam Self-Guided Food Tour - De Jordaan district - offered in English",
+   "old": 13.12,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All ages",
+     "price": 13.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 2 people",
+     "note": "Price is for 2 people",
+     "price": 19.42,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 3 and more",
+     "note": "Price is for 3 people",
+     "price": 23.62,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 13.12,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 559817,
+   "name": "Cheese & Wine Serenity: A Luxurious Canal Cruise through Amsterdam",
+   "old": 39.41,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 39.41,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-15",
+     "price": 20.96,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 39.41,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 695043,
+   "name": "Open Boat Tour from Central Station",
+   "old": 31,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 31
+  },
+  {
+   "pk": 189399,
+   "name": "Buddha Lounge Boat Tour",
+   "old": 26.38,
+   "oldLabel": "Person - No Drinks",
+   "tiers": [
+    {
+     "singular": "Person - No Drinks",
+     "note": "Additional drinks (€4–€5): beer, wine, soft drinks, coffee, or tea. Cocktails NOT included.",
+     "price": 26.38,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Person - Including 2 drinks",
+     "note": "Additional drinks (€4–€5): beer, wine, soft drinks, coffee, or tea. Cocktails NOT included.",
+     "price": 33.76,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Person - Including Unlimited Drinks",
+     "note": "Drinks include beer, wine, soft drinks, and coffee or tea. Cocktails are NOT included.",
+     "price": 42.2,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 26.38,
+   "label": "Person - No Drinks",
+   "unit": null
+  },
+  {
+   "pk": 244769,
+   "name": "Luxurious Private Open Boat",
+   "old": 50,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 50
+  },
+  {
+   "pk": 503202,
+   "name": "Rondvaart Luxe Open Sloep - Drankjes Optioneel",
+   "old": 20.42,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Leeftijd 13+",
+     "price": 20.42,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassene + 1 drankje",
+     "note": "Leeftijd 13+",
+     "price": 25.65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassene onbeperkt drankjes",
+     "note": "Leeftijd 13+",
+     "price": 30.92,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Leeftijd 4-12",
+     "price": 9.61,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kind + 1 drankje",
+     "note": "Leeftijd 4-12",
+     "price": 11.72,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Familie ticket",
+     "note": "2 Volwassenen + 2 Kinderen (€ 7,- voordeel)",
+     "price": 59.36,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Familie ticket + 1 drankje",
+     "note": "2 Volwassenen + 2 Kinderen (€ 7,- voordeel)",
+     "price": 67.8,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "I amsterdam City Card",
+     "note": "I amsterdam City Card moet getoond worden bij inchecken",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.42,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 531698,
+   "name": "Amsterdam North Bike Tour: Scenic Villages & Windmill",
+   "old": 46.18,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+ | Regular Bike",
+     "price": 46.18,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 12-17 | Regular Bike",
+     "price": 38.83,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 46.18,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 536654,
+   "name": "Rondvaart Luxe Open Sloep - Inclusief Drankjes",
+   "old": 29.87,
+   "oldLabel": "Volwassene onbeperkt drankjes",
+   "tiers": [
+    {
+     "singular": "Volwassene onbeperkt drankjes",
+     "note": "Leeftijd 13+",
+     "price": 30.92,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Leeftijd 4-12",
+     "price": 16.2,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 30.92,
+   "label": "Volwassene onbeperkt drankjes",
+   "unit": null
+  },
+  {
+   "pk": 70151,
+   "name": "E-Bike Tour Amsterdam",
+   "old": 48.28,
+   "oldLabel": "Adult with E-Bike",
+   "tiers": [
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 18+",
+     "price": 48.28,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Ages 12-17 | Suitable from 155cm and up",
+     "price": 44.08,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "BYOB Adult E-Bike",
+     "note": "Bring your own bike",
+     "price": 32.54,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "BYOB Child E-Bike",
+     "note": "Ages 12-17 | Bring your own bike",
+     "price": 28.34,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 32.54,
+   "label": "BYOB Adult E-Bike",
+   "unit": null
+  },
+  {
+   "pk": 195075,
+   "name": "Private 2.5 Hours City Bike Tour",
+   "old": 320,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 320
+  },
+  {
+   "pk": 204530,
+   "name": "Private Starboard Cruise",
+   "old": 412,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 412
+  },
+  {
+   "pk": 338453,
+   "name": "Amsterdam Self-Guided Foodie Tour - De Pijp district",
+   "old": 13.12,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All ages",
+     "price": 13.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Group of 2 people",
+     "note": "Price is for 2 people",
+     "price": 19.42,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 3 and more",
+     "note": "Price is for 3 people",
+     "price": 23.62,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 13.12,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 370236,
+   "name": "Luxury Canal Cruise Welcome Liquor and Snack included",
+   "old": 16.97,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16+",
+     "price": 16.97,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-15 years",
+     "price": 12.77,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 16.97,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 587993,
+   "name": "Amsterdam Light Festival Rondvaart in Sloep",
+   "old": 23.59,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 23.59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 13.04,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 23.59,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 635425,
+   "name": "Van Gogh Museum Entry Ticket and Guided Tour",
+   "old": 125.9,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Child",
+     "note": "Ages 0 - 17",
+     "price": 83.93,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Person",
+     "note": "Ages 0 - 99",
+     "price": 125.9,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Private Tour",
+     "note": "",
+     "price": 209.84,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Private Tour",
+     "note": "",
+     "price": 125.9,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 125.9,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 683886,
+   "name": "Private Alkmaar & Edam, the Cheese Cities",
+   "old": 1155,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 1155
+  },
+  {
+   "pk": 93156,
+   "name": "Amsterdam Countryside Bike Tour",
+   "old": 43.9,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 43.9,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 3-7",
+     "price": 15.37,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 8-17",
+     "price": 25.97,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infants",
+     "note": "Ages 0-2",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 43.9,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 578001,
+   "name": "School Group Sustainability Bike Tour Amsterdam",
+   "old": 33.06,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 33.06,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Student",
+     "note": "",
+     "price": 33.06,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 33.06,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 585256,
+   "name": "Amsterdam Light Festival Cruise on Classic Saloon Boat (City Center)",
+   "old": 39.56,
+   "oldLabel": "Adult: Unlimited Drinks",
+   "tiers": [
+    {
+     "singular": "Adult: Unlimited Drinks",
+     "note": "Ages 12+",
+     "price": 39.56,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult: No Drinks",
+     "note": "Ages 12+",
+     "price": 28.86,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 20.42,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0-2",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 28.86,
+   "label": "Adult: No Drinks",
+   "unit": null
+  },
+  {
+   "pk": 604247,
+   "name": "Luxury Canal Cruise Boat with Bubbles & Bites - starts from Anne Frank House",
+   "old": 38.28,
+   "oldLabel": "Adult • including Bites & Unlimited Bubbles",
+   "tiers": [
+    {
+     "singular": "Adult • including Bites & Unlimited Bubbles",
+     "note": "Ages 12+",
+     "price": 39.33,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • excluding Bites & Unlimited Bubbles",
+     "note": "Ages 12+",
+     "price": 26.17,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 18.26,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 26.17,
+   "label": "Adult • excluding Bites & Unlimited Bubbles",
+   "unit": null
+  },
+  {
+   "pk": 612666,
+   "name": "Puff & Pencil Peachy Pants Workshop (Amsterdam West)",
+   "old": 125.9,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 125.9,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 125.9,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 509815,
+   "name": "Open Boat Evening Cruise starts from Anne Frank House",
+   "old": 20.95,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 20.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 2.7,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "API",
+     "price": 10.4,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.95,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 523956,
+   "name": "Open Boat Evening Cruise starts from Central Station",
+   "old": 20.95,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 20.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 10.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.95,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 605809,
+   "name": "Canal Cruise in Beautiful OLD CITY CENTRE with Open Boat in Amsterdam",
+   "old": 20.96,
+   "oldLabel": "Old City Cruise without drinks",
+   "tiers": [
+    {
+     "singular": "Old City Cruise without drinks",
+     "note": "",
+     "price": 20.96,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Old City Cruise with 2 drinks included",
+     "note": "",
+     "price": 28.33,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Old City Cruise with Dutch Open Bar",
+     "note": "",
+     "price": 31.49,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Old City Cruise Child",
+     "note": "4-15 years",
+     "price": 15.68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Baby",
+     "note": "0-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Make your cruise Private",
+     "note": "Select if you want to make your cruise private · A minimum of 25 adults is required to make this option available",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 20.96,
+   "label": "Old City Cruise without drinks",
+   "unit": "Old City Cruise without drinks"
+  },
+  {
+   "pk": 706585,
+   "name": "Red Light District Cruise",
+   "old": 20.96,
+   "oldLabel": "Old City Cruise without drinks",
+   "tiers": [
+    {
+     "singular": "Old City Cruise without drinks",
+     "note": "",
+     "price": 20.96,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Old City Cruise with 2 drinks included",
+     "note": "",
+     "price": 28.33,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Old City Cruise with Dutch Open Bar",
+     "note": "",
+     "price": 31.49,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Old City Cruise Child",
+     "note": "4-15 years",
+     "price": 15.68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Make your cruise Private",
+     "note": "Select if you want to make your cruise private · A minimum of 25 adults is required to make this option available",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 20.96,
+   "label": "Old City Cruise without drinks",
+   "unit": "Old City Cruise without drinks"
+  },
+  {
+   "pk": 708388,
+   "name": "Amsterdam Luxury German Canal Cruise",
+   "old": 25.12,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 25.12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • including Unlimited Drinks",
+     "note": "",
+     "price": 30.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 16.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 25.12,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 453180,
+   "name": "Waterland Fietstour",
+   "old": 47.23,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "18+",
+     "price": 47.23,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassene + Kind in fietszitje",
+     "note": "Volwassene 18+ • Kind 1-6 jaar",
+     "price": 52.43,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Kind • 7-17 jaar",
+     "note": "Alleen boekbaar samen met een volwassene",
+     "price": 37.78,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 47.23,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 577793,
+   "name": "School Group Amsterdam's Urban Adventure Bike Tour",
+   "old": 38.83,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 38.83,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Student",
+     "note": "",
+     "price": 38.83,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 38.83,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 168962,
+   "name": "Amsterdam's Urban Adventure: Bike Tour of the Hidden Gems of the City",
+   "old": 46.18,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 46.18,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Age 12-18",
+     "price": 35.69,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 18+",
+     "price": 61.93,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Ages 16-17 | Suitable from 150cm and up",
+     "price": 51.43,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 46.18,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 281235,
+   "name": "Private Amsterdams City Highlights & Hidden Gems Walking Tour",
+   "old": 355,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 355
+  },
+  {
+   "pk": 421457,
+   "name": "Bikes, Beers, & Bites",
+   "old": 78.72,
+   "oldLabel": "Adult -  Height 150+ cm",
+   "tiers": [
+    {
+     "singular": "Adult -  Height 150+ cm",
+     "note": "13 years and older",
+     "price": 78.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Height 155+ cm",
+     "note": "From 5 until 12 years",
+     "price": 78.72,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 78.72,
+   "label": "Adult -  Height 150+ cm",
+   "unit": null
+  },
+  {
+   "pk": 569762,
+   "name": "Private Original Brews & Tales - Amsterdam Craft Beer Tour",
+   "old": 475,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "18+",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 475
+  },
+  {
+   "pk": 584947,
+   "name": "VR Voyage Rondvaart",
+   "old": 42.05,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "18 jaar en ouder • Inclusief stadsbelasting á €2,70",
+     "price": 42.05,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "van 5 tot 17 jaar oud • Inclusief stadsbelasting á €2,70",
+     "price": 32.56,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "65+  • Inclusief stadsbelasting á €2,70",
+     "price": 32.56,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 42.05,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 641896,
+   "name": "(Exclusive) Diamond City Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 683887,
+   "name": "Private Kinderdijk & Gouda Tour",
+   "old": 1155,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 1155
+  },
+  {
+   "pk": 586523,
+   "name": "Zaanse Schans E-Bike Tour",
+   "old": 82.92,
+   "oldLabel": "Adult with E-Bike",
+   "tiers": [
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 18+",
+     "price": 82.92,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Ages 12-17 | Suitable from 155cm and up",
+     "price": 72.42,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "BYOB Adult E-Bike",
+     "note": "Bring your own bike",
+     "price": 67.17,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "BYOB Child E-Bike",
+     "note": "Ages 12-17 | Bring your own bike",
+     "price": 56.68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 67.17,
+   "label": "BYOB Adult E-Bike",
+   "unit": null
+  },
+  {
+   "pk": 713664,
+   "name": "Happy Hour History",
+   "old": 55,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Student",
+     "note": "",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 55,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 448029,
+   "name": "Kingsday Boat Party 2026",
+   "old": 78.92,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "18+",
+     "price": 78.92,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 78.92,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 523957,
+   "name": "Open Boat Morning Cruise starts from Anne Frank House",
+   "old": 20.95,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 20.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 10.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.95,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 526535,
+   "name": "Open Boot Rondvaart met Onbeperkte Drankjes vanaf Anne Frank Huis",
+   "old": 31,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 31.65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot 12 jaar",
+     "price": 15.83,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "3 years and under",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 31.65,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 666480,
+   "name": "Amsterdam Brunch Cruise with Bubbles",
+   "old": 50,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-15",
+     "price": 36.75,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 50,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 112747,
+   "name": "The Bulldog Boat",
+   "old": 29.99,
+   "oldLabel": "Adult (60 minutes)",
+   "tiers": [
+    {
+     "singular": "Adult (60 minutes)",
+     "note": "18+",
+     "price": 29.99,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 29.99,
+   "label": "Adult (60 minutes)",
+   "unit": null
+  },
+  {
+   "pk": 281243,
+   "name": "Private Amsterdam Bike Tour",
+   "old": 365,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Group",
+     "note": "All ages • Max. 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 365
+  },
+  {
+   "pk": 313508,
+   "name": "Amsterdam Noord Artist Ferry Tour",
+   "old": 295,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 312.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 312.7,
+   "label": "Traveler",
+   "unit": "Traveler"
+  },
+  {
+   "pk": 313511,
+   "name": "Amsterdam Hidden Gems East Tour",
+   "old": 295,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 312.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 312.7,
+   "label": "Traveler",
+   "unit": "Traveler"
+  },
+  {
+   "pk": 313513,
+   "name": "Amsterdam Famous City Landmarks Tour",
+   "old": 295,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Traveler",
+     "note": "Recommended for all ages | 1 - 2 Guests",
+     "price": 312.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 312.7,
+   "label": "Traveler",
+   "unit": "Traveler"
+  },
+  {
+   "pk": 314367,
+   "name": "The Ultimate Canal Cruise (14+) - Departure Keizersgracht 106",
+   "old": 72.66,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 14+",
+     "price": 72.66,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 72.66,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 451050,
+   "name": "Old Amsterdam Cheese Tasting",
+   "old": 25.72,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All ages welcome • No wine served for participants under 18",
+     "price": 25.72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Under 18",
+     "note": "API",
+     "price": 20.47,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 25.72,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 510458,
+   "name": "Private Coffeeshops, Red Light & Old Pub Tour",
+   "old": 89.22,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 89.22,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 89.22,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 529785,
+   "name": "Amsterdam: Burger Cruise with the Burgerbar",
+   "old": 36,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 36
+  },
+  {
+   "pk": 532428,
+   "name": "Private Coffeeshop & Red Light Tour",
+   "old": 89.22,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 89.22,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 89.22,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 544893,
+   "name": "Zaanse Schans e-bike tour",
+   "old": 82.92,
+   "oldLabel": "personen",
+   "tiers": [
+    {
+     "singular": "personen",
+     "note": "13+",
+     "price": 82.92,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 82.92,
+   "label": "personen",
+   "unit": null
+  },
+  {
+   "pk": 580248,
+   "name": "The Ultimate Canal Cruise (14+) - Departure Herengracht 128 on the Stan Huygens",
+   "old": 72.66,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 14+",
+     "price": 77.92,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 77.92,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 632497,
+   "name": "Exclusieve Diner Vaartocht",
+   "old": 131.74,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "18+",
+     "price": 131.74,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 131.74,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 148015,
+   "name": "Shared Cruise on the Sophie",
+   "old": 58.03,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 14+",
+     "price": 58.03,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0-13",
+     "price": 36.93,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 58.03,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 193098,
+   "name": "Amsterdam Architecture Tour",
+   "old": 240,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "All Ages",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 240
+  },
+  {
+   "pk": 447124,
+   "name": "Bike and Boat Cruise Central Station by Captain Jack Amsterdam",
+   "old": 69,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 69
+  },
+  {
+   "pk": 453169,
+   "name": "Hoogtepunten van Amsterdam",
+   "old": 30.44,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "18+",
+     "price": 30.44,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassene + Kind in fietszitje",
+     "note": "Volwassene 18+ • Kind 1-6 jaar",
+     "price": 35.63,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kind • 7-17 jaar",
+     "note": "Alleen boekbaar samen met een volwassene",
+     "price": 26.24,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 30.44,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 453425,
+   "name": "Rondvaart",
+   "old": 16.83,
+   "oldLabel": "personen",
+   "tiers": [
+    {
+     "singular": "personen",
+     "note": "",
+     "price": 16.83,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 16.83,
+   "label": "personen",
+   "unit": null
+  },
+  {
+   "pk": 536649,
+   "name": "Avondrondvaart Luxe Open Sloep - Inclusief Drankjes",
+   "old": 29.87,
+   "oldLabel": "Volwassene onbeperkt drankjes",
+   "tiers": [
+    {
+     "singular": "Volwassene onbeperkt drankjes",
+     "note": "Leeftijd 13+",
+     "price": 29.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Leeftijd 4-12",
+     "price": 16.2,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 29.87,
+   "label": "Volwassene onbeperkt drankjes",
+   "unit": null
+  },
+  {
+   "pk": 536653,
+   "name": "Avondrondvaart Luxe Open Sloep - Drankjes Optioneel",
+   "old": 20.42,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Leeftijd 13+",
+     "price": 20.42,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassene + 1 drankje",
+     "note": "Leeftijd 13+",
+     "price": 24.59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Volwassene onbeperkt drankjes",
+     "note": "Leeftijd 13+",
+     "price": 29.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Leeftijd 4-12",
+     "price": 9.61,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kind + 1 drankje",
+     "note": "Leeftijd 4-12",
+     "price": 11.72,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Familie ticket",
+     "note": "2 Volwassenen + 2 Kinderen (€ 7,- voordeel)",
+     "price": 57.25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Familie ticket + 1 drankje",
+     "note": "2 Volwassenen + 2 Kinderen (€ 7,- voordeel)",
+     "price": 65.69,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "I amsterdam City Card",
+     "note": "I amsterdam City Card moet getoond worden bij inchecken",
+     "price": 2.7,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.42,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 675170,
+   "name": "Pannenkoeken Rondvaart Amsterdam",
+   "old": 37.31,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Leeftijd 13+",
+     "price": 37.31,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Leeftijd 4-12",
+     "price": 25.7,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "Leeftijd 0-3",
+     "price": 2.7,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 37.31,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 697546,
+   "name": "Luxury Brunch Cruise met TEDS - Herengracht 120",
+   "old": 62.63,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "alle leeftijden",
+     "price": 62.63,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 62.63,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 722806,
+   "name": "Utrecht: Rondvaart in Open Sloep",
+   "old": 21,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 19.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 10.55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 19.99,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 203524,
+   "name": "Humans of Amsterdam - Cultural Walking Tour",
+   "old": 124.9,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+ years",
+     "price": 124.9,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child/Teenager",
+     "note": "Please not that we are covering the topics of the Red Light District and Cannabis. If you are fine, so are we.",
+     "price": 103.91,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 124.9,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 354854,
+   "name": "Smurfette Bar Crawl",
+   "old": 356.86,
+   "oldLabel": "One hour",
+   "tiers": [
+    {
+     "singular": "One hour",
+     "note": "Smurfettes & Minion",
+     "price": 356.86,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Two hours",
+     "note": "Smurf Tours",
+     "price": 682.23,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 356.86,
+   "label": "One hour",
+   "unit": null
+  },
+  {
+   "pk": 370793,
+   "name": "Open sloep rondvaart Haarlem historische binnenstad van Haarlem",
+   "old": 20.05,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Leeftijd 11+",
+     "price": 20.05,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Leeftijd 3-10",
+     "price": 10.02,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "Leeftijd 0-2",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.05,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 401372,
+   "name": "Canal Pride 2026",
+   "old": 149,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 149
+  },
+  {
+   "pk": 498456,
+   "name": "Traditional Canal Cruise with Guide - Location Central Station",
+   "old": 20,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 20
+  },
+  {
+   "pk": 680314,
+   "name": "Luxury Canal Cruise inc. Snack Box",
+   "old": 21.82,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16+",
+     "price": 21.82,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "16+",
+     "price": 31.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-15 years",
+     "price": 12.77,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 21.82,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 192507,
+   "name": "Amsterdam Small-Group Canal Cruise Including Snacks and Drinks",
+   "old": 61.48,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 61.48,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Under the 12 years old",
+     "price": 37.1,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 61.48,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 227619,
+   "name": "Booze Cruise",
+   "old": 41.5,
+   "oldLabel": "One Hour Cruise",
+   "tiers": [
+    {
+     "singular": "One Hour Cruise",
+     "note": "Please select the number of passengers. Minimum 10 people.",
+     "price": 41.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "An Hour and a Half Cruise",
+     "note": "Please select the number of passengers. Minimum 10 people",
+     "price": 46.77,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Hour Cruise",
+     "note": "Please select the number of passengers. Minimum 10 people.",
+     "price": 57.78,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 41.5,
+   "label": "One Hour Cruise",
+   "unit": "One Hour Cruise"
+  },
+  {
+   "pk": 629434,
+   "name": "(Exclusive) Hidden Gems Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 629491,
+   "name": "(Exclusive) LGBTQ+ History Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 629521,
+   "name": "(Exclusive) Shifting the Frame: a Rijksmuseum guided tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 638970,
+   "name": "(Exclusive) Customized Walking Tour",
+   "old": 375,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 375
+  },
+  {
+   "pk": 462874,
+   "name": "Booze Cruise | Departure Central Station",
+   "old": 28,
+   "oldLabel": "per adult",
+   "disposition": "UNSAMPLED",
+   "new": 28
+  },
+  {
+   "pk": 474503,
+   "name": "Private E-Bike Tour Amsterdam",
+   "old": 300,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Up to 15 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 300
+  },
+  {
+   "pk": 521678,
+   "name": "TopDeck's Amsterdam Bike Tour B",
+   "old": 33,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 33
+  },
+  {
+   "pk": 521688,
+   "name": "TopDeck's Amsterdam Bike Tour C",
+   "old": 33,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 33
+  },
+  {
+   "pk": 521690,
+   "name": "TopDeck's Amsterdam Bike Tour D",
+   "old": 33,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 33
+  },
+  {
+   "pk": 521692,
+   "name": "TopDeck's Amsterdam Bike Tour E",
+   "old": 33,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 33
+  },
+  {
+   "pk": 568034,
+   "name": "The Original Brews & Tales - Amsterdam Craft Beer Tour",
+   "old": 99,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+ years",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 99,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 608158,
+   "name": "Excursão aos moinhos de vento + Passeio de Barco pelos canais",
+   "old": 63.5,
+   "oldLabel": "Adulto",
+   "tiers": [
+    {
+     "singular": "Adulto",
+     "note": "+12 anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Criança",
+     "note": "4 a 11 anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Bebé < 4 anos",
+     "note": "< 4 Anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero-base",
+   "new": null
+  },
+  {
+   "pk": 629504,
+   "name": "(Exclusive) Jewish History Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 629514,
+   "name": "(Exclusive) Women's History Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 629813,
+   "name": "(Exclusive) Highlights of Amsterdam Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 629899,
+   "name": "(Exclusive) Immigration Nation Tour",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 632419,
+   "name": "Diamond Experience Tour",
+   "old": 19.94,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 18 and older",
+     "price": 19.94,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Up to 18 years old | Children must be accompanied by at least one adult",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Go City Card",
+     "note": "Please select when you have a Go City Card",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 19.94,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 635407,
+   "name": "Open Boot Rondvaart met Onbeperkte Drankjes vertrekt vanaf Leidseplein (Rosewood Hotel)",
+   "old": 31,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 31.65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot 12 jaar",
+     "price": 15.83,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 31.65,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 669660,
+   "name": "Amsterdam Light Festival Rondvaart in overdekte sloep inclusief drankjes",
+   "old": 31.5,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 31.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 15.68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 31.5,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 671612,
+   "name": "Shared Amsterdam Dutch Cheese Tasting Canal Cruise",
+   "old": 28.7,
+   "oldLabel": "Adult WITH Cheese & Wine",
+   "tiers": [
+    {
+     "singular": "Adult WITH Cheese & Wine",
+     "note": "",
+     "price": 28.7,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult WITH Cheese",
+     "note": "",
+     "price": 24.35,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child WITH Cheese & Drinks",
+     "note": "",
+     "price": 25.7,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child WITH Cheese",
+     "note": "",
+     "price": 23.06,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 24.35,
+   "label": "Adult WITH Cheese",
+   "unit": null
+  },
+  {
+   "pk": 708352,
+   "name": "Plastic Hunting - Secondary Schools & Students (Netherlands)",
+   "old": 26.24,
+   "oldLabel": "25-49 students",
+   "tiers": [
+    {
+     "singular": "25-49 students",
+     "note": "25-49 students",
+     "price": 26.24,
+     "min": 24,
+     "cls": "never"
+    },
+    {
+     "singular": "50-150 students",
+     "note": "50-150 students",
+     "price": 20.99,
+     "min": 24,
+     "cls": "never"
+    },
+    {
+     "singular": "151-200 Students",
+     "note": "151-200 students",
+     "price": 15.74,
+     "min": 24,
+     "cls": "never"
+    }
+   ],
+   "disposition": "s48-R1:repriced",
+   "rule": "s48-R1",
+   "new": 15.74,
+   "label": "151-200 Students",
+   "unit": "per person, 151-200 Students"
+  },
+  {
+   "pk": 715614,
+   "name": "Evening (Sunset) - Amsterdam Walking Tour",
+   "old": 30.44,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+ years",
+     "price": 30.44,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child/Teenager",
+     "note": "Please not that we are covering the topics of the Red Light District and Cannabis. If you are fine, so are we.",
+     "price": 20.99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 30.44,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 314364,
+   "name": "Morning Canal Cruise Amsterdam- Departure Keizersgracht 106",
+   "old": 41.07,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 14+",
+     "price": 41.07,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "2 -13",
+     "price": 27.43,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 41.07,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 384738,
+   "name": "E-Bike Sightseeing Tour",
+   "old": 49.86,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "suitable from 155cm / 5′ 1″",
+     "price": 49.86,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "suitable from 155cm / 5′ 1″",
+     "price": 49.86,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 49.86,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 396254,
+   "name": "Excursão de Amsterdam até aos moinhos de vento de Zaanse Schans",
+   "old": 47.23,
+   "oldLabel": "Adulto",
+   "tiers": [
+    {
+     "singular": "Adulto",
+     "note": "+12 anos",
+     "price": 47.23,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Dois Adultos",
+     "note": "Preço para 2 pessoas | +12 anos",
+     "price": 94.46,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Criança",
+     "note": "4 a 11 anos",
+     "price": 36.74,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Bebé < 4 anos",
+     "note": "< 4 Anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 47.23,
+   "label": "Adulto",
+   "unit": null
+  },
+  {
+   "pk": 453461,
+   "name": "Noord: smartphone tour met fietshuur",
+   "old": 26.19,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Inclusief 4u fietshuur, verzekering, smartphonehouder en digitale tour",
+     "price": 26.19,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 26.19,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 600443,
+   "name": "Puff & Pencil Copenhagen Skirt - Wrap Skirt Workshop (Amsterdam West)",
+   "old": 125.9,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 125.9,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 125.9,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 668209,
+   "name": "Morning Cruise from Van der Valk Hotel",
+   "old": 19.84,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+",
+     "price": 19.84,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-11",
+     "price": 13.51,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 19.84,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 689228,
+   "name": "Amsterdam Highlights Bike Tour",
+   "old": 36.75,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Price per person • From 16 years old • Classic Bike",
+     "price": 36.75,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Price per person • From 8 to 15 years old • Classic Bike",
+     "price": 26.25,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 36.75,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 143496,
+   "name": "History of Amsterdam - City Center Guided Walking Tour - Private (FRENCH)",
+   "old": 49,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 49
+  },
+  {
+   "pk": 143497,
+   "name": "History of Amsterdam - City Center Guided Walking Tour - Private (ITALIAN)",
+   "old": 49,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 49
+  },
+  {
+   "pk": 143498,
+   "name": "History of Amsterdam - City Center Guided Walking Tour - Private (PORTUGUESE)",
+   "old": 49,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 49
+  },
+  {
+   "pk": 143499,
+   "name": "History of Amsterdam - City Center Guided Walking Tour - Private (DUTCH)",
+   "old": 49,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 49
+  },
+  {
+   "pk": 143554,
+   "name": "Combo: Rijksmuseum + Amsterdam History - City Center Guided Tour - Private (SPANISH)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143555,
+   "name": "Combo: Rijksmuseum + Amsterdam History - City Center Guided Tour - Private (FRENCH)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143556,
+   "name": "Combo: Rijksmuseum + Amsterdam History - City Center Guided Tour - Private (ITALIAN)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143557,
+   "name": "Combo: Rijksmuseum + Amsterdam History - City Center Guided Tour - Private (PORTUGUESE)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143558,
+   "name": "Combo: Rijksmuseum + Amsterdam History - City Center Guided Tour - Private (DUTCH)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 207261,
+   "name": "Public: World War II and the Holocaust in Amsterdam",
+   "old": 40,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 40
+  },
+  {
+   "pk": 389896,
+   "name": "[TNT] Open Boat Canal Cruise starts from Anne Frank",
+   "old": 20.95,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 20.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 10.4,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.95,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 447119,
+   "name": "Bike and Boat Cruise Rijksmuseum by Captain Jack Amsterdam",
+   "old": 69,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 69
+  },
+  {
+   "pk": 527298,
+   "name": "Open Boat Morning Cruise starts from Central Station",
+   "old": 20.95,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 20.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 10.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 2.7,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 20.95,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 713647,
+   "name": "The whole Dam thing",
+   "old": 25,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 25,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Students and ages 5-17",
+     "price": 22.5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "ages 0-4",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "up to 10 people",
+     "price": 200,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 25,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 143444,
+   "name": "Rijksmuseum Guided Museum Tour - Private (SPANISH)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143452,
+   "name": "Rijksmuseum Guided Museum Tour - Private (French)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143454,
+   "name": "Rijksmuseum Guided Museum Tour - Private (Italian)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143455,
+   "name": "Rijksmuseum Guided Museum Tour - Private (PORTUGUESE)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143457,
+   "name": "Rijksmuseum Guided Museum Tour - Private (DUTCH)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143595,
+   "name": "Rembrandt’s City & Home Guided Tour - Private (SPANISH)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143597,
+   "name": "Rembrandt’s City & Home Guided Tour - Private (FRENCH)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143599,
+   "name": "Rembrandt’s City & Home Guided Tour - Private (ITALIAN)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143600,
+   "name": "Rembrandt’s City & Home Guided Tour - Private (PORTUGUESE)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143601,
+   "name": "Rembrandt’s City & Home Guided Tour - Private (DUTCH)",
+   "old": 79,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 79
+  },
+  {
+   "pk": 143621,
+   "name": "Combo: Rijksmuseum + Rembrandt’s City & Home Skip-the-Line Guided Combo Tour - Private (SPANISH)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143623,
+   "name": "Combo: Rijksmuseum + Rembrandt’s City & Home Skip-the-Line Guided Combo Tour - Private (FRENCH)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143624,
+   "name": "Combo: Rijksmuseum + Rembrandt’s City & Home Skip-the-Line Guided Combo Tour - Private (ITALIAN)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143625,
+   "name": "Combo: Rijksmuseum + Rembrandt’s City & Home Skip-the-Line Guided Combo Tour - Private (PORTUGUESE)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 143626,
+   "name": "Combo: Rijksmuseum + Rembrandt’s City & Home Skip-the-Line Guided Combo Tour - Private (DUTCH)",
+   "old": 139,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Please verify guest count & make sure it's accurate!",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 139
+  },
+  {
+   "pk": 353881,
+   "name": "Shared Beer & Bubbly Bike",
+   "old": 36.74,
+   "oldLabel": "Adult - Beer",
+   "tiers": [
+    {
+     "singular": "Adult - Beer",
+     "note": "",
+     "price": 36.74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Bubbly",
+     "note": "",
+     "price": 36.74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Soft Drinks",
+     "note": "",
+     "price": 36.93,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 36.74,
+   "label": "Adult - Beer",
+   "unit": null
+  },
+  {
+   "pk": 353966,
+   "name": "Highland Games",
+   "old": 55.39,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 55.39,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 55.39,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 354004,
+   "name": "Bubble Football",
+   "old": 60.66,
+   "oldLabel": "Bubble Football - Outdoor",
+   "tiers": [
+    {
+     "singular": "Bubble Football - Outdoor",
+     "note": "",
+     "price": 60.66,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 60.66,
+   "label": "Bubble Football - Outdoor",
+   "unit": null
+  },
+  {
+   "pk": 354005,
+   "name": "Private Bar Crawl",
+   "old": 36.93,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "(18+)",
+     "price": 36.93,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 36.93,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 354041,
+   "name": "Private Bar Guide",
+   "old": 26.36,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Historic Pub Crawl",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "Rock Bar Blitz",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "Jazz Bar Soirée",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "Trendy Hotspots Tour",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "Quirky Themed Bar Tour",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "Local Favorite Bars",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "LGBTQ+ Friendly Bar Tour",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "Cocktail Bar Extravaganza",
+     "price": 26.36,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 26.36,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 355243,
+   "name": "Whiskey Tasting",
+   "old": 68.22,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "(18+)",
+     "price": 68.22,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 68.22,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 462875,
+   "name": "Luxury Cocktail Cruise | Departure Central Station",
+   "old": 35.65,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16+",
+     "price": 35.65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "4-15 years",
+     "price": 11.71,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Baby",
+     "note": "1-3 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 35.65,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 480064,
+   "name": "Public: World War II Cycle Tour",
+   "old": 55,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 55
+  },
+  {
+   "pk": 669900,
+   "name": "Bachelor Party Axe Throwing",
+   "old": 34.75,
+   "oldLabel": "Bachelor Party Package",
+   "tiers": [
+    {
+     "singular": "Bachelor Party Package",
+     "note": "60 minutes • Price per person • Minimum 6 people",
+     "price": 34.75,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Bachelor Party Package XL",
+     "note": "Upgrade to 90 minutes • Price per person • Minimum 6 people",
+     "price": 45.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "single-tier:unchanged",
+   "rule": "single-tier",
+   "new": 34.75,
+   "label": "Bachelor Party Package",
+   "unit": "Bachelor Party Package"
+  },
+  {
+   "pk": 685489,
+   "name": "Public Cheese Walk & Tasting Workshop",
+   "old": 110,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "All ages",
+     "price": 110,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 110,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 293741,
+   "name": "Beer Boat",
+   "old": 41.97,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+ | Minimum 10 people",
+     "price": 41.97,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 41.97,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 370243,
+   "name": "Booze Cruise free Snack included",
+   "old": 31.39,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "16+",
+     "price": 31.39,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "API",
+     "price": 12.77,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 31.39,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 537264,
+   "name": "The Amsterdam Breakfast Tour with Stroopwafel Making",
+   "old": 78,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "From 18 years",
+     "price": 78,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adolescent",
+     "note": "13-17 years",
+     "price": 70,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "4-12 years",
+     "price": 62,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 78,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 586120,
+   "name": "Passeio de Barco pelos canais de Amsterdam",
+   "old": 16,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 16
+  },
+  {
+   "pk": 607833,
+   "name": "Romantic Canal Cruise Experience in Amsterdam",
+   "old": 127,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 127
+  },
+  {
+   "pk": 621416,
+   "name": "Anne Frank’s Amsterdam",
+   "old": 33,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 33
+  },
+  {
+   "pk": 675161,
+   "name": "Amsterdam Light Festival + 2-gangen Diner bij Het Karbeel",
+   "old": 89.53,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Leeftijd 13+",
+     "price": 89.53,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 89.53,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 217247,
+   "name": "Leemstar V - Private cruise - 60 minutes",
+   "old": 250,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 250
+  },
+  {
+   "pk": 460173,
+   "name": "Beginner Crochet Workshop: Bag",
+   "old": 83.92,
+   "oldLabel": "First Lesson",
+   "tiers": [
+    {
+     "singular": "First Lesson",
+     "note": "",
+     "price": 83.92,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Second Lesson",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 83.92,
+   "label": "First Lesson",
+   "unit": null
+  },
+  {
+   "pk": 634083,
+   "name": "Traditional Cruise with Live Guide | Central Station",
+   "old": 16.74,
+   "oldLabel": "Adult • Without Drinks",
+   "tiers": [
+    {
+     "singular": "Adult • Without Drinks",
+     "note": "Ages 18+",
+     "price": 16.74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • Incl. 2 Drinks",
+     "note": "Ages 18+",
+     "price": 26.22,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult • With Open Bar",
+     "note": "Ages 18+",
+     "price": 29.38,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-15",
+     "price": 10.41,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Child",
+     "note": "Ages 0-3",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 16.74,
+   "label": "Adult • Without Drinks",
+   "unit": null
+  },
+  {
+   "pk": 647991,
+   "name": "Amsterdam Embroidery Workshop",
+   "old": 94,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "price per person • includes materials",
+     "price": 94.41,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 94.41,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 684419,
+   "name": "Aruba: Snorkling Adventure Cruise",
+   "old": 94.81,
+   "oldLabel": "Volwassene",
+   "tiers": [
+    {
+     "singular": "Volwassene",
+     "note": "Vanaf 13 jaar",
+     "price": 94.81,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind",
+     "note": "Vanaf 3 tot en met 12 jaar",
+     "price": 47.33,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "API",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 94.81,
+   "label": "Volwassene",
+   "unit": null
+  },
+  {
+   "pk": 348336,
+   "name": "Amsterdam Countryside Tour by car",
+   "old": 136.45,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4+",
+     "price": 136.45,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 136.45,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 384735,
+   "name": "Highlights Bike Tour",
+   "old": 36.21,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "17+",
+     "price": 36.21,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult with E-Bike",
+     "note": "Ages 17+ 〡 Suitable From 155cm and Up",
+     "price": 51.95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Age range between 12 - 16 years old",
+     "price": 28.86,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child with E-Bike",
+     "note": "Age range between 12 - 16 years old 〡 Suitable From 155cm and Up",
+     "price": 44.61,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 36.21,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 451317,
+   "name": "Van Gogh Museum Small Group Tour",
+   "old": 109,
+   "oldLabel": "per person",
+   "disposition": "UNSAMPLED",
+   "new": 109
+  },
+  {
+   "pk": 469787,
+   "name": "Amsterdam: Zaanse Schans & Giethoorn Guided Combo Tour",
+   "old": 115,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 16+ years",
+     "price": 115,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 15 years",
+     "price": 115,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 - 2 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 115,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 486233,
+   "name": "Keukenhof, Tulip Farm, Flower Fields & Delft City",
+   "old": 540,
+   "oldLabel": "starting at",
+   "disposition": "UNSAMPLED",
+   "new": 540
+  },
+  {
+   "pk": 554833,
+   "name": "Diner bij Humphreys",
+   "old": 39,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 39
+  },
+  {
+   "pk": 565692,
+   "name": "Bottomless Mimosa Brunch Cruise 🥂",
+   "old": 67,
+   "oldLabel": "per person",
+   "disposition": "UNSAMPLED",
+   "new": 67
+  },
+  {
+   "pk": 569718,
+   "name": "Private Food Walking Tour through Haarlem with 8 tastings",
+   "old": 173.18,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 3-99",
+     "price": 173.18,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Baby",
+     "note": "Ages 0-2",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 173.18,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 569721,
+   "name": "Private Utrecht Food Walking Tour with 8 Tastings",
+   "old": 173.18,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 173.18,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 173.18,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 594114,
+   "name": "Anne Frank en Joodse Geschiedenis Tour",
+   "old": 36.74,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Volwassene + Kind in fietszitje",
+     "note": "Volwassene 18+ • Kind 1-6 jaar",
+     "price": 44.61,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "Prijs per persoon",
+     "price": 36.74,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Kind • 7-17 jaar",
+     "note": "Alleen boekbaar samen met een volwassene",
+     "price": 29.39,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 36.74,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 599660,
+   "name": "Highlights of Amsterdam Cruise  - Departure Herengracht 128 on boat Stan Huygens",
+   "old": 58.97,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "ages 14+",
+     "price": 58.97,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "2-13",
+     "price": 36.93,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 58.97,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 600453,
+   "name": "Knitted Handbag Workshop",
+   "old": 62.92,
+   "oldLabel": "Adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 62.92,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 62.92,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 634932,
+   "name": "Beginner Crochet Workshop: Bandana",
+   "old": 83,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "First Lesson",
+     "note": "",
+     "price": 83.91,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Second Lesson",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 83.91,
+   "label": "First Lesson",
+   "unit": null
+  },
+  {
+   "pk": 656261,
+   "name": "Private: Amsterdam Wine and Cheese Food Tour",
+   "old": 125,
+   "oldLabel": "per person",
+   "tiers": [
+    {
+     "singular": "Private group",
+     "note": "Select your group size in the next step to determine the price",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 125
+  },
+  {
+   "pk": 656265,
+   "name": "Red Light District & Hidden Amsterdam: 7 Tastings with Light Meal & Drinks",
+   "old": 120,
+   "oldLabel": "unknown",
+   "tiers": [
+    {
+     "singular": "Private group",
+     "note": "Select your group size in the next step to determine the price",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 120
+  },
+  {
+   "pk": 668237,
+   "name": "Sewing Machine Basics Lesson (West)",
+   "old": 24,
+   "oldLabel": "per adult",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+ • price per person • including materials",
+     "price": 24.09,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 24.09,
+   "label": "Adult",
+   "unit": null
+  },
+  {
+   "pk": 669897,
+   "name": "Amsterdam Highland Games",
+   "old": 39.75,
+   "oldLabel": "Person",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Age 16+",
+     "price": 39.75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 39.75,
+   "label": "Person",
+   "unit": null
+  },
+  {
+   "pk": 680055,
+   "name": "Taste 750 Years of Amsterdam: A Private Team Food Adventure inc. Drinks",
+   "old": 95,
+   "oldLabel": "starting at",
+   "tiers": [
+    {
+     "singular": "Private group",
+     "note": "Select your group size in the next step to determine the price",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD-quote",
+   "new": 95
+  },
+  {
+   "pk": 83700,
+   "name": "Combo: Van Gogh Museum + Red Light District Guided Tour - Semi-Private (ENGLISH)",
+   "old": 159,
+   "oldLabel": "unknown",
+   "disposition": "UNSAMPLED",
+   "new": 159
+  },
+  {
+   "pk": 187371,
+   "name": "Comedy Walks© Utrecht",
+   "old": 23,
+   "oldLabel": "per person",
+   "disposition": "UNSAMPLED",
+   "new": 23
+  },
+  {
+   "pk": 396253,
+   "name": "Tour em Português pelo Centro Histórico de Amsterdam | Dam, Bairro Judeu e Mercado das Flores",
+   "old": 36.74,
+   "oldLabel": "Adulto",
+   "tiers": [
+    {
+     "singular": "Adulto",
+     "note": "+14 anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Criança",
+     "note": "4 a 13 anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Bebé",
+     "note": "menores de 4 anos",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero-base",
+   "new": null
+  }
+ ]
+}
