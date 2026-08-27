@@ -1,0 +1,556 @@
+draw pool: 1630 of 1637 rows
+emitting population (draw pool + emitPrice): 867 of 1637 rows
+
+== priceUnit (_unknownFields.priceUnit via priceUnit()) (133 distinct) ==
+  543  <empty>
+   29  Talamod
+   22  Private group of 1 to 15 people
+   19  Grupo Privado 1 a 4 personas
+   17  Hand Brake Bike
+    8  Bike
+    7  Grupo Privado 1 a 5 personas
+    7  per person, group of 6
+    7  Group of 1 to 6 people
+    6  per person, Private tour for 8 people (per person)
+    6  Steppen
+    6  Car
+    5  Private Tour
+    5  Group of 1 to 3 people
+    4  1 to 6 people
+    4  Koppel / Twee personen
+    4  Grupos de 1-5 Pessoas
+    4  per person, Groep vanaf 25 personen
+    3  per person, Group of 10 ( age 5+ / price pp)
+    3  Private tour 1 person
+    3  An Hour and a Half Cruise
+    3  Traveler
+    3  per boat, max 10 people
+    3  per couple
+    3  1 Hour
+    3  Ochtend
+    3  Huur 1 uur
+    3  Kind
+    3  Private workshop
+    3  Groep tot 6 personen
+    3  Elective Student
+    2  per boat, up to 12 guests
+    2  2 uur - Privé Rondvaart
+    2  per person, Group of 8 ( age 5+ / price pp)
+    2  Old City Cruise without drinks
+    2  per group, 1-5 pessoas
+    2  per boat, max 6 people
+    2  Private Cruise - 1 Hour
+    2  Grupo - hasta 2 personas
+    2  per person, 6 People
+    2  per group, 1 to 6 persons
+    2  huur 1 uur
+    2  Prive Groepshuur - Midweek
+    2  Private tour
+    2  Privé 1 persoon: 1 les
+    2  Small Group
+    2  per group, up to 6 people
+    2  per group
+    2  Gruppo privato di 4 persone
+    2  per person, Private Group of 5 - 8 people
+    2  Privécharter
+    2  SUP
+    2  Eenpersoons kano
+    2  Boom Community Night Ticket
+    1  Private Boat Delphine
+    1  Private Group up to 10
+    1  per group, 1 to 15 people
+    1  Private Group - 1 Hour Cruise
+    1  per boat, 1 hour
+    1  per group, 1-4 persons
+    1  Private tour 1-6 persons
+    1  2 hours boat cruise
+    1  per boat, up to 85 passengers
+    1  Two Hours
+    1  per person, group of 10
+    1  Two Hour Cruise
+    1  per boat, 11 seater
+    1  per boat, max 36 people
+    1  Private tour 8 persons
+    1  per boat, max 20 people
+    1  per person, group of 10+
+    1  One Hour Cruise
+    1  per group, up to 12 people
+    1  per person, 151-200 Students
+    1  Private Tour 4 hours
+    1  per boat, maximaal 6 personen
+    1  Group
+    1  Private Group 1 to 5 people
+    1  Bachelor Party Package
+    1  per person, 2 or more people
+    1  per group, 1 to 3 people
+    1  Café Cruiser - Hele dag
+    1  60 minuten
+    1  90 Minuten
+    1  Privé groep 1-5 personen
+    1  Halve dag huur (vier uur of korter)
+    1  Twee uur
+    1  Zes uur verhuur
+    1  per group, up to 10 guests
+    1  Ontbijt Erfgoedcruise
+    1  1 Hour Private Cruise
+    1  Private VIP Charter • 3 Hours
+    1  per person, Besloten groep 20 - 24 personen
+    1  Prive Tour
+    1  Privé-rondleiding middelbare scholen
+    1  per person, 2 People
+    1  1 - 6 people full day walk
+    1  Group of 1
+    1  Gezelschap
+    1  Group of 1 to 6 People
+    1  Rookie
+    1  per person, Group of 17 to 24 people
+    1  Group of 1 to 8 people
+    1  Chrysler 300C Limo
+    1  Private Tour - Two Persons
+    1  Kano1: (1 uur ) max 3 personen
+    1  Huur 2 uur
+    1  1-3 people
+    1  Boat "Geertje" - 90 min
+    1  per group, up to 15 personen
+    1  per boat, up to 8 people
+    1  Dagdeel verhuur
+    1  Één uur Huur
+    1  Groep 11 t/m 20 personen
+    1  1 Hour Private Cruise - 12 Pax
+    1  Prive groep
+    1  1 Hour Private Cruise - 30Pax
+    1  Private Group of 1 person
+    1  Group of 1 to 4 people
+    1  per person, 130 - 150 people
+    1  Zaanse Schans
+    1  introducé
+    1  per person, Vanaf Vier personen
+    1  Anderhalf uur rondvaart
+    1  Vier uur verhuur
+    1  per person, Groep vanaf 4
+    1  per person, Groep tot 10 personen
+    1  per person, Groep vanaf 6 personen
+    1  Groep vanaf 8 personen
+    1  per person, Groep vanaf 45 personen
+    1  Zeven of meer personen
+    1  Private Cruise - 1.5 Hours
+    1  Stage Seats with Table and Drink Service
+
+== priceLabel (209 distinct) ==
+  148  Adult
+   78  Person
+   51  Volwassene
+   37  Adulto
+   33  Persoon
+   29  Talamod
+   23  Private group of 1 to 15 people
+   21  Fiets met versnelling - normaal frame
+   20  Hand Brake Bike
+   19  Grupo Privado 1 a 4 personas
+   13  Personen
+    9  6 People
+    9  Volledige dag
+    8  First Lesson
+    8  Volwassen
+    8  Bike
+    7  Private Tour
+    7  Grupo Privado 1 a 5 personas
+    7  Koppel / Twee personen
+    7  Group of 1 to 6 people
+    6  Grupos de 1-5 Pessoas
+    6  Adult 18+ price per person
+    6  One Hour
+    6  Group of 1 to 3 people
+    6  Private tour for 8 people (per person)
+    6  Steppen
+    6  MTB - Maat XS
+    6  Car
+    5  General Admission
+    5  Salon
+    5  Basic Gravelbike - XS
+    4  Group of 10 ( age 5+ / price pp)
+    4  14 years and up
+    4  1 to 6 people
+    4  Adult Ticket
+    4  Groep vanaf 25 personen
+    3  Private Cruise - 1 Hour
+    3  Private tour 1 person
+    3  BYOB Adult E-Bike
+    3  An Hour and a Half Cruise
+    3  Traveler
+    3  Boat "Geertje" - 90 min
+    3  personen
+    3  Group
+    3  1 Hour Game
+    3  1 Hour
+    3  Person NO Drinks
+    3  Ochtend
+    3  Huur 1 uur
+    3  Kind
+    3  Private workshop
+    3  Groep tot 6 personen
+    3  Early Bird Ticket
+    3  Elective Student
+    2  BYOB Adult
+    2  VIP Ticket 18+
+    2  Adult • excluding Cheese & Unlimited Drinks
+    2  Adult -  Height 150+ cm
+    2  Adult without Drinks and Snacks
+    2  2 uur - Privé Rondvaart
+    2  Adult: No Drinks
+    2  Private Group - 1 Hour Cruise
+    2  Adult • Without Drinks
+    2  Adult • excluding Bites & Unlimited Bubbles
+    2  Volwassene onbeperkt drankjes
+    2  Group of 8 ( age 5+ / price pp)
+    2  Old City Cruise without drinks
+    2  Boat "Lucy" 90 Minutes
+    2  Grupo - hasta 2 personas
+    2  Extra Small Group - 1 to 6 persons
+    2  huur 1 uur
+    2  Maat S
+    2  Prive Groepshuur - Midweek
+    2  Single ticket
+    2  Bicycle
+    2  Private tour
+    2  Privé 1 persoon: 1 les
+    2  Small Group
+    2  Gruppo privato di 4 persone
+    2  Private Group of 5 - 8 people
+    2  Mirror Booth • 4 hours
+    2  Volwassenen
+    2  Privécharter
+    2  SUP
+    2  Eenpersoons kano
+    2  Boom Community Night Ticket
+    2  Course Participant
+    1  Light Festival Guest - Open Bar Included
+    1  Private Boat Delphine
+    1  Volwassen 12+
+    1  Private Group up to 10
+    1  Single Ticket Smoke Tour
+    1  Adult - Without drinks
+    1  Adult - No Drinks
+    1  Volwassene - 2 uur
+    1  Person (with Drinks included)
+    1  Adult Regular (ALF)
+    1  Adult - English Only
+    1  Adult - No drinks included
+    1  1,5 hours boat cruise
+    1  Private tour 1-4 persons
+    1  Adult - Bike size 150+ cm
+    1  Private tour 1-6 persons
+    1  2 hours boat cruise
+    1  One hour and half  boat rent incl. skipper
+    1  Person - No Drinks
+    1  Two Hours
+    1  Adult (60 minutes)
+    1  Two Hour Cruise
+    1  Boat "Schollevaar" - 90 min
+    1  Private Charter - Boat Hedir
+    1  Boat "Stan Huygens" - 90 Minutes
+    1  Private tour 8 persons
+    1  Boat "Pure Spirit" - 90 min
+    1  One hour
+    1  10+ persons
+    1  Adult - WITH NO Drinks & NO Welcome Snack
+    1  One Hour Cruise
+    1  Private Cruise
+    1  Adult WITH Cheese
+    1  151-200 Students
+    1  Private Tour 4 hours
+    1  Anderhalf uur Privé Tour
+    1  Private Group 1 to 5 people
+    1  Adult - Beer
+    1  Bubble Football - Outdoor
+    1  Oil Wrestling
+    1  Strippers
+    1  Bachelor Party Package
+    1  Adult WITH Hot Chocolate & Stroopwafel
+    1  2 or more people
+    1  Adult (13+)
+    1  Adult (English speaking)
+    1  E-fatbike (volledige dag)
+    1  Café Cruiser - Hele dag
+    1  60 minuten
+    1  90 Minuten
+    1  Privé groep 1-5 personen
+    1  Halve dag huur (vier uur of korter)
+    1  Klikpedalen
+    1  Twee uur
+    1  Volwassene met bierproverij en  kerken
+    1  Zes uur verhuur
+    1  Prive Groepshuur - Weekend
+    1  Persoon - High Tea
+    1  Ontbijt Erfgoedcruise
+    1  1 Hour Private Cruise
+    1  Person - 60 minutes
+    1  Private VIP Charter • 3 Hours
+    1  Besloten groep 20 - 24 personen
+    1  SmartWalk
+    1  Prive Tour
+    1  Privé-rondleiding middelbare scholen
+    1  2 People
+    1  Ticket
+    1  1 - 6 people full day walk
+    1  Scooter
+    1  Person - Bring your own drinks
+    1  Group of 1
+    1  1 Dag
+    1  Person - Lunch
+    1  Gezelschap
+    1  Group of 1 to 6 People
+    1  18 Hole Game
+    1  Person - Two Heat Race
+    1  Rookie
+    1  Group of 17 to 24 people
+    1  Group of 1 to 8 people
+    1  Chrysler 300C Limo
+    1  Private Tour - Two Persons
+    1  Kano1: (1 uur ) max 3 personen
+    1  Huur 2 uur
+    1  1-3 people
+    1  Privérondleiding
+    1  E-hopper
+    1  Dagdeel verhuur
+    1  Één uur Huur
+    1  Groep 11 t/m 20 personen
+    1  1 Hour Private Cruise - 12 Pax
+    1  Adult 14+
+    1  Prive groep
+    1  360 Booth • 4 hours
+    1  1 Hour Private Cruise - 30Pax
+    1  Private Group of 1 person
+    1  Group of 1 to 4 people
+    1  130 - 150 people
+    1  Zaanse Schans
+    1  Persoon – 1 uur zonder drankjes
+    1  introducé
+    1  Docent
+    1  Vanaf Vier personen
+    1  Anderhalf uur rondvaart
+    1  Vier uur verhuur
+    1  Groep vanaf 4
+    1  Groep tot 10 personen
+    1  Groep vanaf 6 personen
+    1  Groep vanaf 8 personen
+    1  Groep vanaf 45 personen
+    1  Persoon met eigen fiets
+    1  Zeven of meer personen
+    1  Private Cruise - 1.5 Hours
+    1  Adult Bike - For riders 160cm (5'3") and up
+    1  Zespersoons elektroboot
+    1  Één Uur
+    1  Solo Traveler Ticket
+    1  Stage Seats with Table and Drink Service
+    1  Improv Course from a Taster Class
+    1  Adult English
+    1  ESN • Volwassene
+
+== anchor tier singular (206 distinct) ==
+  140  Adult
+   78  Person
+   47  Volwassene
+   37  Adulto
+   33  Persoon
+   29  Talamod
+   23  Private group of 1 to 15 people
+   22  <no-anchor-tier>
+   21  Fiets met versnelling - normaal frame
+   20  Hand Brake Bike
+   19  Grupo Privado 1 a 4 personas
+   13  Personen
+    9  6 People
+    9  Volledige dag
+    8  Volwassen
+    8  Bike
+    7  Private Tour
+    7  Grupo Privado 1 a 5 personas
+    7  Koppel / Twee personen
+    7  First Lesson
+    7  Group of 1 to 6 people
+    6  Grupos de 1-5 Pessoas
+    6  Adult 18+ price per person
+    6  One Hour
+    6  Group of 1 to 3 people
+    6  Private tour for 8 people (per person)
+    6  Steppen
+    6  MTB - Maat XS
+    6  Car
+    5  General Admission
+    5  Salon
+    5  Basic Gravelbike - XS
+    4  Group of 10 ( age 5+ / price pp)
+    4  14 years and up
+    4  1 to 6 people
+    4  Adult Ticket
+    4  Groep vanaf 25 personen
+    3  Private Cruise - 1 Hour
+    3  Private tour 1 person
+    3  BYOB Adult E-Bike
+    3  An Hour and a Half Cruise
+    3  Boat "Geertje" - 90 min
+    3  personen
+    3  Group
+    3  1 Hour Game
+    3  1 Hour
+    3  Person NO Drinks
+    3  Ochtend
+    3  Huur 1 uur
+    3  Kind
+    3  Private workshop
+    3  Groep tot 6 personen
+    3  Early Bird Ticket
+    3  Elective Student
+    2  BYOB Adult
+    2  VIP Ticket 18+
+    2  Adult -  Height 150+ cm
+    2  Adult without Drinks and Snacks
+    2  2 uur - Privé Rondvaart
+    2  Adult: No Drinks
+    2  Private Group - 1 Hour Cruise
+    2  Adult • Without Drinks
+    2  Group of 8 ( age 5+ / price pp)
+    2  Old City Cruise without drinks
+    2  Boat "Lucy" 90 Minutes
+    2  Grupo - hasta 2 personas
+    2  Extra Small Group - 1 to 6 persons
+    2  huur 1 uur
+    2  Kids M
+    2  Prive Groepshuur - Midweek
+    2  Single ticket
+    2  Bicycle
+    2  Private tour
+    2  Privé 1 persoon: 1 les
+    2  Small Group
+    2  Gruppo privato di 4 persone
+    2  Private Group of 5 - 8 people
+    2  Mirror Booth • 4 hours
+    2  Volwassenen
+    2  Privécharter
+    2  SUP
+    2  Eenpersoons kano
+    2  Boom Community Night Ticket
+    2  Course Participant
+    1  Light Festival Guest - Open Bar Included
+    1  Private Boat Delphine
+    1  Private Group up to 10
+    1  Single Ticket Smoke Tour
+    1  Adult - Without drinks
+    1  Adult - No Drinks
+    1  Volwassene - 2 uur
+    1  Person (with Drinks included)
+    1  Adult Regular (ALF)
+    1  Adult - English Only
+    1  Adult - No drinks included
+    1  1,5 hours boat cruise
+    1  Private tour 1-4 persons
+    1  Adult - Bike size 150+ cm
+    1  Private tour 1-6 persons
+    1  2 hours boat cruise
+    1  One hour and half  boat rent incl. skipper
+    1  Person - No Drinks
+    1  Two Hours
+    1  Adult (60 minutes)
+    1  Two Hour Cruise
+    1  Boat "Schollevaar" - 90 min
+    1  Private Charter - Boat Hedir
+    1  Boat "Stan Huygens" - 90 Minutes
+    1  Private tour 8 persons
+    1  Boat "Pure Spirit" - 90 min
+    1  Volwassene onbeperkt drankjes
+    1  One hour
+    1  10+ persons
+    1  Adult - WITH NO Drinks & NO Welcome Snack
+    1  One Hour Cruise
+    1  Private Cruise
+    1  Adult WITH Cheese
+    1  151-200 Students
+    1  Private Tour 4 hours
+    1  Anderhalf uur Privé Tour
+    1  Private Group 1 to 5 people
+    1  Adult - Beer
+    1  Bubble Football - Outdoor
+    1  Oil Wrestling
+    1  Strippers
+    1  Bachelor Party Package
+    1  Adult WITH Hot Chocolate & Stroopwafel
+    1  2 or more people
+    1  Adult (13+)
+    1  Adult (English speaking)
+    1  E-fatbike (volledige dag)
+    1  Café Cruiser - Hele dag
+    1  60 minuten
+    1  90 Minuten
+    1  Privé groep 1-5 personen
+    1  Halve dag huur (vier uur of korter)
+    1  Klikpedalen
+    1  Twee uur
+    1  Volwassene met bierproverij en  kerken
+    1  Zes uur verhuur
+    1  Prive Groepshuur - Weekend
+    1  Persoon - High Tea
+    1  Ontbijt Erfgoedcruise
+    1  1 Hour Private Cruise
+    1  Person - 60 minutes
+    1  Private VIP Charter • 3 Hours
+    1  Besloten groep 20 - 24 personen
+    1  SmartWalk
+    1  Prive Tour
+    1  Privé-rondleiding middelbare scholen
+    1  2 People
+    1  Ticket
+    1  1 - 6 people full day walk
+    1  Scooter
+    1  Person - Bring your own drinks
+    1  Group of 1
+    1  1 Dag
+    1  Person - Lunch
+    1  Gezelschap
+    1  Group of 1 to 6 People
+    1  18 Hole Game
+    1  Person - Two Heat Race
+    1  Rookie
+    1  Group of 17 to 24 people
+    1  Group of 1 to 8 people
+    1  Chrysler 300C Limo
+    1  Private Tour - Two Persons
+    1  Kano1: (1 uur ) max 3 personen
+    1  Huur 2 uur
+    1  1-3 people
+    1  Privérondleiding
+    1  E-hopper
+    1  Dagdeel verhuur
+    1  Één uur Huur
+    1  Groep 11 t/m 20 personen
+    1  1 Hour Private Cruise - 12 Pax
+    1  Adult 14+
+    1  Prive groep
+    1  360 Booth • 4 hours
+    1  1 Hour Private Cruise - 30Pax
+    1  Private Group of 1 person
+    1  Group of 1 to 4 people
+    1  130 - 150 people
+    1  Zaanse Schans
+    1  Persoon – 1 uur zonder drankjes
+    1  introducé
+    1  Leerlingen/studenten
+    1  Vanaf Vier personen
+    1  Anderhalf uur rondvaart
+    1  Vier uur verhuur
+    1  Groep vanaf 4
+    1  Groep tot 10 personen
+    1  Groep vanaf 6 personen
+    1  Groep vanaf 8 personen
+    1  Groep vanaf 45 personen
+    1  Persoon met eigen fiets
+    1  Zeven of meer personen
+    1  Private Cruise - 1.5 Hours
+    1  Adult Bike - For riders 160cm (5'3") and up
+    1  Zespersoons elektroboot
+    1  Één Uur
+    1  Solo Traveler Ticket
+    1  Stage Seats with Table and Drink Service
+    1  Improv Course from a Taster Class
+    1  Adult English
+    1  ESN • Volwassene

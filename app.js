@@ -156,19 +156,180 @@ function scoreLabel(score) {
     return '';
 }
 
+// --- s53 schema unit gate ---------------------------------------------------
+// A bare Offer.price is read as per-person by the Bing/ChatGPT/Copilot
+// ecosystem -- this network's primary conversion channel -- so a whole-boat
+// or private-group tour emitted bare misquotes its total as a per-person fare.
+// Ruled s52 (network decision): the gate has THREE states, derived from the
+// row's own evidence -- _unknownFields.priceUnit (the exact string the card
+// renders), priceLabel, and the anchor tier (the priceBreakdown tier whose
+// price equals the emitted price). A tier note is corroborating only and is
+// never read here.
+//   1. per-person affirmatively asserted   -> bare Offer.price, byte-identical
+//      to what shipped before this gate existed.
+//   2. non-per-person affirmatively asserted -> no bare price; a
+//      UnitPriceSpecification whose unitText is the VERBATIM card string (the
+//      same field the card reads) -- never a parallel wording. If the card
+//      renders no unit string there is nothing to mirror, so no price at all.
+//   3. no unit evidence either way -> no price at all. Absence of evidence is
+//      not per-person; silence is honest, a guess is not.
+// Every word list below is built from the pool's own vocabulary
+// (scripts/evidence/s53-wams-schema-gate/vocab-out.txt), and every string the
+// lists do not reach falls to state 3 -- ambiguity resolves toward silence.
+// This pool is multilingual (Dutch/English/Spanish/Portuguese/Italian), so
+// boundaries are built on Unicode letters/digits, not ASCII \w -- the default
+// \b treats accented letters (é, í...) as non-word and silently fails to
+// match a word ending in one (e.g. "introducé").
+function unitWordBoundary(pattern) {
+    return new RegExp(`(?<![\\p{L}\\p{N}_])(?:${pattern})(?![\\p{L}\\p{N}_])`, 'iu');
+}
+// Leading-boundary-only match: this pool's source data glues "Privé"/"Prive"
+// onto a following word with no separator ("Privécharter", "Privérondleiding").
+// Every occurrence of this prefix in the pool's vocabulary is about private
+// ownership/exclusivity, so matching it as a word-START is safe without also
+// requiring a word-END.
+function unitWordPrefix(pattern) {
+    return new RegExp(`(?<![\\p{L}\\p{N}_])(?:${pattern})`, 'iu');
+}
+
+// Classify one evidence string: 'per-person', 'non-per-person', or '' (no
+// verdict). An explicit "per person"/"pp" marker wins even when the same
+// string also names a group ("per person, Groep vanaf 25 personen" -- this
+// pool's own extraction pipeline prefixes "per person, " onto a group-sized
+// tier label precisely to assert the price shown is per attendee, not per
+// group). That check runs before the non-per-person patterns for the same
+// reason Hawaii's shared/semi-private check ran before its exclusivity test.
+function classifyUnitText(s) {
+    if (typeof s !== 'string' || !s.trim()) return '';
+    const str = s.trim();
+
+    const EXPLICIT_PP_RES = [
+        unitWordBoundary('per[\\s-]?persons?'), unitWordBoundary('per[\\s-]?persoons?'),
+        /\/\s?person\b/i,
+        unitWordBoundary('price\\s*pp'), /\(\s*pp\s*\)/i
+    ];
+    if (EXPLICIT_PP_RES.some((re) => re.test(str))) return 'per-person';
+
+    // Whole-unit evidence: exclusivity (EN/NL), group/party phrasing (EN/NL/
+    // ES/PT/IT), vehicle/vessel/equipment nouns, rental terms, capacity counts.
+    const NON_PER_PERSON_RES = [
+        unitWordPrefix('priv(?:ate|é|e)'),
+        unitWordBoundary('charters?|chartered'),
+        unitWordBoundary('per[\\s-]?(?:group|groep|booking|party|boat|boot|couple|family|vehicle|van|unit|hour)'),
+        unitWordBoundary('grupo\\s?privad[oa]'),
+        unitWordBoundary('grupp?o\\s?privato'),
+        unitWordBoundary('groep(?:je)?'),
+        unitWordBoundary('grupos?'),
+        unitWordBoundary('group\\s?(?:of|size|rate)'),
+        unitWordBoundary('group'),
+        unitWordBoundary('besloten'),
+        unitWordBoundary('gezelschap'),
+        unitWordBoundary('vanaf'),
+        unitWordBoundary('couples?'), unitWordBoundary('koppel'),
+        unitWordBoundary('huur'), unitWordBoundary('verhuur'), unitWordBoundary('rentals?'),
+        unitWordBoundary('boats?'), unitWordBoundary('cars?'), unitWordBoundary('scooters?'),
+        unitWordBoundary('bikes?'), unitWordBoundary('bicycles?'),
+        unitWordBoundary('fiets(?:en)?'), unitWordBoundary("kano(?:'s)?"),
+        unitWordBoundary('e-?hopper'), unitWordBoundary('klikpedalen'), unitWordBoundary('step(?:pen)?'),
+        unitWordBoundary('limo(?:usine)?'), unitWordBoundary('sup'), unitWordBoundary('mtb'),
+        unitWordBoundary('gravelbike'), unitWordBoundary('booth'), unitWordBoundary('packages?'),
+        unitWordBoundary('of\\s?meer'), unitWordBoundary('or\\s?more'),
+        /\d\s*(?:[-–—~]|to|t\/m)\s*\d+\s*(?:people|persons?|personen|pessoas|personas|guests?|passengers?|students?)\b/i,
+        /\bup\s?to\s+\d+\s*(?:people|persons?|guests?)\b/i,
+        /\b\d+\+?\s?(?:people|persons?|personen|guests?|passengers?)\b/i,
+        /\b\d+\s?or\s?more\s?(?:people|persons?)\b/i
+    ];
+    for (const re of NON_PER_PERSON_RES) {
+        if (re.test(str)) return 'non-per-person';
+    }
+
+    // Per-person evidence: explicit per-X phrasing, customer-type nouns
+    // (EN/NL), age qualifiers, ticket/admission wording, per-student formats.
+    const PER_PERSON_RES = [
+        unitWordBoundary('per[\\s-]?(?:person|adult|child|guest|passenger|participant|rider|student|traveler|traveller)'),
+        unitWordBoundary('adults?'), unitWordBoundary('adulto?s?'), unitWordBoundary('volwassen(?:en?)?'),
+        unitWordBoundary('child(?:ren)?'), unitWordBoundary('kids?'), unitWordBoundary('kind(?:eren)?'),
+        unitWordBoundary('persons?'), unitWordBoundary('people'), unitWordBoundary('persoon'), unitWordBoundary('personen'),
+        unitWordBoundary('travele?rs?'), unitWordBoundary('passengers?'), unitWordBoundary('participants?'),
+        unitWordBoundary('guests?'), unitWordBoundary('students?'), unitWordBoundary('studenten'),
+        unitWordBoundary('leerlingen'), unitWordBoundary('docent(?:en)?'), unitWordBoundary('introduc[ée]s?'),
+        unitWordBoundary('individuals?'), unitWordBoundary('attendees?'), unitWordBoundary('admission'),
+        /\bages?\s?\d+/i,
+        /\b\d+\s?(?:&|and|or)\s?(?:up|under|over|younger|older)\b/i,
+        /\b\d+\+\b/i,
+        /\b\d+\s?years?\s?(?:and\s?up|old)?\b/i,
+        unitWordBoundary('singles?'), unitWordBoundary('tickets?'),
+        unitWordBoundary('courses?'), unitWordBoundary('class(?:es)?'),
+        unitWordBoundary('certifications?'), unitWordBoundary('camps?'), unitWordBoundary('lessons?')
+    ];
+    for (const re of PER_PERSON_RES) {
+        if (re.test(str)) return 'per-person';
+    }
+    return '';
+}
+
+// Combine the row's three evidence sources into one state. priceUnit is
+// authoritative when it has a verdict: this pool's own pipeline prefixes
+// "per person, " onto priceUnit specifically to disclose whether the number
+// shown is a per-attendee share or a lump sum, for tiers whose raw name is a
+// party-size band ("Groep vanaf 25 personen", "6 People") that reads as a
+// capacity assertion in isolation but is actually a bulk-discount PER-PERSON
+// rate (confirmed against priceBreakdown: e.g. pk 465763 "Persoon" €26.24 vs
+// "Groep vanaf 25 personen" €23.62 -- both per-person, the second just a
+// volume discount). priceLabel/anchor are the raw upstream tier names and
+// only decide when priceUnit itself is empty or unclassifiable; among those
+// two, a whole-unit assertion outranks a per-person one -- the harm of a
+// wrong bare price (a private/group tour read as per-person) dwarfs the harm
+// of a suppressed one. (Verified: zero rows in this pool have priceUnit
+// asserting non-per-person while priceLabel/anchor assert per-person, so this
+// priority never suppresses a genuine whole-unit price.)
+function unitStateFromEvidence(tour) {
+    const cardVerdict = classifyUnitText(priceUnit(tour));
+    if (cardVerdict) return cardVerdict;
+
+    const pb = Array.isArray(tour.priceBreakdown) ? tour.priceBreakdown : [];
+    const anchor = pb.find((p) => p.price === tour.price);
+    const fallbackVerdicts = [
+        (tour.priceLabel || '').trim(),
+        anchor ? (anchor.singular || '').trim() : ''
+    ].map(classifyUnitText);
+    if (fallbackVerdicts.includes('non-per-person')) return 'non-per-person';
+    if (fallbackVerdicts.includes('per-person')) return 'per-person';
+    return 'none';
+}
+
 function generateTourSchema(tour) {
     const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low';
+    const state = emitPrice ? unitStateFromEvidence(tour) : 'none';
+    const cardUnit = priceUnit(tour);
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
         "name": tour.name,
         "description": tour.description || "",
         "touristType": tour.tags ? tour.tags.join(", ") : "",
-        ...(emitPrice && {
+        ...(state === 'per-person' && {
             "offers": {
                 "@type": "Offer",
                 "price": tour.price,
                 "priceCurrency": "EUR",
+                "url": tour.bookingUrl,
+                "availability": "https://schema.org/InStock"
+            }
+        }),
+        // unitText must mirror the visible card verbatim; a non-per-person row
+        // whose card shows no unit string (or whose card string itself reads
+        // per-person, a contradiction) has nothing honest to emit, so it emits
+        // no price at all.
+        ...(state === 'non-per-person' && cardUnit && classifyUnitText(cardUnit) !== 'per-person' && {
+            "offers": {
+                "@type": "Offer",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": tour.price,
+                    "priceCurrency": "EUR",
+                    "unitText": cardUnit
+                },
                 "url": tour.bookingUrl,
                 "availability": "https://schema.org/InStock"
             }
