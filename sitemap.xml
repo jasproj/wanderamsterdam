@@ -84,4 +84,46 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/amsterdam-bike-tour-for-beginners.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/amsterdam-canal-cruise-vs-walking-tour-which-is-better.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/amsterdam-cheese-wine-canal-cruise-what-to-expect.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/anne-frank-house-tour-with-skip-the-line-tickets-amsterdam.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/best-canal-cruises-amsterdam-first-time-visitors.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/best-private-canal-cruise-amsterdam-for-couples.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderamsterdam.com/blog/guided-kayak-tour-amsterdam-canals-for-beginners.html</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
