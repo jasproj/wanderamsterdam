@@ -186,4 +186,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-</urlset>
+<url>
+    <loc>https://www.wanderamsterdam.com/blog/amsterdam-hidden-gems.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  </urlset>
