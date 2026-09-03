@@ -1208,6 +1208,13 @@ section { padding: var(--space-3xl) 0; }
 /* ============================================
    FOOTER - CONSISTENT LOGO
    ============================================ */
+/* Booking-path block on blog posts that had no route to a tour page (s56). */
+.post-booking-cta { max-width: 800px; margin: 32px auto; padding: 24px 28px; border-radius: 12px; background: linear-gradient(135deg, var(--primary-dark, #0b2a3a), var(--primary, #0077b6)); color: #fff; }
+.post-booking-cta h3 { margin: 0 0 8px; color: #fff; font-size: 1.25rem; }
+.post-booking-cta p { margin: 0 0 14px; color: rgba(255,255,255,0.92); }
+.post-booking-cta a { display: inline-block; background: #fff; color: var(--primary-dark, #0b2a3a); font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none; min-height: 48px; line-height: 24px; }
+.post-booking-cta a:hover { background: #f1f5f9; }
+
 .footer {
     background: var(--gray-900);
     color: var(--gray-300);
