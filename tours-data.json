@@ -43235,7 +43235,10 @@
           "price": 0,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "s57 geo hide 2026-09-05: product is in Aruba, per its own location field. Not an Amsterdam experience.",
+      "hiddenAt": "2026-09-05"
     },
     {
       "id": "117553",
