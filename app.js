@@ -94,7 +94,11 @@ async function loadTours() {
         
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        // hidden:true is the human-ruled hide, same convention as the
+        // keywestsandbartours and wanderusvi repos: the row stays in the file
+        // with hiddenReason/hiddenAt so the ruling survives a re-scrape and can
+        // be reversed by clearing one flag, rather than being re-litigated.
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead && !t.hidden);
         updateVerifiedToursCount(toursData.length);
         console.log(`✅ Loaded ${toursData.length} tours`);
 
