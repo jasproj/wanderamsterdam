@@ -247,6 +247,13 @@
                 font-size: 28px;
             }
         }
+    
+        /* This page uses a taller header template than the rest of the site --
+           the nav stacks, measuring 189px at 390px and 209px at 1280px against
+           77/113 everywhere else -- so the site-wide clearance in styles.css is
+           not enough here and the h1 still sat behind it. */
+        body header + .advertise-hero { margin-top: 200px; }
+        @media (min-width: 769px) { body header + .advertise-hero { margin-top: 220px; } }
     </style>
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">

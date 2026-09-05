@@ -24,7 +24,13 @@
     .article-header { text-align: center; padding-bottom: 20px; }
     .article-header h1 { font-size: 2.4rem; margin: 0 0 16px 0; line-height: 1.2; }
     .meta { color: #888; font-size: 0.95rem; }
-  </style>
+  
+        /* .hero here carries 40px of its own padding, which is less than the
+           fixed header, so the h1 rendered behind it. The site-wide rule in
+           styles.css does not match .hero because most pages using it already
+           clear the header on their own. */
+        body header + .hero { margin-top: var(--header-h); }
+    </style>
 
     <script type="application/ld+json">
     {

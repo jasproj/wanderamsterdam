@@ -45,7 +45,15 @@
     .hero h1 { font-size: 1.6rem; }
     .hero { padding: 40px 20px; }
   }
-</style>
+
+        /* .hero here carries 40px of its own padding, which is less than the
+           fixed header, so the h1 rendered behind it. The site-wide rule in
+           styles.css does not match .hero because most pages using it already
+           clear the header on their own. Mobile only: at 1280px the hero's own
+           content already puts the h1 at y=383, well clear of the 113px header,
+           and clearance there would just insert an empty band. */
+        @media (max-width: 768px) { body header + .hero { margin-top: var(--header-h); } }
+    </style>
 
     <script type="application/ld+json">
     {
