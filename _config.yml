@@ -8,6 +8,10 @@ exclude:
   - .gitignore
   - README.md
   - .DS_Store
+  # Defensive: dev tooling dirs that should never be processed by Jekyll
+  # even if accidentally committed.
+  - scripts-staging
+  - node_modules
 permalink: /:path/
 plugins:
   - jekyll-feed
