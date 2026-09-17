@@ -40,11 +40,9 @@
   .info-box { background: #f0f4f8; padding: 20px; border-radius: 8px; margin: 30px 0; }
   .info-box h3 { margin: 0 0 12px 0; font-size: 1.1rem; }
   .info-box p { margin: 0; font-size: 0.95rem; }
-  footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.6rem; }
-    .hero { padding: 40px 20px; }
-  }
+    .hero { padding: 40px 20px; }}
 
         /* .hero here carries 40px of its own padding, which is less than the
            fixed header, so the h1 rendered behind it. The site-wide rule in
@@ -52,8 +50,7 @@
            clear the header on their own. Mobile only: at 1280px the hero's own
            content already puts the h1 at y=383, well clear of the 113px header,
            and clearance there would just insert an empty band. */
-        @media (max-width: 768px) { body header + .hero { margin-top: var(--header-h); } }
-    </style>
+        @media (max-width: 768px) { body header + .hero { margin-top: var(--header-h); } }</style>
 
     <script type="application/ld+json">
     {
@@ -212,8 +209,8 @@
                 <div class="footer-brand">
                     <a href="/" class="logo">
                         <picture>
-                        <source type="image/webp" srcset="/images/logo-160.webp 160w, /images/logo-320.webp 320w, /images/logo-480.webp 480w" sizes="(max-width: 768px) 150px, 200px">
-                        <img src="/images/logo.png" alt="Wander Amsterdam" class="footer-logo-img" loading="lazy" decoding="async" width="2042" height="815">
+                        <source type="image/webp" srcset="/images/logo-320.webp 320w, /images/logo-480.webp 480w, /images/logo-800.webp 800w" sizes="(max-width: 768px) 350px, 400px">
+                        <img src="/images/logo-800.png" alt="Wander Amsterdam" class="footer-logo-img" loading="lazy" decoding="async" width="800" height="319">
                     </picture>
                     </a>
                     <p>Your guide to 1,630 Amsterdam tours. Verified local operators, direct booking.</p>
