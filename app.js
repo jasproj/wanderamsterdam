@@ -10,6 +10,53 @@ const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
 
 let toursData = [];
 
+// ---- City picker (s61) ------------------------------------------------------
+// The location select used to carry a few hand-written options; it is now
+// rebuilt from the catalogue by /city-picker.js: every town with at least
+// minCount live tours, with its count. Old option values still work
+// through legacyMatch, so existing ?island= links keep resolving, and
+// ?city=<town> links to one town.
+const CITY_PICKER = window.CityPicker ? window.CityPicker.create({
+    cityOf: t => {
+        const n = window.CityPicker.lastSegment(t.location);
+        return ({ 'The Hague': 'Den Haag' })[n] || n;
+    },
+    // the old options (city-center, canal-cruises, jordaan, day-trips) matched
+    // no row's `island` value, so every one of them returned an empty grid
+    legacyMatch: (t, v) => {
+        v = ({ 'city-center': 'amsterdam', 'jordaan': 'amsterdam' })[v] || v;
+        return (t.island || '').toLowerCase() === v
+            || window.CityPicker.lastSegment(t.location).toLowerCase() === v;
+    },
+    minCount: 2,
+    allLabel: 'All of the Netherlands'
+}) : null;
+
+function cityPickerMatches(tour, value) {
+    return CITY_PICKER ? CITY_PICKER.matches(tour, value) : (tour.island || '').toLowerCase() === value;
+}
+
+function initCityPicker() {
+    const sel = document.getElementById('island-filter');
+    if (!CITY_PICKER || !sel) return;
+    CITY_PICKER.fill(sel, toursData);
+    const q = new URLSearchParams(window.location.search);
+    const want = (q.get('city') || '').trim().toLowerCase();
+    const legacy = (q.get('island') || q.get('area') || '').trim().toLowerCase();
+    let pick = '';
+    if (want) {
+        const opt = [...sel.options].find(o => o.value === 'city:' + want || o.value.endsWith('/' + want));
+        if (opt) pick = opt.value;
+    } else if (legacy) {
+        pick = legacy;
+        if (![...sel.options].some(o => o.value === legacy)) {
+            const o = document.createElement('option');
+            o.value = legacy; o.textContent = legacy; sel.appendChild(o);
+        }
+    }
+    if (pick) { sel.value = pick; filterTours(); }
+}
+
 // Wire the homepage "Verified Tours" stat to the live (non-dead) catalog
 // size, replacing the hardcoded value. No-op on pages without the element.
 function updateVerifiedToursCount(n) {
@@ -112,6 +159,7 @@ async function loadTours() {
         displayedCount = 0;
         renderTours();
         updateResultsCount();
+        initCityPicker();
         console.log('✅ Tours rendered successfully');
     } catch (error) {
         console.error('❌ Error loading tours:', error.message);
@@ -481,8 +529,8 @@ function filterTours() {
     if (searchInput) trackSearchUsed(searchInput);
     
     filteredTours = toursData.filter(tour => {
-        // Island filter
-        if (islandFilter && tour.island?.toLowerCase() !== islandFilter) {
+        // Location filter: island/region, or one town (city picker)
+        if (islandFilter && !cityPickerMatches(tour, islandFilter)) {
             return false;
         }
         
