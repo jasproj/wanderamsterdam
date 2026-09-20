@@ -73463,7 +73463,7 @@
       "name": "Natuurwandeling aanbetaling * Nature walk deposit",
       "description": "Join a 90-minute woodland walk with adorable alpacas in Zeeland. Feed, take selfies, and enjoy a peaceful trek through nature, perfect for families with kids aged 5 and up. An unforgettable animal adventure awaits.",
       "location": "Koudekerke",
-      "price": 10.5,
+      "price": 36,
       "bookingUrl": "https://fareharbor.com/embeds/book/hoevelarenburg/items/291273/?asn=fhdn-eur&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/g1zKHCDBQha8wT9VmW0T/convert?cache=true&compress=true&quality=90&h=1052&fit=max&format=webp&rotate=exif",
@@ -73479,7 +73479,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Volwassene voorschot/ adult deposit",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 538897,
@@ -73547,7 +73547,13 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (no adult/base tier): live ladder Volwassene voorschot/ adult deposit €10.5 / Kind/ child voorschot/deposit €10.5 / Kleuter aanbetaling/ Toddler deposit €10.5 has no anchorable tier (Volwassene voorschot/ adult deposit [never], Kind/ child voorschot/deposit [never], Kleuter aanbetaling/ Toddler deposit [never]); floor €10.5 (Volwassene voorschot/ adult deposit) stamped unpublished pending a ruling; 3/4 dated readings (0 date-valid), 1 ladder shape(s); live EUR"
+      "priceBasis": "HELD (no adult/base tier): live ladder Volwassene voorschot/ adult deposit €10.5 / Kind/ child voorschot/deposit €10.5 / Kleuter aanbetaling/ Toddler deposit €10.5 has no anchorable tier (Volwassene voorschot/ adult deposit [never], Kind/ child voorschot/deposit [never], Kleuter aanbetaling/ Toddler deposit [never]); floor €10.5 (Volwassene voorschot/ adult deposit) stamped unpublished pending a ruling; 3/4 dated readings (0 date-valid), 1 ladder shape(s); live EUR",
+      "_unknownFields": {
+        "priceUnit": "per person",
+        "depositOnline": 10.5,
+        "priceFixNote": "s61: €10.50 customer type is a deposit; note says TOTAAL €36 p.p. adult (€31 child). Was \"Price on request\"."
+      },
+      "lastUpdated": "2026-09-19"
     },
     {
       "pk": 300370,
@@ -100304,7 +100310,7 @@
       "name": "Natuur/ strandwandeling aanbetaling * Nature/ Beachwalk deposit",
       "description": "Join a 140-minute adventure with alpacas through nature and to the beach. Enjoy steep climbs, water fun, and fresh sea air. Suitable for kids 8+ with an adult, but not for those with walking difficulties. Book via contact for groups.",
       "location": "Koudekerke",
-      "price": 10.5,
+      "price": 46,
       "bookingUrl": "https://fareharbor.com/embeds/book/hoevelarenburg/items/291278/?asn=fhdn-eur&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/g1zKHCDBQha8wT9VmW0T/convert?cache=true&compress=true&quality=90&h=1052&fit=max&format=webp&rotate=exif",
@@ -100317,7 +100323,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "EUR",
       "priceLabel": "Volwassene voorschot/ adult deposit",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 538897,
@@ -100368,7 +100374,13 @@
           "minPartySize": 2
         }
       ],
-      "priceBasis": "HELD (no adult/base tier): live ladder Volwassene voorschot/ adult deposit €10.5 / Kind/ child voorschot/deposit €10.5 has no anchorable tier (Volwassene voorschot/ adult deposit [never], Kind/ child voorschot/deposit [never]); floor €10.5 (Volwassene voorschot/ adult deposit) stamped unpublished pending a ruling; 3/4 dated readings (0 date-valid), 1 ladder shape(s); live EUR"
+      "priceBasis": "HELD (no adult/base tier): live ladder Volwassene voorschot/ adult deposit €10.5 / Kind/ child voorschot/deposit €10.5 has no anchorable tier (Volwassene voorschot/ adult deposit [never], Kind/ child voorschot/deposit [never]); floor €10.5 (Volwassene voorschot/ adult deposit) stamped unpublished pending a ruling; 3/4 dated readings (0 date-valid), 1 ladder shape(s); live EUR",
+      "_unknownFields": {
+        "priceUnit": "per person",
+        "depositOnline": 10.5,
+        "priceFixNote": "s61: €10.50 customer type is a deposit; note says totaal €46 p.p. Was \"Price on request\"."
+      },
+      "lastUpdated": "2026-09-19"
     },
     {
       "pk": 293214,
