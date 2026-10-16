@@ -1084,13 +1084,13 @@
     <script src="app.js?v=20260919"></script>
     <!-- FareHarbor Embed for modal bookings -->
     <script>
-      (function(w,d,s){
+      // s65: embed.js is 742 KB. Load it after first paint, not before it.
+      (function(w,d){
         w.FareHarborAPI=w.FareHarborAPI||{};
-        var j=d.createElement(s),p=d.scripts[d.scripts.length-1];
-        j.src='https://fareharbor.com/api/embed-builder/embed.js';
-        j.async=true;
-        p.parentNode.insertBefore(j,p);
-      })(window,document,'script');
+        function load(){ var j=d.createElement('script'); j.src='https://fareharbor.com/api/embed-builder/embed.js'; j.async=true; d.body.appendChild(j); }
+        function go(){ if (w.requestIdleCallback) w.requestIdleCallback(load,{timeout:3000}); else setTimeout(load,1500); }
+        if (d.readyState==='complete') go(); else w.addEventListener('load',go,{once:true});
+      })(window,document);
     </script>
     
 </body>
