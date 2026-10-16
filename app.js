@@ -6,7 +6,12 @@
 // Local + Pexels-licensed; images/ATTRIBUTION.md records source slug
 // "scenic-amsterdam-canal-view-with-boating-activity-33388081",
 // which verifies the region from the source URL, not from our own caption.
-const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
+const FALLBACK_IMAGE = '/images/hero-photo-1-800.webp';
+// s65: ask Filestack for an 800px webp instead of the original.
+function cardImage(url) {
+    const m = /^https:\/\/cdn\.filestackcontent\.com\/([A-Za-z0-9]{15,25})(?:\/convert\?.*)?$/.exec(url || '');
+    return m ? `https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/${m[1]}` : url;
+}
 
 let toursData = [];
 
@@ -446,7 +451,7 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${cardImage(tour.image) || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
@@ -613,7 +618,9 @@ function executeHeroSearch() {
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    loadTours();
+    // s65: tours-data.json is 6.6 MB and the grid is prerendered; fetch after first paint.
+    const startTours = () => setTimeout(loadTours, 300);
+    if (document.readyState === 'complete') startTours(); else window.addEventListener('load', startTours, { once: true });
     
     // Filter change listeners
     document.getElementById('island-filter')?.addEventListener('change', () => {

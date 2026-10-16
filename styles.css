@@ -303,7 +303,7 @@ ul, ol { list-style: none; }
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('images/hero-photo-1.jpg') center/cover no-repeat;
+    background: #1b2a3a;
 }
 
 .hero-slide {
@@ -318,7 +318,7 @@ ul, ol { list-style: none; }
 
 .hero-slide:nth-child(1) {
     /* Hawaiian beach sunset */
-    background-image: url('images/hero-photo-1.jpg');
+    background-image: url('images/hero-photo-1-1600.webp');
     animation-delay: 0s;
     opacity: 1;
 }
@@ -347,6 +347,13 @@ ul, ol { list-style: none; }
     25% { opacity: 1; transform: scale(1); }
     29% { opacity: 0; transform: scale(1); }
     100% { opacity: 0; transform: scale(1.05); }
+}
+
+/* s65: mobile gets one static 800px hero, no slideshow */
+@media (max-width: 768px) {
+    .hero-slide { animation: none; transform: none; }
+    .hero-slide:nth-child(1) { background-image: url('images/hero-photo-1-800.webp'); opacity: 1; }
+    .hero-slide:nth-child(2), .hero-slide:nth-child(3), .hero-slide:nth-child(4) { display: none; }
 }
 
 .hero-overlay {
