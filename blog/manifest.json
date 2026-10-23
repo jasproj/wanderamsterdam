@@ -1,5 +1,117 @@
 [
   {
+    "url": "/blog/amsterdam-unesco-canal-ring.html",
+    "title": "Amsterdam's UNESCO Canal Ring: History, Houseboats & What Makes It Unique",
+    "description": "The Amsterdam canal ring earned UNESCO World Heritage status in 2010. Here's why — the engineering, history, and daily life of 650 hectares of 17th-century urban genius.",
+    "tag": "History",
+    "image": "/images/blog/amsterdam-canal-cruise-vs-walking-tour-which-is-better.jpg"
+  },
+  {
+    "url": "/blog/rijksmuseum-night-watch-amsterdam.html",
+    "title": "The Rijksmuseum & Rembrandt's Night Watch: Complete Visitor Guide",
+    "description": "Everything you need to know about visiting the Rijksmuseum — the Night Watch, Vermeer, Delft Blue, tips for beating crowds, and how to book museum tours.",
+    "tag": "Museums",
+    "image": "/images/blog/best-museums-amsterdam.jpg"
+  },
+  {
+    "url": "/blog/van-gogh-museum-amsterdam.html",
+    "title": "Van Gogh Museum Amsterdam: The Complete Visitor's Guide",
+    "description": "The world's largest Van Gogh collection — 200 paintings, 500 drawings, and 700 letters. How to visit, what to see, and how to skip the queues.",
+    "tag": "Museums",
+    "image": "/images/blog/best-museums-amsterdam.jpg"
+  },
+  {
+    "url": "/blog/zaanse-schans-windmills-amsterdam.html",
+    "title": "Zaanse Schans: Amsterdam's Windmill Village",
+    "description": "Fifteen minutes from Amsterdam, Zaanse Schans has working windmills, wooden clog workshops, and a cheese farm — a genuine 18th-century Dutch industrial village turned open-air museum.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-3-day-itinerary.jpg"
+  },
+  {
+    "url": "/blog/keukenhof-tulip-fields-netherlands.html",
+    "title": "Keukenhof & the Tulip Fields: The Netherlands' Greatest Seasonal Spectacle",
+    "description": "Seven million bulbs, 800+ varieties, and eight weeks each spring — the complete guide to visiting Keukenhof and the bulb fields of the Bollenstreek.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-3-day-itinerary.jpg"
+  },
+  {
+    "url": "/blog/giethoorn-village-no-roads-netherlands.html",
+    "title": "Giethoorn: The Dutch Village with No Roads",
+    "description": "Founded in 1230, Giethoorn has no roads — only four miles of canals, 176 bridges, and the quiet of whisper boats gliding between thatched farmhouses.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-canal-cruise-vs-walking-tour-which-is-better.jpg"
+  },
+  {
+    "url": "/blog/kinderdijk-windmills-netherlands.html",
+    "title": "Kinderdijk: 19 Windmills and a UNESCO World Heritage Site",
+    "description": "Kinderdijk's nineteen 18th-century windmills form the Netherlands' most iconic landscape. Here's what to know before you visit this UNESCO World Heritage site.",
+    "tag": "Day Trip",
+    "image": "/images/blog/things-to-do-amsterdam.jpg"
+  },
+  {
+    "url": "/blog/vondelpark-amsterdam.html",
+    "title": "Vondelpark: Amsterdam's Beloved Green Heart",
+    "description": "Amsterdam's most famous park — 47 hectares, 12 million annual visitors, free outdoor theatre, and a century and a half of city life. What to do, where to go, and when to visit.",
+    "tag": "Guide",
+    "image": "/images/blog/amsterdam-with-kids-family-guide.jpg"
+  },
+  {
+    "url": "/blog/jordaan-amsterdam-neighborhood.html",
+    "title": "The Jordaan: Amsterdam's Most Beloved Neighborhood",
+    "description": "Built in 1613, home to Rembrandt and Anne Frank, and still Amsterdam's most atmospheric quarter — a practical and historical guide to the Jordaan.",
+    "tag": "Guide",
+    "image": "/images/blog/amsterdam-hidden-gems.jpg"
+  },
+  {
+    "url": "/blog/dutch-cheese-markets-gouda-edam-alkmaar.html",
+    "title": "Dutch Cheese Markets: Gouda, Edam & Alkmaar Explained",
+    "description": "The Netherlands produces 900 million kilograms of cheese a year. Here's what to know about the historic cheese markets at Alkmaar, Gouda, and Edam — and how to visit them.",
+    "tag": "Food",
+    "image": "/images/blog/amsterdam-food-guide.jpg"
+  },
+  {
+    "url": "/blog/volendam-marken-fishing-villages.html",
+    "title": "Volendam & Marken: Amsterdam's Classic Fishing Village Day Trip",
+    "description": "Two traditional Dutch fishing villages just 30-45 minutes from Amsterdam — wooden clog workshops, smoked eel, and the Marken Express ferry across the Markermeer.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-3-day-itinerary.jpg"
+  },
+  {
+    "url": "/blog/haarlem-day-trip-amsterdam.html",
+    "title": "Haarlem: The Art City 15 Minutes from Amsterdam",
+    "description": "Haarlem has a medieval Grote Markt, the Frans Hals Museum, the largest Gothic church in the Netherlands, and almost no tourist crowds — 15 minutes by train from Amsterdam.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-hidden-gems.jpg"
+  },
+  {
+    "url": "/blog/hoge-veluwe-kroller-muller-museum.html",
+    "title": "Hoge Veluwe & the Kröller-Müller Museum: A World-Class Day Trip",
+    "description": "Around 90 Van Gogh paintings, 160+ sculptures in Europe's largest sculpture garden, and 55 square kilometers of Dutch heathland — two hours from Amsterdam.",
+    "tag": "Day Trip",
+    "image": "/images/blog/best-museums-amsterdam.jpg"
+  },
+  {
+    "url": "/blog/utrecht-dom-tower-day-trip.html",
+    "title": "Utrecht & the Dom Tower: Netherlands' Tallest Church Tower",
+    "description": "At 112.5 metres, the Dom Tower is the tallest church tower in the Netherlands. Utrecht also has medieval canals unique in the country — one hour from Amsterdam by train.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-3-day-itinerary.jpg"
+  },
+  {
+    "url": "/blog/delft-vermeer-guide.html",
+    "title": "Delft & Vermeer: The City That Inspired a Master",
+    "description": "Vermeer was born, lived, and died in Delft. So did Royal Delftware, in continuous production since 1653. A day trip guide to the Netherlands' most painterly city.",
+    "tag": "Day Trip",
+    "image": "/images/blog/amsterdam-hidden-gems.jpg"
+  },
+  {
+    "url": "/blog/amsterdam-bike-culture.html",
+    "title": "Amsterdam's Bike Culture: Why the City Has More Bikes Than People",
+    "description": "Amsterdam has around 900,000 bicycles for 940,000 people. The history, infrastructure, and unwritten rules of the city that made cycling a way of life.",
+    "tag": "Guide",
+    "image": "/images/blog/amsterdam-with-kids-family-guide.jpg"
+  },
+  {
     "url": "/blog/amsterdam-bike-tour-for-beginners.html",
     "title": "Amsterdam Bike Tour for Beginners: What to Know Before You Pedal",
     "description": "Planning your first Amsterdam bike tour? This guide covers the best beginner-friendly routes, what to expect, safety tips, and how to choose between guided tours and bike rentals.",
