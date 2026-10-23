@@ -177,7 +177,7 @@
                     grid.innerHTML = '<p style="color: #888;">More guides coming soon.</p>';
                     return;
                 }
-                grid.innerHTML = posts.slice(0, 9).map(function(p) {
+                grid.innerHTML = posts.map(function(p) {
                     var img = p.image ? '<div class="blog-card-img" style="background-image: url(\'' + p.image + '\')"></div>' : '';
                     var tag = p.tag ? '<span class="blog-card-tag">' + p.tag + '</span>' : '';
                     return '<a href="' + p.url + '" class="blog-card">' + img +
