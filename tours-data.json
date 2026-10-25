@@ -22727,8 +22727,8 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "operator-declared-dead: FareHarbor v1 item API reports is_archived=true (s66 audit 2026-10-25)",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -22760,7 +22760,8 @@
           "price": 0,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "313508",
@@ -26107,8 +26108,8 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "operator-declared-dead: FareHarbor v1 item API reports is_archived=true (s66 audit 2026-10-25)",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -26118,7 +26119,8 @@
       "priceSource": "s51-wams-tiers-backfill",
       "priceVerifiedAt": "2026-08-26",
       "priceBasis": "UNSAMPLED: item absent from undated price-preview items[]; stored €69 (unknown) retained, unverified; priceConfidence low->low until sampled (WENG #88: an unverifiable figure never emits an offer)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true
     },
     {
       "id": "453169",
