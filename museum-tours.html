@@ -318,6 +318,19 @@
   .hub-fold{margin-top:14px}
 }
 </style>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -345,7 +358,7 @@
 </div>
     </section>
 <section class="top-picks" aria-label="Top picks">
-  <div class="container">
+  <div class="tp-wrap">
     <h2>Top picks</h2>
     <div class="tours-grid top-picks-grid">
 <article class="tour-card">
@@ -362,20 +375,8 @@
 </article>
 <article class="tour-card">
     <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/dnEQ2rOPQT6bAoh7ChNp" alt="Amsterdam City Bike Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From €31.49</div>
-    </div>
-    <div class="tour-content">
-        <div class="tour-company">Mike&#x27;s Bike Tours Amsterdam</div>
-        <h3 class="tour-title">Amsterdam City Bike Tour</h3>
-        <p class="tour-desc">Over approximately 2.5 hours, you’ll explore the most beautiful and interesting areas of Amsterdam by bike. Ride along iconic canals,…</p>
-        <a href="https://fareharbor.com/embeds/book/mikesbiketoursamsterdam/items/70147/?asn=fhdn-eur&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="70147" data-tour-name="Amsterdam City Bike Tour">Check Availability →</a>
-    </div>
-</article>
-<article class="tour-card">
-    <div class="tour-image">
-        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/dlP5EJoASq6NHzNb8rNE" alt="Shifting the Frame: a Rijksmuseum guided tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From €250 Private Tour</div>
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/dlP5EJoASq6NHzNb8rNE" alt="Shifting the Frame: a Rijksmuseum guided tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From €325 Private Tour</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Badass Tours</div>
@@ -384,10 +385,23 @@
         <a href="https://fareharbor.com/embeds/book/ask-a-badass/items/562425/?asn=fhdn-eur&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="562425" data-tour-name="Shifting the Frame: a Rijksmuseum guided tour">Check Availability →</a>
     </div>
 </article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/x5e2NCOTGmAlXtnuYa3A" alt="Rijksmuseum" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From €62.5</div>
     </div>
-    <a class="top-picks-more" href="#tours">All 11 tours ↓</a>
+    <div class="tour-content">
+        <div class="tour-company">Camaleon Tours</div>
+        <h3 class="tour-title">Rijksmuseum</h3>
+        <p class="tour-desc">Visita el museo mas importante de los Países Bajos ¿Sabíais que Países Bajos es conocido mundialmente como el país de los museos? Solo…</p>
+        <a href="https://fareharbor.com/embeds/book/guiadeamsterdam/items/188314/?asn=fhdn-eur&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="188314" data-tour-name="Rijksmuseum">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
   </div>
 </section>
+
 
 <section class="tours" id="tours">
       <div class="container">
@@ -408,7 +422,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/dlP5EJoASq6NHzNb8rNE" alt="Shifting the Frame: a Rijksmuseum guided tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From €250 Private Tour</div>
+        <div class="tour-price">From €325 Private Tour</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Badass Tours</div>
@@ -444,7 +458,7 @@
 <article class="tour-card">
     <div class="tour-image">
         <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/8lTzXgpTZ6ZviUtvjQbk" alt="Amsterdam Luxury Boat Canal Cruise – starts from Rijksmuseum" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
-        <div class="tour-price">From €25.12</div>
+        <div class="tour-price">From €20.48</div>
     </div>
     <div class="tour-content">
         <div class="tour-company">Flagship Amsterdam</div>
